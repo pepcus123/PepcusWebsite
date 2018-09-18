@@ -1391,12 +1391,6 @@ a.social-icon:hover {
     color: white;
     font-size: 13px;
 }
-/*.mdAnimate {
-    opacity: 0;
-}
-.mdAnimate.animated {
-    opacity: 1;
-}*/
 .footer-image{
     background: url(../images/footer/join-us.png);
     position: relative;
