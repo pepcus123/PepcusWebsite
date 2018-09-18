@@ -1397,7 +1397,14 @@ a.social-icon:hover {
 .mdAnimate.animated {
     opacity: 1;
 }*/
+.footer-image{
+    background: url(../images/footer/join-us.png);
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 731px;
 
+}
 @media only screen and (max-width: 1440px) {
     .about-company-block {
         background-size: 400px;
