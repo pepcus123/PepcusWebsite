@@ -215,6 +215,7 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
 }
 .image-container .background-image{
     width: 100%;
+    /* width: 100.16%; */
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -308,11 +309,12 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     padding: 20px;
 }
 .padding-50-25 {
-    padding: 0px 25px;
+    /* padding: 0px 25px; */
+    padding: 18px 25px;
 }
 .padding-08-25{
-    /* padding: 8px 25px; */
-    padding: 0px 25px;
+    padding: 14px 25px;
+    /* padding: 0px 25px; */
 }
 .padding-50-70 {
     padding: 50px 70px;
@@ -741,12 +743,15 @@ footer{
     box-shadow: 0 1.25rem 1.25rem rgba(34, 35, 36, 0.05);
 }
 .team-name-head{
-    padding: 18px 0;
-    margin-bottom: 20px;
+    /* padding: 18px 0; */
+    /* margin-bottom: 20px; */
+    margin-bottom: 9px;
 }
 .team-name{
-    position: relative;
-    z-index: 999;
+   /*  position: relative;
+    z-index: 999; */
+    padding-top: 34px;
+    padding-bottom: 6px;
 }
 .service-section-content{
     margin-top: -95px;
@@ -839,13 +844,12 @@ h1.loader-pepcus:before {
     margin-top: -50px;
 }
 .pepcus-collage{
-        height: 600px;
+        height:410px;
         padding: 0;
         margin-bottom: -30px;
         display: block;
         position: relative;
         z-index: 1;
-        background-color: black;
         margin-top: 55px;
 }
 /*.loading-image {
@@ -1392,12 +1396,19 @@ a.social-icon:hover {
     font-size: 13px;
 }
 .footer-image{
-    background: url(../images/footer/join-us.png);
+    background: url(../images/footer/TeamPic.png);
     position: relative;
     background-size: cover;
     width: 100%;
-    height: 731px;
+    height: 410px;
 
+}
+.main-heading-inner span{
+    color: #f10505;
+}
+.footer-content{
+    color: white;
+    padding-top: 146px;
 }
 @media only screen and (max-width: 1440px) {
     .about-company-block {
