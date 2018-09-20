@@ -223,6 +223,35 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     -webkit-transition: all .2s;
     transition: all .2s;
 }
+.background-img2::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(142, 65, 65, 0.33);
+}
+.background-img {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 .hover{
     transition: all .4s;
     position: absolute;
@@ -230,6 +259,14 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     opacity: 0;
 }
 .team-container .image-container:hover .background-image.hover {
+    opacity: 1;
+}
+.team-container1{
+        width: 100%;
+        border: 5px solid #fff;
+        margin-top: 50px;
+}
+.team-container1:hover .image-container .background-image.hover {
     opacity: 1;
 }
 .white-color{
