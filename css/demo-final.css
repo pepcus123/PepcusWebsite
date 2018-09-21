@@ -211,7 +211,14 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
   position: relative;
   margin-bottom: 7px;
   width: 100%;
-  height: 278px;
+  /* height: 278px; */
+  /* height: 246px; */
+  height: 260px;
+  border: 0px solid #fffdfd;
+ 
+}
+.image-container1{
+     border-top-right-radius: 65px;
 }
 .image-container .background-image{
     width: 100%;
@@ -221,7 +228,21 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-transition: all .2s;
-    transition: all .2s;
+    transition: border .2s;
+}
+.background-image1{
+      border-top-right-radius: 61px;
+}
+.background-image2{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.background-image3{
+    border-radius: 8%;
+}
+.background-image4{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .background-img2::after{
     content: '';
@@ -230,6 +251,15 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     position: absolute;
     background: rgba(142, 65, 65, 0.33);
 }
+/* .background-image4::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+     width: 120px;
+    border-bottom: 120px solid #ec3504;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+} */
 .background-img {
     animation-name: fade;
     animation-timing-function: ease-in-out;
@@ -258,7 +288,7 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     top: 0;
     opacity: 0;
 }
-.team-container .image-container:hover .background-image.hover {
+.team-container:hover .image-container .background-image.hover {
     opacity: 1;
 }
 .team-container1{
@@ -268,6 +298,26 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
 }
 .team-container1:hover .image-container .background-image.hover {
     opacity: 1;
+    border-top-right-radius: 61px;
+}
+.team-container2{
+        width: 100%;
+        border: 5px solid #fff;
+        margin-top: 50px;
+}
+.team-container2:hover .image-container .background-image.hover {
+    opacity: 1;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.team-container3{
+        width: 100%;
+        border: 5px solid #fff;
+        margin-top: 50px;
+}
+.team-container3:hover .image-container .background-image.hover {
+    opacity: 1;
+    border-radius: 8%;
 }
 .white-color{
     color: #fff;
@@ -786,15 +836,26 @@ footer{
 .team-name{
    /*  position: relative;
     z-index: 999; */
+   
     padding-top: 34px;
     padding-bottom: 6px;
+}
+.team-name1{
+     border-bottom-left-radius: 50px;
+}
+.team-name3{
+        border-bottom-left-radius: 19px;
+        border-bottom-right-radius: 19px;
+}
+.team-name4{
+    border-radius: 24px;
 }
 .service-section-content{
     margin-top: -95px;
     padding-top: 70px;
     padding-bottom: 15px;
     border-radius: 0px;
-    border: 1px solid #bf3b3b;
+    /* border: 1px solid #bf3b3b; */
 }
 .service-content-row1{
     height: 553px;
@@ -802,6 +863,13 @@ footer{
 .service-content-row2{
     /* height: 531px; */
     height: 476px;
+}
+.service-content-border{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.service-content-border1{
+    border-bottom-left-radius: 61px;
 }
 .service-content-row3{
        height: 455px;
