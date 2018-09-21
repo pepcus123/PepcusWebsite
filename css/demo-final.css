@@ -233,6 +233,7 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
 }
 .font-size-25{
     font-size: 25px;
+    text-shadow: 2px 2px 5px #cac7c7;
 }
 .image-container .background-image{
     width: 100%;
