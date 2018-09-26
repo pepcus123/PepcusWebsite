@@ -1,17 +1,23 @@
 .montserrat-font-family {
     font-family: 'Montserrat', sans-serif;
 }
-.parallax {
+/* .parallax {
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 .general-team {
     min-height: 415px;
-    background-image: url(../images/parallex/TeamCollage.png);
+    /* background-image: url(../images/parallex/TeamCollage.png); */
+    background-size: cover;
     position: relative;
     width: 100%;
+}
+.pepcus-team{
+    width: 100%;
+    position: relative;
+    background-size: cover;
 }
 .general-team-layer {
     position: absolute;
@@ -88,6 +94,9 @@
 .pepcus-vedio{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.pepcus-slider-width{
+    width: 104%;
 }
 /* .owl-nav{
     display: none;
