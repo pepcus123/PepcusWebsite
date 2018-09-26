@@ -78,3 +78,20 @@
     background-color: transparent;
     color: #c12e2a;
 }
+.owl-carousel{
+	position: relative;
+}
+.owl-carousel .item{
+	position: absolute;
+	
+}
+.pepcus-vedio{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .owl-nav{
+    display: none;
+}
+.owl-dots{
+    display: none;
+} */
