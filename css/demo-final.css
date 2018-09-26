@@ -208,7 +208,7 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     margin-top: 50px;
 }
 .team-container:hover{
-    transform: scale(1.04);
+    transform: scale(1.02);
 }
 .image-container{
   position: relative;
