@@ -207,6 +207,9 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     border: 5px solid #fff;
     margin-top: 50px;
 }
+.team-container:hover{
+    transform: scale(1.04);
+}
 .image-container{
   position: relative;
   margin-bottom: 7px;
@@ -217,6 +220,33 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
   border: 0px solid #fffdfd;
  
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #710404d1;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+/* .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
 .image-container1{
      border-top-right-radius: 65px;
      box-shadow: 4px -5px 7px rgba(0, 0, 0, 0.25);
@@ -833,15 +863,22 @@ footer{
 
 }
 .text {
-  color: white;
-  font-size: 20px;
+  color:#dccccc;
+  font-size: 20em;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 0%;
+  opacity: 0;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.image-container:hover .overlay > .text{
+  /* transform: rotate(358deg); */
+    opacity: 1;
+    left: 50%;
+    transition: 0.4s left;
 }
 .white-shadow {
     box-shadow: 0 1.25rem 1.25rem rgba(34, 35, 36, 0.05);
