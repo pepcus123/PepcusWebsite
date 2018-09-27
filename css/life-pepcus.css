@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Montserrat|Noto+Sans|Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 .montserrat-font-family {
     font-family: 'Montserrat', sans-serif;
+}
+.loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.999;
+    background-color: #fff;
+    z-index: 99999;
+    text-align: center;
+}
+.change-height .navbar-nav>li>a {
+    padding: 10px 15px;
+}
+.change-height .nav {
+    font-size: 16px;
+}
+.header-menu{
+    height: 100px;
+display: flex;
+    align-items: center;
+}
+.header-menu input{
+    display: none;
+}
+.header-menu.change-height {
+    transition-delay: 0s;
+}
+.header-menu.change-height {
+    height: 63px;
+    background: #fff;
 }
 .parallax {
     background-attachment: fixed;
@@ -24,7 +81,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(239, 33, 0, 0.56);
+    background: rgba(222, 48, 20, 0.78);
 }
 .pepcus-general::before{
     content: '';
@@ -145,4 +202,52 @@
   height: 100%;
   position: absolute;
 }
+.pepcus-gallery-head{
+        padding-top: 37px;
+        margin: 0 auto;
+        float: none;        
+}
+.pepcus-gallery-head h2{
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #5a5555;
+}
 
+.btn-default{
+    background-color: transparent !important;
+    color: #403e3e  !important;
+    font-weight: 650;
+    margin-top: 30px;
+    border: 1px solid #403e3e ;
+    font-size: 18px;
+}
+.btn-default:hover{
+    background-color: #403e3e  !important;
+    color: white !important;
+    font-weight: bold;
+    /* font-size: 14px; */
+}
+.btn-default:active .filter-button:active{
+    color: white !important;
+}
+.gallery_product{
+    margin-right: -13px;
+    margin-top: 18px;
+
+}
+.btn{
+    border-radius: 10px !important;
+    margin-right: 15px;
+}
+.my-sizer-element {
+  width: 8.33333%;
+}
+.current{
+    background-color: #403e3e  !important;
+    color: white !important;
+    border: 1px solid #403e3e ;
+    transition: 0.2s all;
+}
+.p-bottom-20{
+    padding-bottom: 20px;
+}
