@@ -36,7 +36,8 @@
 }
 .pepcus-vedio-section{
         height: 416px;
-        background: #e40909e0;
+        /* background: #e40909e0; */
+        /* background: linear-gradient(to top, rgb(185, 185, 185) 0%, rgb(111, 109, 109) 91%, rgb(72, 72, 72) 100%); */
         padding-right: 0;
 }
 .pepcus-vedio-layer{
