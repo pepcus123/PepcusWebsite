@@ -12,23 +12,43 @@ $("#all").on("click", function(){
       $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 });
-$("#hdpe").on("click", function(){
-   shuffleInstance.filter('hdpe');
+$("#goa").on("click", function(){
+   shuffleInstance.filter('goa');
    $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 });
-$("#sprinkle").on("click", function(){
-   shuffleInstance.filter('sprinkle');
+$("#independence").on("click", function(){
+   shuffleInstance.filter('independence');
    $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 });
-$("#spray").on("click", function(){
-   shuffleInstance.filter('spray');
+$("#diwali").on("click", function(){
+   shuffleInstance.filter('diwali');
    $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 });
-$("#irrigation").on("click", function(){
-   shuffleInstance.filter('irrigation');
+$("#zumba").on("click", function(){
+   shuffleInstance.filter('zumba');
+   $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+});
+$("#vegabond").on("click", function(){
+   shuffleInstance.filter('vegabond');
+   $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+});
+$("#office").on("click", function(){
+   shuffleInstance.filter('office');
+   $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+});
+$("#seminar").on("click", function(){
+   shuffleInstance.filter('seminar');
+   $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+});
+$("#fun").on("click", function(){
+   shuffleInstance.filter('fun');
    $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
 });

@@ -65,7 +65,7 @@ display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(222, 48, 20, 0.78);
+    background: rgba(255, 35, 0, 0.59);
 }
 .pepcus-general::before{
     content: '';
@@ -199,14 +199,15 @@ display: flex;
 
 .btn-default{
     background-color: transparent !important;
-    color: #403e3e  !important;
+    color: #c14848    !important;
     font-weight: 650;
     margin-top: 30px;
-    border: 1px solid #403e3e ;
-    font-size: 18px;
+    transition: 0.2s all;
+    border: 0.5px solid #c14848;
+    font-size: 16px;
 }
 .btn-default:hover{
-    background-color: #403e3e  !important;
+    background-color: #d85151  !important;
     color: white !important;
     font-weight: bold;
     /* font-size: 14px; */
@@ -220,18 +221,43 @@ display: flex;
 
 }
 .btn{
-    border-radius: 10px !important;
+    border-radius: 0px !important;
     margin-right: 15px;
 }
 .my-sizer-element {
   width: 8.33333%;
 }
 .current{
-    background-color: #403e3e  !important;
+    background-color: #d85151  !important;
     color: white !important;
-    border: 1px solid #403e3e ;
+    border: 1px solid #d85151 ;
     transition: 0.2s all;
 }
+.current::after{
+    content: none;
+}
 .p-bottom-20{
-    padding-bottom: 20px;
+       padding: 30px 0px;
+}
+/* .portfolioFilter a{
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 550;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #f35858;
+} */
+.pepcus-gallery{
+     min-height: 415px;
+    background-image: url(../images/gallery/gallery.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.pepcus-gallery::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(222, 48, 20, 0.78);
 }
