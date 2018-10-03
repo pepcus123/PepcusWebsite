@@ -77,7 +77,7 @@ h1.loader-pepcus::before {
     max-width: 7em;
     white-space: nowrap;
     color: #ff0000;
-    animation: loading 5s linear;
+    animation: spin 5s linear;
 }
 @keyframes loading {
     0% {
