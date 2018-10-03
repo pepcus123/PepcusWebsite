@@ -2,7 +2,7 @@ $(document).ready(function(e) {
     $(window).load(function () {
         $('.loading').hide();
     });
-    $("body").niceScroll({
+    $("html").niceScroll({
         cursorcolor:"#c54041",
         cursorborder:"0",
         cursorwidth:"8px"
@@ -22,4 +22,5 @@ $(document).ready(function(e) {
         }, 600);
         return false;
     });
+
 });

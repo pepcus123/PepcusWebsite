@@ -682,23 +682,25 @@
 	<!-- footer section ends -->
 	<!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
 	<script src = "js/jquery.min.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+	<!-- <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script> -->
+	<script src = "js/jquery.nicescroll.min.js"></script>
 	<script type="text/javascript" src="js/carouseller.js"></script>
 	<script src = "js/custom.js"></script>
 	<!-- <script src = "js/hoverontouch.js"></script> -->
 	<script type="text/javascript">
 	    $(function() {
-	        $('#team').carouseller({
-	            scrollSpeed: 800,
-	            autoScrollDelay: 800,
-	            easing: 'linear'
-	        });
 	        $(document).ready(function () {
 	            $(window).load(function () {
 	                $('.loading').hide();
 	            });
 	            $("body").niceScroll({
+	                cursorcolor:"#c54041",
+	                cursorborder:"0",
+	                cursorwidth:"8px"
+	            });
+	             $("body").niceScroll({
 	                cursorcolor:"#c54041",
 	                cursorborder:"0",
 	                cursorwidth:"8px"
@@ -725,6 +727,12 @@
   			  left: 0, 
 			  behavior: 'smooth' 
 			});
+	     window.scrollBy({ 
+		  top: 100, // could be negative value
+		  left: 0, 
+		  behavior: 'smooth' 
+		});
+
 	</script>
 </body>
 </html>
