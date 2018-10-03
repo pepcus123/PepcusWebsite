@@ -234,7 +234,7 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
   background-color: #710404d1;
 }
 
-.image-container:hover .overlay {
+.team-container:hover .overlay {
   opacity: 1;
 }
 /* .text {
@@ -876,7 +876,7 @@ footer{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.image-container:hover .overlay > .text{
+.team-container:hover .overlay > .text{
   /* transform: rotate(358deg); */
     opacity: 1;
     left: 50%;
