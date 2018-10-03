@@ -241,7 +241,12 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     top: 0px !important;
 }
 /* General css */
-
+html{
+    overflow: auto !important;
+}
+body{
+    overflow: auto !important;
+}
 .image-wrapper {
     min-width: 30px;
 }
@@ -1303,6 +1308,7 @@ display: flex;
 }
 .header-menu.change-height .navbar-brand {
     height: 50px;
+    margin-top: 4px;
     overflow: hidden;
 }
 .header-menu.change-height {
@@ -2301,7 +2307,7 @@ h2#goal_para{top:50%;right:15%;}
         background-color: #fff;
     }
     .change-height .navbar-toggle {
-        margin-top: 8px;
+            margin-top: 12px;    
     }
     .navbar-toggle {
         margin-top: 22px;
