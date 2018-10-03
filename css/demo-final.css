@@ -2534,7 +2534,7 @@ h2#goal_para{top:50%;right:15%;}
         height: 212px;
     }
     .image-container {
-         height: 302px;
+        height: 335px;
    
     }
 }
@@ -2574,9 +2574,6 @@ h2#goal_para{top:50%;right:15%;}
     .footer-image {
         padding-bottom: 128%;
     }
-    .image-container .background-image {
-        background-size: 102% 102%;
-    }
     .parallax{
         background-size: 121% 87%;
         background-position: center top;
@@ -2595,5 +2592,8 @@ h2#goal_para{top:50%;right:15%;}
     }
     .service-content-administrativeHead {
          height: 459px;
+    }
+    .image-container {
+        height: 259px;
     }
 }
