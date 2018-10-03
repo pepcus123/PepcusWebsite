@@ -517,7 +517,7 @@
 						</div>
 					</div>
 					<div class = "col-lg-3 col-md-3 col-sm-4 col-xs-6">
-						<div class = "team-container">
+						<div class = "team-container ">
 							<div class="image-container">
 								<div style = "background-image:url(images/team/user-icon6.png);" class = "background-image"></div>
 								<div class="overlay">
@@ -685,6 +685,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 	<script type="text/javascript" src="js/carouseller.js"></script>
+	<script src = "js/hoverontouch.js"></script>
 	<script type="text/javascript">
 	    $(function() {
 	        $('#team').carouseller({
@@ -718,6 +719,11 @@
 	            });
 	        });
 	    });
+	     window.scroll({
+	     	  top: 2500, 
+  			  left: 0, 
+			  behavior: 'smooth' 
+			});
 	</script>
 </body>
 </html>
