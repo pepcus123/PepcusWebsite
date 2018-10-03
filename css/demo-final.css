@@ -2427,7 +2427,7 @@ h2#goal_para{top:50%;right:15%;}
         background: #fff;
     }
     .header-menu.change-height, .header-menu{
-        height: auto;
+        height: 63px;
         transition-delay: 0s;
     }
     /*.header-menu.change-height input ~ nav{
