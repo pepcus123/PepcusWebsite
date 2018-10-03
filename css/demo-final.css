@@ -2443,7 +2443,7 @@ h2#goal_para{top:50%;right:15%;}
     }
     .image-container .background-image {
             background-size: cover;
-            background-position: center;
+            /* background-position: center; */
     }
 }
 @media (max-width: 760px){
@@ -2484,6 +2484,9 @@ h2#goal_para{top:50%;right:15%;}
     }
     .font-size-25 {
         padding: 25px 0px;
+    }
+    .image-container {
+        height: 347px;
     }
 }
 @media(max-width: 450px){
@@ -2541,7 +2544,7 @@ h2#goal_para{top:50%;right:15%;}
     }
     .image-container .background-image {
            background-size: cover;
-           background-position: top;
+           /* background-position: top; */
     }
     .parallax{
         background-size: 117% 86%;
