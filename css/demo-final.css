@@ -1750,6 +1750,9 @@ h2#goal_para{top:50%;right:15%;}
     .banner .content {
         padding-top: 216px;
     }
+    .general-team {
+        min-height: 451px;
+    }
    
 }
 @media(max-width: 783px){
