@@ -245,8 +245,8 @@ html{
     overflow: auto !important;
 }
 body{
-    overflow: auto !important;
-}
+    cursor: default !important;
+   }
 .image-wrapper {
     min-width: 30px;
 }
