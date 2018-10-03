@@ -86,6 +86,12 @@ h1.loader-pepcus::before {
         max-width: 0;
     }
 }
+.general-team {
+    min-height: 500px;
+    background-image: url(../images/parallex/team-8.jpg);
+    position: relative;
+    width: 100%;
+}
 /* @-webkit-keyframes spin {
     0%   {
         -webkit-transform: rotate(0deg);
@@ -241,25 +247,8 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     top: 0px !important;
 }
 /* General css */
-html{
-    overflow: auto !important;
-}
-body{
-    cursor: default !important;
-   }
-.image-wrapper {
-    min-width: 30px;
-}
-.services-image-icon.outsourcing-img {
-    max-width: 67px;
-}
-.services-image-icon.support-maintenance-img {
-    max-width: 60px;
-}
-.services-image-icon {
-    display: inline-block;
-    max-width: 100px;
-}
+
+
 
 .container {
     margin: 0 auto;
@@ -277,26 +266,7 @@ body{
 .text-center {
     text-align: center;
 }
-/*.col-md-3 {
-    width: 25%;
-    float: left;
-}
-.col-md-6 {
-    width: 50%;
-    float: left;
-}
-.col-md-9{
-    width: 75%;
-    float: left;
-}
-.col-md-12 {
-    width: 100%;
-    float: left;
-}
-.col-md-4 {
-    width: 33.33%;
-    float: left;
-}*/
+
 .team-container{
     width: 100%;
     border: 5px solid #fff;
@@ -332,17 +302,7 @@ body{
 .team-container:hover .overlay {
   opacity: 1;
 }
-/* .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
+
 .image-container1{
      border-top-right-radius: 65px;
      box-shadow: 4px -5px 7px rgba(0, 0, 0, 0.25);
@@ -393,15 +353,7 @@ body{
     position: absolute;
     background: rgba(142, 65, 65, 0.33);
 }
-/* .background-image4::after{
-    content:'';
-    position: absolute;
-    bottom: 0;
-     width: 120px;
-    border-bottom: 120px solid #ec3504;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-} */
+
 .background-img {
     animation-name: fade;
     animation-timing-function: ease-in-out;
@@ -559,7 +511,7 @@ body{
 .padding-50-0 {
     padding: 50px 0;
 }
-.padding-100-0 {
+/* .padding-100-0 {
     padding: 100px 0;
 }
 .padding-75-0 {
@@ -609,7 +561,7 @@ body{
 }
 .mar-top-50{
     margin-top: 50px;
-}
+} */
 .img-responsive{
     max-width: 100%;
 }
@@ -755,6 +707,7 @@ a.link-footer:hover{
     font-weight: bold;
 }
 .footer-desc-para{
+    padding: 20px 0px;
     line-height: 1.3;
 }
 .footer-desc {
@@ -820,19 +773,7 @@ footer{
 .privacy-link:hover {
     color: #5f5f5f;
 }
-.privacy-img {min-height: 400px; background-image: url("../images/innerpages/privacy.jpg");}
-.general-img {min-height: 400px; background-image: url("../images/parallex/general1.jpg");}
-.strength-img {min-height: 400px; background-image: url("../images/innerpages/strength.jpg");}
-.cwd-img {min-height: 400px; background-image: url("../images/innerpages/cwd.jpg");}
-.sta-img {min-height: 400px; background-image: url("../images/innerpages/sta.jpg");}
-.sm-img {min-height: 400px; background-image: url("../images/innerpages/sm.jpg");}
-.mobile-img {min-height: 400px; background-image: url("../images/innerpages/mobile.jpg");}
-.startup-img {min-height: 400px; background-image: url("../images/innerpages/startup.jpg");}
-.op-img {min-height: 400px; background-image: url("../images/innerpages/op.jpg");}
-.goal-img {min-height: 400px; background-image: url("../images/innerpages/goal.jpg");}
-.general1-img{min-height: 500px; background-image: url("../images/parallex/services1.jpg");}
-.general2-img{min-height: 500px; background-image: url("../images/parallex/about1.jpg");}
-.general-team{min-height: 500px; background-image: url("../images/parallex/team-8.jpg");position:relative;width:100%;}
+
 .general-team-layer{
     position: absolute;
     width: 100%;
@@ -1653,7 +1594,12 @@ h2#goal_para{top:50%;right:15%;}
     .scrollup {
         right: 10px;
     }
-
+    html{
+        overflow: auto !important;
+    }
+    body{
+        cursor: default !important;
+    }
     .clients {
         padding: 100px 0;
     }
@@ -1688,44 +1634,6 @@ h2#goal_para{top:50%;right:15%;}
     .navbar-nav>li:nth-child(5) a {
     margin-left: 36px;
 }
-    /* generalized CSS */
-/*    .font-size-60 {
-        font-size: 40px;
-    }
-    .font-size-50 {
-        font-size: 36px;
-    }
-    .font-size-40 {
-        font-size: 32px;
-    }
-    .font-size-32 {
-        font-size: 28px;
-    }
-    .font-size-20 {
-        font-size: 17px;
-    }
-    .font-size-16 {
-        font-size: 14px;
-    }
-    .font-size-14 {
-        font-size: 12px;
-    }*/
-
-    .xs-padding-0-80 {
-        padding: 0 80px;
-    }
-    .xs-padding-30-80 {
-        padding: 30px 80px;
-    }
-    .xs-padding-50-80 {
-        padding: 50px 80px;
-    }
-    .xs-padding-90-100 {
-        padding: 90px 100px;
-    }
-    .about-company-block{
-        background-size: 380px 100%;
-    }
     .parallax {
         background-attachment: scroll;
         background-position: bottom;
