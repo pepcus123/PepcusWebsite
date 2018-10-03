@@ -1567,10 +1567,6 @@ h2#goal_para{top:50%;right:15%;}
    .container{
        width: 95%;
    }
-   .parallax{
-        background-size: 115% 76%;
-        background-position: center top;
-    }
     .service-content-block3 {
         height: 540px;
     }
@@ -1775,6 +1771,25 @@ h2#goal_para{top:50%;right:15%;}
 @media(max-width: 768px){
     .footer-image {
         padding-bottom: 57%;
+    }
+    .general-team {
+        min-height: 339px;
+        background-image: url(../images/parallex/team-8.jpg);
+        position: relative;
+        width: 100%;
+    }
+    .banner .content {
+        margin-bottom: -50px;
+        padding-top: 156px;
+    }
+    .font-size-60 {
+        font-size: 39px;
+    }
+    .font-size-40 {
+        font-size: 24px;
+    }
+    .parallax {
+        background-size: contain;
     }
 
 }
@@ -2440,9 +2455,6 @@ h2#goal_para{top:50%;right:15%;}
     .service-content-block-HR {
         height: 538px;
     }
-    .parallax{
-        background-size: 115% 68%;
-    }
     .banner .content {
         padding-top: 155px;
     }
@@ -2452,9 +2464,6 @@ h2#goal_para{top:50%;right:15%;}
     }
 }
 @media (max-width: 760px){
-    .parallax{
-        background-size: 115% 74%;
-    }
     .font-size-25 {
     font-size: 28px;
     /* text-shadow: 2px 2px 5px #cac7c7; */
@@ -2468,9 +2477,6 @@ h2#goal_para{top:50%;right:15%;}
     .left-shift {
         top: 10%;
         right: 10%;
-    }
-    .parallax {
-        background-size: 115% 81%;
     }
     .font-size-16 {
            font-size: 17px;
@@ -2523,9 +2529,6 @@ h2#goal_para{top:50%;right:15%;}
     .service-content-block2 {
         height: 519px;
     }
-      .parallax {
-        background-size: 115% 76%;
-    }
     .font-size-14 {
         font-size: 16px;
     }
@@ -2551,10 +2554,7 @@ h2#goal_para{top:50%;right:15%;}
            background-size: cover;
            /* background-position: top; */
     }
-    .parallax{
-        background-size: 117% 86%;
-        background-position: center top;
-    }
+    
     .service-content-sumedha {
         height: 591px;
     }
