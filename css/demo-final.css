@@ -2530,6 +2530,10 @@ h2#goal_para{top:50%;right:15%;}
     .service-content-row4 {
         height: 212px;
     }
+    .image-container {
+         height: 302px;
+   
+    }
 }
 @media(max-width: 360px){
     .footer-image {
@@ -2557,6 +2561,10 @@ h2#goal_para{top:50%;right:15%;}
     }
     .service-content-administrativeHead {
         height: 507px;
+    }
+    .image-container {
+        height: 310px;
+   
     }
 }
 @media(max-width:320px){
