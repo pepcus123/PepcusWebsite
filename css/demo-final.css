@@ -70,20 +70,44 @@ h1.loader-pepcus {
     left: 50%;
     margin-left: -110px;
 }
-h1.loader-pepcus:before {
+h1.loader-pepcus::before {
     content: attr(data-text);
     position: absolute;
     overflow: hidden;
     max-width: 7em;
     white-space: nowrap;
     color: #ff0000;
-    animation: loading 8s linear;
+    animation: loading 5s linear;
 }
 @keyframes loading {
     0% {
         max-width: 0;
     }
 }
+/* @-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+} */
 .loading-image img {
         width: 50px;
 }
