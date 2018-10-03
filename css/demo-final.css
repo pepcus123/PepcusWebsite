@@ -27,6 +27,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+.nicescroll-rails {
+    opacity: 1 !important;
+    top: 100px !important;
+}
+.scrollup {
+    width: 20px;
+    height: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    text-align: center;
+    display: none;
+    z-index: 9;
+}
+.arrow-up-icon{
+    padding: 15px 7px;
+    background: rgba(197,64,65,0.7);
+    border-radius: 30px;
+    color: #fff;
+}
+.scrollup:hover .arrow-up-icon, .arrow-up-icon:hover{
+    background: rgba(197,64,65,1);
+}
+.loading-image img {
+        width: 50px;
+}
+ .loading-image {
+        margin-left: -25px;
+        margin-top: -25px;
+}
 body {
     line-height: 1;
 }
