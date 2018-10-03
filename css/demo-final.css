@@ -1566,6 +1566,19 @@ h2#goal_para{top:50%;right:15%;}
    .container{
        width: 95%;
    }
+   .parallax{
+        background-size: 115% 54%;
+        background-position: center top;
+    }
+    .service-content-block3 {
+        height: 540px;
+    }
+    .col-sm-2 {
+        display: block;
+    }
+    .navbar-nav>li:nth-child(5) a {
+        margin-left: 36px;
+    }
     .header-menu input ~ nav {
         background-size: 50%;
         background-position: 0 100px;
@@ -1617,6 +1630,7 @@ h2#goal_para{top:50%;right:15%;}
     .about-company-block{
         background-size: 380px 100%;
     }
+
     .general-img {min-height: 300px; }
     .general1-img{min-height: 400px;}
     .general2-img{min-height: 400px;}
@@ -1694,7 +1708,37 @@ h2#goal_para{top:50%;right:15%;}
 }
 @media(max-width: 888px){
     .col-sm-2 {
-        display: none;
+        display: block;
+    }
+      .service-content-block3 {
+        height: 534px;
+    }
+    .service-content-row1 {
+        height: 647px;
+    }
+    .font-size-14 {
+        font-size: 22px;
+    }
+    .padding-50-25 {
+        padding: 18px 5px;
+    }
+    .font-size-16 {
+        font-size: 25px;
+    }
+    .service-content-row1 {
+        height: 1014px;
+    }
+    .service-content-block3 {
+        height: 810px;
+    }
+    .service-content-row2 {
+        height: 816px;
+    }
+    .service-content-row3 {
+        height: 845px;
+    }
+    .service-content-row4 {
+        height: 279px;
     }
 }
 @media(max-width: 783px){
@@ -1720,15 +1764,18 @@ h2#goal_para{top:50%;right:15%;}
         height: 525px;
     }
 }
+
 @media(max-width: 768px){
     .footer-image {
         padding-bottom: 57%;
     }
+
 }
 @media(max-width: 600px){
     .footer-image {
         padding-bottom: 67%;
     }
+     
 }
 @media(max-width: 680px){
     .footer-content {
@@ -1743,6 +1790,7 @@ h2#goal_para{top:50%;right:15%;}
      .footer-image {
         padding-bottom: 80%;
     }
+
 }
 @media(max-width:668px) {
     li.anim-slide:nth-of-type(1) > h1{
@@ -1823,6 +1871,8 @@ h2#goal_para{top:50%;right:15%;}
     .font-size-16 {
         font-size: 23px;
     }
+    
+    
    
 }
 @media(max-width: 530px){
@@ -1941,23 +1991,15 @@ h2#goal_para{top:50%;right:15%;}
         font-size: 33px;
     }
     .font-size-14 {
-        font-size: 17px;
+        font-size: 16px;
     }
     .font-size-16 {
         font-size: 18px;
     }
+
 }
 
-@media(max-width:668px) {
-    .right-shift {
-        top: 10%;
-        left: 10%;
-    }
-    .left-shift {
-        top: 10%;
-        right: 10%;
-    }
-}
+
 @media(max-width:992px) {
     .navbar-collapse .nav>li {
         width: 100px;
@@ -2038,6 +2080,42 @@ h2#goal_para{top:50%;right:15%;}
     }
     .footer-desc {
         margin-left: 0;
+    }
+    .service-content-block2 {
+        height: 774px;
+    }
+    .font-size-16 {
+        font-size: 20px;
+    }
+    .padding-50-25 {
+         padding: 18px 8px;
+    }
+    .service-content-row1 {
+        height: 792px;
+    }
+    .font-size-14 {
+        font-size: 18px;
+    }
+    .service-content-row2 {
+        height: 628px;
+    }
+    .service-content-block3 {
+        height: 628px;
+    }
+    .service-content-kapilesh {
+        height: 604px;
+    }
+    .service-content-sumedha {
+        height: 608px;
+    }
+    .service-content-administrativeHead {
+        height: 635px;
+    }
+    .service-content-block-HR {
+        height: 637px;
+    }
+    .service-content-row4 {
+        height: 242px;
     }
 }
 @media(max-width:767px) {
@@ -2348,7 +2426,56 @@ h2#goal_para{top:50%;right:15%;}
         height: 510px;
     } */
     .service-content-block-HR {
-    height: 538px;
+        height: 538px;
+    }
+    .parallax{
+        background-size: 115% 68%;
+    }
+    .banner .content {
+        padding-top: 155px;
+    }
+    .image-container .background-image {
+        background-size: 102% 110%;
+    }
+}
+@media (max-width: 760px){
+    .parallax{
+        background-size: 115% 146%;
+    }
+    .font-size-25 {
+    font-size: 28px;
+    /* text-shadow: 2px 2px 5px #cac7c7; */
+    }
+}
+@media(max-width:668px) {
+    .right-shift {
+        top: 10%;
+        left: 10%;
+    }
+    .left-shift {
+        top: 10%;
+        right: 10%;
+    }
+    .parallax {
+        background-size: 115% 52%;
+    }
+    .font-size-16 {
+           font-size: 17px;
+    }
+    .font-size-14 {
+        font-size: 19px;
+    }
+    .service-content-row4 {
+        height: 232px;
+    }
+    .font-size-25 {
+        padding: 25px 0px;
+    }
+    .service-content-administrativeHead {
+        height: 497px;
+    }
+    .font-size-25 {
+        padding: 25px 0px;
     }
 }
 @media(max-width: 450px){
@@ -2357,7 +2484,7 @@ h2#goal_para{top:50%;right:15%;}
         width: 100%;
     }
     .footer-image {
-        padding-bottom: 108%;
+        padding-bottom: 110%;
     }
     .font-size-50 {
         font-size: 30px;
@@ -2372,17 +2499,81 @@ h2#goal_para{top:50%;right:15%;}
         margin-bottom: 11px;
     }
     .service-content-block1 {
-        height: 647px;
+        height: 668px;
     }
     .service-content-block3 {
         height: 549px;
     }
     .service-content-block2 {
-        height: 460px;
+        height: 519px;
+    }
+      .parallax {
+        background-size: 115% 76%;
+    }
+    .font-size-14 {
+        font-size: 16px;
+    }
+    .service-content-row2 {
+        height: 504px;
+    }
+    .service-content-administrativeHead {
+        height: 445px;
+    }
+    .service-content-row4 {
+        height: 212px;
     }
 }
 @media(max-width: 360px){
     .footer-image {
         padding-bottom: 128%;
+    }
+    .image-container .background-image {
+        background-size: 102% 102%;
+    }
+    .parallax{
+        background-size: 117% 86%;
+        background-position: center top;
+    }
+    .service-content-sumedha {
+        height: 591px;
+    }
+    .font-size-14 {
+        font-size: 16px;
+    }
+    .service-content-row2 {
+        height: 560px;
+    }
+    .service-content-kapilesh {
+        height: 512px;
+    }
+    .service-content-administrativeHead {
+        height: 507px;
+    }
+}
+@media(max-width:320px){
+    .footer-image {
+        padding-bottom: 128%;
+    }
+    .image-container .background-image {
+        background-size: 102% 102%;
+    }
+    .parallax{
+        background-size: 121% 87%;
+        background-position: center top;
+    }
+    .service-content-sumedha {
+        height: 591px;
+    }
+    .font-size-14 {
+        font-size: 14px;
+    }
+    .font-size-16 {
+        font-size: 19px;
+    }
+    .service-content-sumedha {
+        height: 537px;
+    }
+    .service-content-administrativeHead {
+         height: 459px;
     }
 }
