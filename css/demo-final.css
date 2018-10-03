@@ -1557,6 +1557,7 @@ h2#goal_para{top:50%;right:15%;}
     .scrollup {
         right: 10px;
     }
+
     .clients {
         padding: 100px 0;
     }
@@ -1567,7 +1568,7 @@ h2#goal_para{top:50%;right:15%;}
        width: 95%;
    }
    .parallax{
-        background-size: 115% 54%;
+        background-size: 115% 76%;
         background-position: center top;
     }
     .service-content-block3 {
@@ -1592,6 +1593,9 @@ h2#goal_para{top:50%;right:15%;}
     .level2-header-link{
         width: 300px;
     }
+    .navbar-nav>li:nth-child(5) a {
+    margin-left: 36px;
+}
     /* generalized CSS */
 /*    .font-size-60 {
         font-size: 40px;
@@ -1694,6 +1698,7 @@ h2#goal_para{top:50%;right:15%;}
     .navbar-nav>li:nth-child(5) a {
         margin-left: 0px;
     }
+
 }
 @media(max-width: 940px){
     .footer-image {
@@ -1705,6 +1710,7 @@ h2#goal_para{top:50%;right:15%;}
     .col-sm-2 {
         display: block;
     }
+
 }
 @media(max-width: 888px){
     .col-sm-2 {
@@ -1740,6 +1746,7 @@ h2#goal_para{top:50%;right:15%;}
     .service-content-row4 {
         height: 279px;
     }
+   
 }
 @media(max-width: 783px){
     .footer-image {
@@ -2440,7 +2447,7 @@ h2#goal_para{top:50%;right:15%;}
 }
 @media (max-width: 760px){
     .parallax{
-        background-size: 115% 146%;
+        background-size: 115% 74%;
     }
     .font-size-25 {
     font-size: 28px;
@@ -2457,7 +2464,7 @@ h2#goal_para{top:50%;right:15%;}
         right: 10%;
     }
     .parallax {
-        background-size: 115% 52%;
+        background-size: 115% 81%;
     }
     .font-size-16 {
            font-size: 17px;
