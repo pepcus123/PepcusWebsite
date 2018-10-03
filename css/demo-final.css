@@ -2442,7 +2442,8 @@ h2#goal_para{top:50%;right:15%;}
         padding-top: 155px;
     }
     .image-container .background-image {
-        background-size: 102% 110%;
+            background-size: cover;
+            background-position: center;
     }
 }
 @media (max-width: 760px){
@@ -2535,7 +2536,8 @@ h2#goal_para{top:50%;right:15%;}
         padding-bottom: 128%;
     }
     .image-container .background-image {
-        background-size: 102% 102%;
+           background-size: cover;
+           background-position: top;
     }
     .parallax{
         background-size: 117% 86%;
