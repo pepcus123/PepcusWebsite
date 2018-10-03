@@ -1630,11 +1630,16 @@ h2#goal_para{top:50%;right:15%;}
     .about-company-block{
         background-size: 380px 100%;
     }
-
+    .parallax {
+        background-attachment: scroll;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
     .general-img {min-height: 300px; }
     .general1-img{min-height: 400px;}
     .general2-img{min-height: 400px;}
-    .general-team{min-height: 400px; }
+    .general-team{min-height: 487px;}
     .general-contact{min-height: 400px; }
    
     .footer-image {
@@ -1742,6 +1747,9 @@ h2#goal_para{top:50%;right:15%;}
     .service-content-row4 {
         height: 279px;
     }
+    .banner .content {
+        padding-top: 216px;
+    }
    
 }
 @media(max-width: 783px){
@@ -1773,14 +1781,14 @@ h2#goal_para{top:50%;right:15%;}
         padding-bottom: 57%;
     }
     .general-team {
-        min-height: 339px;
+        min-height: 391px;
         background-image: url(../images/parallex/team-8.jpg);
         position: relative;
         width: 100%;
     }
     .banner .content {
         margin-bottom: -50px;
-        padding-top: 156px;
+        padding-top: 181px;
     }
     .font-size-60 {
         font-size: 39px;
@@ -1790,6 +1798,8 @@ h2#goal_para{top:50%;right:15%;}
     }
     .parallax {
         background-size: contain;
+        background-attachment: scroll;
+        background-position: bottom;
     }
 
 }
@@ -2306,7 +2316,7 @@ h2#goal_para{top:50%;right:15%;}
     }
 
     .general-team {
-        min-height: 300px;
+        min-height: 292px;
     }
 
     .general-contact {
@@ -2512,10 +2522,13 @@ h2#goal_para{top:50%;right:15%;}
         font-size: 30px;
     }
     .banner .content {
-        padding-top: 144px;
+        padding-top: 128px;
     }
     .font-size-60 {
-        font-size: 29px;
+        font-size: 23px;
+    }
+    .general-team {
+        min-height: 250px;
     }
     .banner .content .main-heading-inner {
         margin-bottom: 11px;
@@ -2577,14 +2590,37 @@ h2#goal_para{top:50%;right:15%;}
     .image-container-purvi{
             height: 261px;
     }
+    .banner .content {
+        padding-top: 124px;
+    }
+    .font-size-60 {
+        font-size: 23px;
+    }
+    .general-banner .content .font-size-40 {
+        font-size: 14px;
+    }
+    .general-team {
+        min-height: 249px;
+    }
+    .parallax {
+        background-attachment: scroll;
+        background-size: contain;
+        background-position: bottom;
+    }
 }
 @media(max-width:320px){
     .footer-image {
         padding-bottom: 128%;
     }
     .parallax{
-        background-size: 121% 87%;
-        background-position: center top;
+        /* background-size: 121% 87%; */
+        background-position: bottom;
+    }
+    .font-size-60 {
+        font-size: 19px;
+    }
+    .general-banner .content .font-size-40 {
+        font-size: 13px;
     }
     .service-content-sumedha {
         height: 591px;
@@ -2603,5 +2639,8 @@ h2#goal_para{top:50%;right:15%;}
     }
     .image-container {
         height: 259px;
+    }
+    .general-team {
+        min-height: 221px;
     }
 }
