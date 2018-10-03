@@ -1782,6 +1782,11 @@ h2#goal_para{top:50%;right:15%;}
     .footer-image {
         padding-bottom: 67%;
     }
+    .image-container {
+        height: 390px;
+    }
+
+
      
 }
 @media(max-width: 680px){
@@ -2486,7 +2491,7 @@ h2#goal_para{top:50%;right:15%;}
         padding: 25px 0px;
     }
     .image-container {
-        height: 347px;
+        height: 390px;
     }
 }
 @media(max-width: 450px){
