@@ -647,17 +647,27 @@
 	            $(window).load(function () {
 	                $('.loading').hide();
 	            });
-	            $("body").niceScroll({
+	            $("html").niceScroll({
 	                cursorcolor:"#c54041",
 	                cursorborder:"0",
 	                cursorwidth:"8px"
+	                scrollspeed: 70,
+			        mousescrollstep: 38,
 	            });
-	            $(".navbar").niceScroll({
+	            $(".navbar-inverse").niceScroll({
 	                cursorcolor:"#c54041",
 	                cursorborder:"0",
-	                cursorwidth:"8px"
-	            });
+	                cursorwidth:"8px",
+	                 scrollspeed: 70,
+			        mousescrollstep: 38,
 
+	            });
+	            $(".nicescroll-rails").css({
+				    'top': '70px',
+				    'right': '7px',
+				    'bottom': '50px',
+				    'height': $(window).height() - 100
+				});
 	            $(window).scroll(function () {
 	                if ($(this).scrollTop() > 100) {
 	                    $('.scrollup').fadeIn();

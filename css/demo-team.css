@@ -33,7 +33,17 @@ ul {
     font: inherit;
     vertical-align: baseline;
 }
-
+::-webkit-scrollbar { 
+    display: none !important; 
+    color: white;
+     background: white;
+}
+::-webkit-scrollbar-track {
+    background: white; 
+}
+::-webkit-scrollbar-thumb {
+    background: white !important; 
+}
 footer,
 header,
 menu,
@@ -64,9 +74,7 @@ section {
 .scrollup:hover .arrow-up-icon {
     background: rgba(197, 64, 65, 1);
 }
-::-webkit-scrollbar { 
-    display: none !important; 
-}
+
 .loading {
     width: 100%;
     height: 100%;
@@ -100,8 +108,13 @@ h1.loader-pepcus::before {
 }
 .nicescroll-rails {
     opacity: 1 !important;
-    top: -10px !important;
+    top: 0px !important;
+    z-index: 20 !important;
 }
+.navbar-fixed-bottom, .navbar-fixed-top {
+    z-index: 10 !important;
+}
+
 @keyframes loading {
     0% {
         max-width: 0;
@@ -1974,9 +1987,9 @@ a.social-icon:hover {
     .image-container {
         height: 335px;
     }
-    .image-container-ankit{
+    /* .image-container-ankit{
         height: 289px;
-    }
+    } */
 }
 
 @media (max-width:360px) {
