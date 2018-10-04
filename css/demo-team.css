@@ -2026,11 +2026,11 @@ a.social-icon:hover {
         height: 212px;
     }
     .image-container {
-        height: 335px;
+        height: 362px;
     }
-    /* .image-container-ankit{
-        height: 289px;
-    } */
+    .image-container-purvi{
+        height: 297px;
+    }
 }
 
 @media (max-width:360px) {
@@ -2077,6 +2077,9 @@ a.social-icon:hover {
         background-attachment: scroll;
         background-size: contain;
         background-position: bottom;
+    }
+    .image-container-sushil{
+        height: 270px;
     }
 }
 
