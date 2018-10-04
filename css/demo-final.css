@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 }
 .nicescroll-rails {
     opacity: 1 !important;
-    /* top: 100px !important; */
+    top: 100px !important;
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 .scrollup {
     width: 20px;
@@ -1593,6 +1596,9 @@ h2#goal_para{top:50%;right:15%;}
 @media only screen and (max-width: 1280px) {
     .scrollup {
         right: 10px;
+    }
+    ::-webkit-scrollbar { 
+        display: none; 
     }
     html{
         overflow: auto !important;
