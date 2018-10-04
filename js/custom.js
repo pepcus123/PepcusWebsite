@@ -22,5 +22,6 @@ $(document).ready(function(e) {
         }, 600);
         return false;
     });
-
+    
 });
+
