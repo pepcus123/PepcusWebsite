@@ -115,6 +115,7 @@ h1.loader-pepcus::before {
     top: 0px !important;
     z-index: 20 !important;
     touch-action: auto !important;
+    cursor: default !important;
 }
 .navbar-fixed-bottom, .navbar-fixed-top {
     z-index: 10 !important;
