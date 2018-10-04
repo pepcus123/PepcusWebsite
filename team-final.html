@@ -653,55 +653,18 @@
 	                cursorwidth:"8px"
 	                scrollspeed: 100,
 			        mousescrollstep: 38,
-			        // overlow
+			       // enable mouse wheel
 
-					  overflowx: true,
+					  enablemousewheel: true,
+					  // enable keyboard
+					  enablekeyboard: true,
+					  // enable smooth scroll
+					  smoothscroll: true,
+					  // click on rail make a scroll
+					  sensitiverail: true,
 
-					  overflowy: true,
+ 
 
-					 
-
-					  // drag speed
-
-					  cursordragspeed: 0.3,
-
-					 
-
-					  // RTL mode
-
-					  rtlmode: "auto",
-
-					 
-
-					  // drag cursor in touch / touchbehavior mode
-
-					  cursordragontouch: false,
-
-					 
-
-					  // it permits horizontal scrolling with mousewheel on horizontal only content,
-
-					  // if false (vertical-only) mousewheel don't scroll horizontally, if value is auto detects two-axis mouse
-
-					  oneaxismousemode: "auto",
-
-					 
-
-					  // define custom path for boxmode icons
-
-					  scriptpath: getScriptPath(),
-
-					 
-
-					  // prevent scrolling on multitouch events
-
-					  preventmultitouchscrolling: true,
-
-					 
-
-					  // force MutationObserver disabled
-
-  						disablemutationobserver:false
 
 	            });
 	            $(".navbar-inverse").niceScroll({
