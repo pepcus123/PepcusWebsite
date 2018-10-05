@@ -291,7 +291,7 @@
     } while (document.getElementById(this.id));
     
     this.rail = false;
-    this.cursor = false;
+    this.cursor = true;
     this.cursorfreezed = false;  
     this.selectiondrag = false;
     
@@ -304,7 +304,7 @@
     this.visibility = true;
     this.locked = false;
     this.hidden = false; // rails always hidden
-    this.cursoractive = false; // user can interact with cursors
+    this.cursoractive = true; // user can interact with cursors
     
     this.overflowx = self.opt.overflowx;
     this.overflowy = self.opt.overflowy;
@@ -333,13 +333,13 @@
     
 //## Check Chrome desktop with touch support
     if (cap.cantouch&&cap.ischrome&&!cap.isios&&!cap.isandroid) {
-      this.istouchcapable = false;
+      this.istouchcapable = true;
       cap.cantouch = false;  // parse normal desktop events
     }    
 
 //## Firefox 18 nightly build (desktop) false positive (or desktop with touch support)
     if (cap.cantouch&&cap.ismozilla&&!cap.isios) {
-      this.istouchcapable = false;
+      this.istouchcapable = true;
       cap.cantouch = false;  // parse normal desktop events
     }    
     
