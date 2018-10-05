@@ -304,7 +304,7 @@
     this.visibility = true;
     this.locked = false;
     this.hidden = false; // rails always hidden
-    this.cursoractive = true; // user can interact with cursors
+    this.cursoractive = false; // user can interact with cursors
     
     this.overflowx = self.opt.overflowx;
     this.overflowy = self.opt.overflowy;
@@ -333,20 +333,20 @@
     
 //## Check Chrome desktop with touch support
     if (cap.cantouch&&cap.ischrome&&!cap.isios&&!cap.isandroid) {
-      this.istouchcapable = true;
+      this.istouchcapable = false;
       cap.cantouch = false;  // parse normal desktop events
     }    
 
 //## Firefox 18 nightly build (desktop) false positive (or desktop with touch support)
     if (cap.cantouch&&cap.ismozilla&&!cap.isios) {
-      this.istouchcapable = true;
+      this.istouchcapable = false;
       cap.cantouch = false;  // parse normal desktop events
     }    
     
 //## disable MouseLock API on user request
 
     if (!self.opt.enablemouselockapi) {
-      cap.hasmousecapture = true;
+      cap.hasmousecapture = false;
       cap.haspointerlock = false;
     }
     
