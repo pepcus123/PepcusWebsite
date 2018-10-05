@@ -714,7 +714,7 @@
         
         var cursor = $(document.createElement('div'));
         cursor.css({
-          position:"relative",top:0,"float":"right",width:self.opt.cursorwidth,height:"0px",
+          position:"relative",top:0,"float":"right",width:self.opt.cursorwidth,height:"0px",cursorcolor:"red",
           'background-color':self.opt.cursorcolor,
           border:self.opt.cursorborder,
           'background-clip':'padding-box',
