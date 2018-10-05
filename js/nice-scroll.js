@@ -54,7 +54,7 @@
       zindex:"2000",
       cursoropacitymin:0,
       cursoropacitymax:1,
-      cursorcolor:"#c54041 !important",
+      cursorcolor:"#c54041",
       cursorwidth:"8px",
       cursorborder:"0",
       cursorborderradius:"5px",
