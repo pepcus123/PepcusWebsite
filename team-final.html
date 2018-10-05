@@ -647,28 +647,66 @@
 	            $(window).load(function () {
 	                $('.loading').hide();
 	            });
-	            $("html").niceScroll({
-	                cursorcolor:"#c54041",
-	                cursorborder:"0",
-	                cursorwidth:"8px",
-	                // scrollspeed: 10,
-	                // scrollspeed:30,
-			        // mousescrollstep: 60,
-			       // enable mouse wheel
-
-					  enablemousewheel: true,
-					  // enable keyboard
-					  enablekeyboard: true,
-					  // enable smooth scroll
-					  smoothscroll: true,
-					  // click on rail make a scroll
-					  // sensitiverail: true,
-					  autohidemode: false,
-
- 
-
+	            $("body").niceScroll({
+	    //             cursorcolor:"#c54041",
+	    //             cursorborder:"0",
+	    //             cursorwidth:"8px",
+	    //            hidecursordelay: 	400,
+	    //             cursorfixedheight: 	false,
+					// cursorminheight: 	20,
+					// enablekeyboard: 	true,
+					// horizrailenabled: 	true,
+					// bouncescroll: 		false,
+					// smoothscroll: 		true,
+					// iframeautoresize: 	true,
+					// touchbehavior: 		false,
+ 				// 	autohidemode: 		true,
+ 				// 	zindex: 999
+ 				 cursorcolor:		"#c54041",
+				cursorwidth: 		"12px",
+				cursorborder: 		"0px solid #000",
+				scrollspeed: 		60,
+				autohidemode: 		false,
+				background: 		'white',
+				hidecursordelay: 	400,
+				cursorfixedheight: 	false,
+				cursorminheight: 	30,
+				enablekeyboard: 	true,
+				horizrailenabled: 	true,
+				bouncescroll: 		false,
+				smoothscroll: 		true,
+				iframeautoresize: 	true,
+				touchbehavior: 		false,
+				zindex: 999
 
 	            });
+
+
+// (function($){
+// $(document).ready(
+// function() {
+// $("body").niceScroll({
+// cursorcolor:		"#2ecc71",
+// cursorwidth: 		"12px",
+// cursorborder: 		"0px solid #000",
+// scrollspeed: 		60,
+// autohidemode: 		true,
+// background: 		'#ddd',
+// hidecursordelay: 	400,
+// cursorfixedheight: 	false,
+// cursorminheight: 	20,
+// enablekeyboard: 	true,
+// horizrailenabled: 	true,
+// bouncescroll: 		false,
+// smoothscroll: 		true,
+// iframeautoresize: 	true,
+// touchbehavior: 		false,
+// zindex: 999
+// });
+// }
+// );})(jQuery);
+
+
 	            $(".navbar-inverse").niceScroll({
 	                cursorcolor:"#c54041",
 	                cursorborder:"0",

@@ -110,13 +110,13 @@ h1.loader-pepcus::before {
     color: red;
     animation: spin 1s linear;
 }
-.nicescroll-rails {
+/* .nicescroll-rails {
     opacity: 1 !important;
     top: 0px !important;
     z-index: 20 !important;
     touch-action: pan-down !important;
-    /* cursor: default !important; */
-}
+    cursor: default !important;
+} */
 .navbar-fixed-bottom, .navbar-fixed-top {
     z-index: 10 !important;
 }
@@ -334,6 +334,9 @@ div#demo>a>h4 {
 }
 
 .team-container:hover {
+    -webkit-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    -ms-transform: scale(1.02);
     transform: scale(1.02);
 }
 
@@ -1364,13 +1367,7 @@ a.social-icon:hover {
       outline: 1px solid slategrey;
     }
     html {
-        overflow: auto!important;
-    }
-    body {
-        cursor: default!important;
-        overflow: auto !important;
-        cursor: default!important;
-        touch-action: pan-down !important;
+        overflow-y: auto!important;
     }
     .client-section {
         margin-bottom: 20px;
