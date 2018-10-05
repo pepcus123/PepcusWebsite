@@ -346,7 +346,7 @@
 //## disable MouseLock API on user request
 
     if (!self.opt.enablemouselockapi) {
-      cap.hasmousecapture = false;
+      cap.hasmousecapture = true;
       cap.haspointerlock = false;
     }
     
