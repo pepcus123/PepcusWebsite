@@ -51,11 +51,11 @@
   var clsMutationObserver = window.MutationObserver || window.WebKitMutationObserver || false;
   
   var _globaloptions = {
-      zindex:"auto",
+      zindex:"2000",
       cursoropacitymin:0,
       cursoropacitymax:1,
-      cursorcolor:"#424242",
-      cursorwidth:"5px",
+      cursorcolor:"#c54041",
+      cursorwidth:"8px",
       cursorborder:"1px solid #fff",
       cursorborderradius:"5px",
       scrollspeed:60,
