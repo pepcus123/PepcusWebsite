@@ -54,9 +54,9 @@
       zindex:"2000",
       cursoropacitymin:0,
       cursoropacitymax:1,
-      cursorcolor:"#c54041",
+      cursorcolor:"#c54041 !important",
       cursorwidth:"8px",
-      cursorborder:"1px solid #fff",
+      cursorborder:"0",
       cursorborderradius:"5px",
       scrollspeed:60,
       mousescrollstep:8*3,
@@ -270,7 +270,7 @@
     
 // Let's start!  
     this.view = false;
-    this.page = false;
+    this.page = true;
     
     this.scroll = {x:0,y:0};
     this.scrollratio = {x:0,y:0};    
@@ -291,7 +291,7 @@
     } while (document.getElementById(this.id));
     
     this.rail = false;
-    this.cursor = false;
+    this.cursor = true;
     this.cursorfreezed = false;  
     this.selectiondrag = false;
     
@@ -346,8 +346,8 @@
 //## disable MouseLock API on user request
 
     if (!self.opt.enablemouselockapi) {
-      cap.hasmousecapture = false;
-      cap.haspointerlock = false;
+      cap.hasmousecapture = true;
+      cap.haspointerlock = true;
     }
     
     this.delayed = function(name,fn,tm,lazy) {
