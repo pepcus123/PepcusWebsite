@@ -334,9 +334,6 @@ div#demo>a>h4 {
 }
 
 .team-container:hover {
-    -webkit-transform: scale(1.02);
-    -o-transform: scale(1.02);
-    -ms-transform: scale(1.02);
     transform: scale(1.02);
 }
 
@@ -1368,6 +1365,12 @@ a.social-icon:hover {
     }
     html {
         overflow-y: auto!important;
+    }
+    body {
+        cursor: default!important;
+        /* overflow: auto !important; */
+        /* cursor: default!important; */
+        /* touch-action: pan-down !important; */
     }
     .client-section {
         margin-bottom: 20px;
