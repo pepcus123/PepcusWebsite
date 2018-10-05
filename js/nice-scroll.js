@@ -347,7 +347,7 @@
 
     if (!self.opt.enablemouselockapi) {
       cap.hasmousecapture = true;
-      cap.haspointerlock = false;
+      cap.haspointerlock = true;
     }
     
     this.delayed = function(name,fn,tm,lazy) {
