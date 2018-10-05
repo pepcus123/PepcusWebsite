@@ -291,7 +291,7 @@
     } while (document.getElementById(this.id));
     
     this.rail = false;
-    this.cursor = true;
+    this.cursor = false;
     this.cursorfreezed = false;  
     this.selectiondrag = false;
     
@@ -329,7 +329,7 @@
     this.canhwscroll = (cap.hastransform&&self.opt.hwacceleration);
     this.ishwscroll = (this.canhwscroll&&self.haswrapper);
     
-    this.istouchcapable = false;  // desktop devices with touch screen support
+    this.istouchcapable = true;  // desktop devices with touch screen support
     
 //## Check Chrome desktop with touch support
     if (cap.cantouch&&cap.ischrome&&!cap.isios&&!cap.isandroid) {
@@ -347,7 +347,7 @@
 
     if (!self.opt.enablemouselockapi) {
       cap.hasmousecapture = true;
-      cap.haspointerlock = true;
+      cap.haspointerlock = false;
     }
     
     this.delayed = function(name,fn,tm,lazy) {
