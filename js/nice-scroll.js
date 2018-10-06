@@ -113,7 +113,7 @@ e(this):c.doc,k=new N(c,e(this)),e(this).data("__nicescroll",k));h.push(k)});ret
 
 
 
-$(".detail").niceScroll({
+$(".body").niceScroll({
                 cursorcolor: "#4285b0",
                 cursoropacitymin: 0.3,
                 background: "#cedbec",
@@ -124,7 +124,7 @@ $(".detail").niceScroll({
     
 
     
-    $(".detail").getNiceScroll().resize();
+    $(".body").getNiceScroll().resize();
     $("html").mouseover(function() {
-        $(".detail").getNiceScroll().resize();
+        $(".body").getNiceScroll().resize();
     });
