@@ -67,7 +67,7 @@
       dblclickzoom:true,
       gesturezoom:true,
       grabcursorenabled:true,
-      autohidemode:true,
+      autohidemode:false,
       background:"",
       iframeautoresize:true,
       cursorminheight:32,
