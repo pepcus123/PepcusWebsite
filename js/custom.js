@@ -2,11 +2,7 @@ $(document).ready(function(e) {
     $(window).load(function () {
         $('.loading').hide();
     });
-    $("html").niceScroll({
-        cursorcolor:"#c54041",
-        cursorborder:"0",
-        cursorwidth:"8px"
-    });
+   
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
@@ -33,6 +29,7 @@ $(document).ready(function(e) {
   });
     
 });
+
 
 
   

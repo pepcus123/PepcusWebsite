@@ -1396,6 +1396,11 @@ a.social-icon:hover {
         background-repeat: no-repeat;
         background-size: contain
     }
+      .nicescroll-cursors {
+       border: none !important;
+       /* background-color: #000 !important; */
+       /* border-radius: 0 !important; */
+     }
     .general-img {
         min-height: 300px;
     }
