@@ -632,10 +632,13 @@
 				</div>
 	</footer>
 	<!-- footer section ends -->
+
 	<!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
 	<script src = "js/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery.slimscroll.js"></script> -->
+	<!-- <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script> -->
 	<script src = "js/jquery.nicescroll.min.js"></script>
-
+	<script async src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js" integrity="sha256-Yut1YAlvRzggjdRiTu+X56CcayNzkjwk3p34ZZL0WHk=" crossorigin="anonymous"></script>
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
@@ -655,38 +658,36 @@
 				zindex:"2000",
 	      		cursoropacitymin:0,
       			cursoropacitymax:1,
-      			scrollspeed:60,
-      			mousescrollstep:8*3,
+      			scrollspeed:40,
+      			mousescrollstep:8*4,
       			cursorwidth:"8px",
       			cursorcolor:"#c54041",
       			smoothscroll:true,
       			autohidemode: false,
       			cursorborder:"0",
-      			preservenativescrolling:true,
-			      railoffset:false,
-			      bouncescroll:false,
-			      touchbehavior:false,
-			      sensitiverail:true,
-      			enablemouselockapi:true,
-      			 spacebarenabled:true,
-			      railpadding:{top:0,right:0,left:0,bottom:0},
-			      disableoutline:true,
-			      horizrailenabled:true,
-			      railalign:"right",
-			      railvalign:"bottom",
-			      enabletranslate3d:true,
-			      overflowx:true,
-			      overflowy:true,
-			      cursordragspeed:0.3,
-			      rtlmode:false,
-			      cursordragontouch:false
+      			// touchbehavior: true,
+      			// cursordragontouch: true,
+      			usetransition:false, 
+      			hwacceleration:true,
+      			// touchpadSupport: true
+      			// easing: 'easeOutCircle',
+      			 // mousewheel: true,
+      			 // grabcursorenabled:true
+      			
       			
 	            });
-
-	            $("body").getNiceScroll().resize();
-				    $("body").mouseover(function() {
-				        $("body").getNiceScroll().resize();
-				    });
+	   			// SmoothScroll({ touchpadSupport: true });
+	   			// window.SmoothScrollOptions = { animationTime: 400,touchpadSupport: true };
+	            // $("body").getNiceScroll().resize();
+				     $('body').scroll(function()
+					{
+						$('body').niceScroll().resize();
+						if($('body').getNiceScroll()[0].cursorfreezed)
+						{
+							$('body').getNiceScroll()[0].cursorfreezed = false;
+						}
+					});
+    
 
 	            
 	   //          $(".nicescroll-rails").css({
