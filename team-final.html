@@ -655,6 +655,8 @@
 				zindex:"2000",
 	      		cursoropacitymin:0,
       			cursoropacitymax:1,
+      			scrollspeed:60,
+      			mousescrollstep:8*3,
       			cursorwidth:"8px",
       			cursorcolor:"#c54041",
       			smoothscroll:true,
@@ -662,7 +664,7 @@
       			cursorborder:"0",
       			preservenativescrolling:true,
 			      railoffset:false,
-			      bouncescroll:true,
+			      bouncescroll:false,
 			      touchbehavior:false,
 			      sensitiverail:true,
       			enablemouselockapi:true,
@@ -681,7 +683,10 @@
       			
 	            });
 
-
+	            $("body").getNiceScroll().resize();
+				    $("body").mouseover(function() {
+				        $("body").getNiceScroll().resize();
+				    });
 
 	            
 	   //          $(".nicescroll-rails").css({
