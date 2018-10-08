@@ -335,6 +335,9 @@ div#demo>a>h4 {
 
 .team-container:hover {
     transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    -ms-transform: scale(1.02);
 }
 
 .image-container {
@@ -356,7 +359,8 @@ div#demo>a>h4 {
     opacity: 0;
     border-radius: 7%;
     transition: .5s ease;
-    background-color: #710404d1;
+    /* background-color: #710404d1; */
+    background-color: rgba(142, 2, 2, 0.86);
 }
 
 .team-container:hover .overlay {
