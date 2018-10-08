@@ -1131,6 +1131,7 @@ h1.loader-pepcus:before {
 }
 
 .header-menu.change-height .navbar-brand {
+    /* position: absolute; */
     height: 50px;
     margin-top: 4px;
     overflow: hidden;
@@ -1709,6 +1710,7 @@ a.social-icon:hover {
     .xs-block {
         display: block;
     }
+   
     .col-sm-2 {
         display: block;
     }
@@ -1731,7 +1733,7 @@ a.social-icon:hover {
         background-image: none;
     }
     .scroll-top-section {
-        display: none;
+        display: block;
     }
     .change-height .navbar-nav>li>a,
     .navbar-nav>li>a {
