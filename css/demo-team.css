@@ -1383,7 +1383,7 @@ a.social-icon:hover {
         overflow-y: auto!important;
     } */
     body {
-        /* cursor: default!important; */
+        cursor: grab;
         /* overflow: auto !important; */
         /* cursor: default!important; */
         /* touch-action: pan-down !important; */
