@@ -33,7 +33,7 @@ ul {
     font: inherit;
     vertical-align: baseline;
 }
-::-webkit-scrollbar { 
+/* ::-webkit-scrollbar { 
     display: none !important; 
     color: white;
      background: white !important;
@@ -47,7 +47,7 @@ ul {
 }
 body {
     -webkit-overflow-scrolling: touch;    
-}
+} */
 footer,
 header,
 menu,
