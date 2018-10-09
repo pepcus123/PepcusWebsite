@@ -1604,16 +1604,8 @@ a.social-icon:hover {
     .service-content-kapilesh {
         height: 525px;
     }
-    .team-container:hover .image-container .background-image.hover {
-        opacity: 0;
-        cursor: pointer;
-        border-top-right-radius: 61px;
-    }
-    .image-container:hover .background-image.hover {
-        opacity: 1;
-        cursor: pointer;
-        border-top-right-radius: 61px;
-    }
+  
+   
 }
 
 @media (max-width:768px) {
