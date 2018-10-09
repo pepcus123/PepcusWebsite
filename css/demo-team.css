@@ -1063,7 +1063,8 @@ h1.loader-pepcus:before {
     width: 20px;
     height: 30px;
     position: fixed;
-    bottom: 50px;
+    /* bottom: 50px; */
+    bottom: 0px;
     right: 100px;
     text-align: center;
     display: none;
