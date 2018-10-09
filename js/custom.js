@@ -32,17 +32,17 @@ $(document).ready(function(e) {
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
     $("*").css({"cursor":"pointer"});
     }
-     $('.image-container').on('touchstart', function(e) {
-        e.preventDefault();
-         // If event is 'touchend' then...
-            if (e.type == 'touchstart') {
-                // Ensuring we event prevent default in all major browsers
-                  $(this).toggleClass('.hover');
-                e.preventDefault ? e.preventDefault() : e.returnValue = false;
+    //  $('.image-container').on('touchstart touchend', function(e) {
+    //     e.preventDefault();
+    //      // If event is 'touchend' then...
+    //         if (e.type == 'touchend') {
+    //             // Ensuring we event prevent default in all major browsers
+                 
+    //             e.preventDefault ? e.preventDefault() : e.returnValue = false;
 
-            }
-       
-    });
+    //         }
+    //     $(this).toggleClass('.hover');
+    // });
      $('.team-container').on('click', function(e) {
         e.preventDefault();
         $(this).toggleClass('.hover');
