@@ -41,6 +41,10 @@ $(document).ready(function(e) {
     //         }
     //     $(this).toggleClass('.hover');
     // });
+     $('.team-container').on('click', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('.hover');
+    });
     
 });
 
