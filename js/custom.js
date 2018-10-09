@@ -32,7 +32,7 @@ $(document).ready(function(e) {
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
     $("*").css({"cursor":"pointer"});
     }
-     $('.team-container').on('touchstart touchend', function(e) {
+     $('.image-container').on('touchstart touchend', function(e) {
         e.preventDefault();
          // If event is 'touchend' then...
             if (e.type == 'touchend') {
