@@ -366,6 +366,7 @@ div#demo>a>h4 {
 
 .team-container:hover .overlay {
     opacity: 1;
+    cursor: pointer;
 }
 
 .image-container1 {
@@ -460,6 +461,7 @@ div#demo>a>h4 {
 
 .team-container:hover .image-container .background-image.hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .team-container1 {
@@ -470,6 +472,7 @@ div#demo>a>h4 {
 
 .team-container1:hover .image-container .background-image.hover {
     opacity: 1;
+    cursor: pointer;
     border-top-right-radius: 61px;
 }
 
@@ -482,6 +485,7 @@ div#demo>a>h4 {
 
 .team-container2:hover .image-container .background-image.hover {
     opacity: 1;
+    cursor: pointer;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
