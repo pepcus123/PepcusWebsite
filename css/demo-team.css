@@ -335,6 +335,7 @@ div#demo>a>h4 {
 
 .team-container:hover {
     transform: scale(1.02);
+    cursor: pointer;
     -webkit-transform: scale(1.02);
     -o-transform: scale(1.02);
     -ms-transform: scale(1.02);
@@ -1366,7 +1367,7 @@ a.social-icon:hover {
     ::scrollbar-thumb {
         background: white !important; 
     } */
-    body::-webkit-scrollbar {
+/*     body::-webkit-scrollbar {
     width: 1em;
     }
      
@@ -1380,7 +1381,7 @@ a.social-icon:hover {
     }
     html {
         overflow-y: auto!important;
-    }
+    } */
     body {
         /* cursor: default!important; */
         /* overflow: auto !important; */
@@ -2061,7 +2062,46 @@ a.social-icon:hover {
         height: 828px;
     }
 }
-
+@media(max-width: 700px){
+    .image-container {
+        height: 466px;
+    }
+    .image-container-small {
+        /* height: 295px; */
+        height: 309px;
+    }
+    
+    .font-size-16 {
+        font-size: 23px;
+    }
+    .service-content-row1 {
+        height: 610px;
+    }
+    .service-content-block2 {
+        height: 488px;
+    }
+    .service-content-block3 {
+        height: 488px;
+    }
+    .service-content-row2 {
+        height: 495px;
+    }
+    .service-content-kapilesh {
+        height: 449px;
+    }
+    .service-content-administrativeHead {
+        height: 440px;
+    }
+    .service-content-block-HR {
+        height: 474px;
+    }
+    .image-container .background-image {
+        border-radius: 5%;
+    }
+    .footer-image {
+        padding-bottom: 59%;
+    }
+}
 @media (max-width:668px) {
     .font-size-16 {
         font-size: 22px;
@@ -2082,7 +2122,8 @@ a.social-icon:hover {
         padding: 25px 0;
     }
     .image-container {
-        height: 390px;
+        /* height: 390px; */
+        height: 440px;
     }
     .services-section-head{
             padding-bottom: 14px;
