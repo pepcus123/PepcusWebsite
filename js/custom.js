@@ -32,7 +32,7 @@ $(document).ready(function(e) {
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
     $("*").css({"cursor":"pointer"});
     }
-     $('.image-container').on('touchstart touchend', function(e) {
+     $('.image-container').on('touchstart', function(e) {
         e.preventDefault();
          // If event is 'touchend' then...
             if (e.type == 'touchstart') {
@@ -43,10 +43,10 @@ $(document).ready(function(e) {
             }
        
     });
-    //  $('.team-container').on('click', function(e) {
-    //     e.preventDefault();
-    //     $(this).toggleClass('.hover');
-    // });
+     $('.team-container').on('click', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('.hover');
+    });
     
 });
 
