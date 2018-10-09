@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
     <!-- Demo css -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
     <link rel="stylesheet" href="css/demo-team.css">
     <link rel="stylesheet" href="css/carouseller.css">
 
@@ -559,8 +560,10 @@
 	<!-- collage section image ends -->
 	<!-- scroll section begins -->
 	<section>
-	    <div class="scroll-top-section">
-	        <a href="#" class="scrollup"><i class="fa fa-arrow-up arrow-up-icon" aria-hidden="true"></i></a>
+	    <div class="scroll-top-section wow fadeIn">
+	        <a href="#" class="scrollup">
+	        	<i class="fa fa-arrow-up arrow-up-icon" aria-hidden="true"></i>
+	        </a>
 	    </div>
 	</section>
 	<!-- scroll section ends -->
@@ -639,35 +642,37 @@
 	<script src = "js/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/carouseller.js"></script>
+	<!-- <script src = "js/wow.min.js"></script> -->
 	<script src = "js/custom.js"></script>
 	<!-- <script src = "js/hoverontouch.js"></script> -->
 	<!-- <script src = "js/nice-scroll.js"></script> -->
 	<script type="text/javascript">
+		// new WOW().init();
 	    $(function() {
 	        $(document).ready(function () {
 	            $(window).load(function () {
 	                $('.loading').hide();
 	            });
 	 
-	            $(window).scroll(function () {
-	                if ($(this).scrollTop() > 100) {
-	                    $('.scrollup').fadeIn();
-	                    $('.header-menu').addClass("change-height");
-	                } else {
-	                    $('.scrollup').fadeOut();
-	                    $('.header-menu').removeClass("change-height");
-	                }
-	            });
-	            $('.scrollup').click(function () {
-	                $("html, body").animate({
-	                    scrollTop: 0
-	                }, 600);
-	                return false;
-	            });
+	            // $(window).scroll(function () {
+	            //     if ($(this).scrollTop() > 100) {
+	            //         $('.scrollup').fadeIn();
+	            //         $('.header-menu').addClass("change-height");
+	            //     } else {
+	            //         $('.scrollup').fadeOut();
+	            //         $('.header-menu').removeClass("change-height");
+	            //     }
+	            // });
+	            // $('.scrollup').click(function () {
+	            //     $("html, body").animate({
+	            //         scrollTop: 0
+	            //     }, 600);
+	            //     return false;
+	            // });
 	        });
 	    });
 	   
-
+	    
 	</script>
 </body>
 </html>
