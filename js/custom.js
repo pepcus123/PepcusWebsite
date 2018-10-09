@@ -34,6 +34,11 @@ $(document).ready(function(e) {
     }
      $('.team-container').on('touchstart touchend', function(e) {
         e.preventDefault();
+         // If event is 'touchend' then...
+            if (e.type == 'touchend') {
+                // Ensuring we event prevent default in all major browsers
+                e.preventDefault ? e.preventDefault() : e.returnValue = false;
+            }
         $(this).toggleClass('.hover');
     });
     
