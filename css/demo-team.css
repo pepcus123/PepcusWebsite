@@ -358,6 +358,7 @@ div#demo>a>h4 {
     height: 100%;
     width: 100%;
     opacity: 0;
+    cursor: pointer;
     border-radius: 7%;
     transition: .5s ease;
     /* background-color: #710404d1; */
@@ -456,6 +457,7 @@ div#demo>a>h4 {
     transition: all .4s;
     position: absolute;
     top: 0;
+    cursor: pointer;
     opacity: 0;
 }
 
@@ -1387,7 +1389,7 @@ a.social-icon:hover {
         overflow-y: auto!important;
     } */
     body {
-        cursor: grab;
+        /* cursor: grab; */
         /* overflow: auto !important; */
         /* cursor: default!important; */
         /* touch-action: pan-down !important; */
