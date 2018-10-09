@@ -1609,6 +1609,11 @@ a.social-icon:hover {
     cursor: pointer;
     border-top-right-radius: 61px;
     }
+    .team-container1 .image-container:hover .background-image.hover {
+    opacity: 0;
+    cursor: pointer;
+    border-top-right-radius: 61px;
+    }
 }
 
 @media (max-width:768px) {
