@@ -1604,7 +1604,9 @@ a.social-icon:hover {
     .service-content-kapilesh {
         height: 525px;
     }
-  
+    .text {
+        font-size: 23em;
+    }
    
 }
 
