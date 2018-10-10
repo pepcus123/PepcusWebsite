@@ -2,15 +2,6 @@ $(document).ready(function(e) {
     $(window).load(function () {
         $('.loading').hide();
     });
-   // $(window).scroll(function () {
-   //      if ($(this).scrollTop() > 650) {
-   //          // $('.scrollup').fadeIn();
-   //           $('.scrollup').fadeIn();
-   //      } else {
-   //          $('.scrollup').fadeOut();
-   //          // $('.header-menu').removeClass("change-height");
-   //      }
-   //  });
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             // $('.scrollup').fadeIn();
@@ -22,7 +13,7 @@ $(document).ready(function(e) {
         }
     });
     $(window).scroll(function() {
-    if ($(this).scrollTop() > 4000 ) {
+    if ($(this).scrollTop() > 3000 ) {
         $('.scrollup').stop(true, true).fadeIn();
     } else {
         $('.scrollup').stop(true, true).fadeOut();
