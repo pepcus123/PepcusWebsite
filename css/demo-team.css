@@ -401,8 +401,16 @@ div#demo>a>h4 {
     border-radius: 8%;
     background-position: center;
     background-repeat: no-repeat;
+    transition: all .2s;
     -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
     transition: border .2s;
+    -webkit-transition: border .2s;
+    -moz-transition: border .2s;
+    -ms-transition: border .2s;
+    -o-transition: border .2s;
 }
 
 .background-image1 {
@@ -751,8 +759,12 @@ a.link-footer {
 
 a.link-footer:hover {
     transition: 0.3s color ease-out;
+    -webkit-transition: 0.3s color ease-out;
+    -moz-transition: 0.3s color ease-out;
+    -ms-transition: 0.3s color ease-out;
+    -o-transition: 0.3s color ease-out;
     color: #c54041;
-    font-weight: 700;
+    font-weight: 600;
 }
 .pepcus-services li:nth-child(1) a.link-footer:hover{
     transition: 0.2s border ease-in-out;
@@ -772,6 +784,10 @@ a.link-footer:hover {
 .footer-desc-link a:hover {
     color: #c71111;
     transition: .2s all;
+    -webkit-transition: .2s all;
+    -moz-transition: .2s all;
+    -ms-transition: .2s all;
+    -o-transition: .2s all;
     font-weight: 700;
 }
 
@@ -934,6 +950,10 @@ footer {
     opacity: 1;
     left: 50%;
     transition: .4s left;
+    -webkit-transition: .4s left;
+    -moz-transition: .4s left;
+    -ms-transition: .4s left;
+    -o-transition: .4s left;
 }
 
 .white-shadow {
@@ -1268,7 +1288,15 @@ a.social-icon:hover {
     border-radius: 50%;
     margin-right: 4px;
     background: linear-gradient(to left, #524f4f, #a29494);
+    background: -webkit-linear-gradient(left, #524f4f, #a29494);
+    background: -moz-linear-gradient(left, #524f4f, #a29494);
+    background: -ms-linear-gradient(left, #524f4f, #a29494);
+    background: -o-linear-gradient(left, #524f4f, #a29494);
     transition: .2s all;
+    -webkit-transition: .2s all;
+    -moz-transition: .2s all;
+    -ms-transition: .2s all;
+    -o-transition: .2s all;
 }
 
 .footer-social li:nth-child(1) {
@@ -1313,8 +1341,18 @@ a.social-icon:hover {
 }
 
 .footer-social li:nth-child(5):hover {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background:  linear-gradient(52deg, #df8f3d 0%,#e1744e 25%,#d60e4f 50%,#cc1271 75%,#0b3eb1 100%);
+    background:  -webkit-linear-gradient(52deg, #df8f3d 0%,#e1744e 25%,#d60e4f 50%,#cc1271 75%,#0b3eb1 100%);
+    background:  -moz-linear-gradient(52deg, #df8f3d 0%,#e1744e 25%,#d60e4f 50%,#cc1271 75%,#0b3eb1 100%);
+    background:  -ms-linear-gradient(52deg, #df8f3d 0%,#e1744e 25%,#d60e4f 50%,#cc1271 75%,#0b3eb1 100%);
+    background:  -o-linear-gradient(52deg, #df8f3d 0%,#e1744e 25%,#d60e4f 50%,#cc1271 75%,#0b3eb1 100%);
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); */
+    /* background: -webkit-radial-gradient(circle farthest-corner at 35% 90%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%); */
     transition: .2s background;
+    -webkit-transition: .2s background;
+    -moz-transition: .2s background;
+    -ms-transition: .2s background;
+    -o-transition: .2s background;
 }
 
 .footer-social li a i {
