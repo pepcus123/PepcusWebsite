@@ -580,7 +580,7 @@ div#demo>a>h4 {
 }
 
 .flex-center {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
