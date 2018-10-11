@@ -50,7 +50,7 @@ display: flex;
 }
 .general-team {
     min-height: 415px;
-    background-image: url(../images/parallex/life2.jpg);
+    background-image: url(../images/parallex/life5.jpg);
     background-size: cover;
     position: relative;
     width: 100%;
@@ -65,7 +65,7 @@ display: flex;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(96, 5, 5, 0.72);
+    background: rgba(165, 35, 35, 0.76);
 }
 .pepcus-general::before{
     content: '';
@@ -194,7 +194,25 @@ display: flex;
 .pepcus-gallery-head h2{
         font-size: 2.5em;
         font-weight: bold;
-        color: #5a5555;
+        color: #494747;
+}
+.pepcus-gallery-content h2{
+    position: relative;
+    border-bottom: 2px solid white;
+}
+.pepcus-gallery-content h2::after{
+    content: '';
+    position: absolute;
+    border-bottom: 6px solid #de3434;
+    /* border-bottom: think double red; */
+    /* border-bottom: 3px thick double red; */
+    left: 50%;
+    /* border-bottom: 6px solid red; */
+    top: 76%;
+    height: 70px;
+    width: 8%;
+    transform: translateX(-50%)translateY(-50%);
+
 }
 
 .btn-default{
@@ -210,6 +228,7 @@ display: flex;
     font-weight: 650;
     margin-top: 30px;
     transition: 0.2s all;
+    border-color: white;
     /* border: 0.5px solid #c14848; */
     font-size: 17px;
 }

@@ -1401,6 +1401,7 @@ a.social-icon:hover {
     .scrollup {
         right: 10px;
     }
+    /* height: 608px; */
 
     /* ::-webkit-scrollbar { 
     display: none !important; 
@@ -1454,7 +1455,8 @@ a.social-icon:hover {
         width: 95%;
     }
     .service-content-block3 {
-        height: 540px
+        /* height: 540px */
+        height: 608px;
     }
     .col-sm-2 {
         display: block;
