@@ -1755,6 +1755,12 @@ a.social-icon:hover {
     .text {
         font-size: 17em;
     }
+    .service-content-row1 {
+        height: 920px;
+    }
+    .service-content-block3 {
+        height: 702px;
+    }
 }
 
 @media (max-width:768px) {
