@@ -1509,7 +1509,9 @@ a.social-icon:hover {
     .col-sm-2 {
         display: block;
     }
-
+    .service-content-row3 {
+        height: 494px;
+    }
   
     /* .service-content-row1 {
         height: 924px;
