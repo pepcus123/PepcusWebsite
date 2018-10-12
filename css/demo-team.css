@@ -2184,6 +2184,9 @@ a.social-icon:hover {
     .service-content-row4 {
         height: 273px;
     }
+    .font-size-25 {
+        font-size: 22px;
+    }
 }
 
 @media (max-width:480px) {
