@@ -2181,6 +2181,9 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 81%;
     }
+    .service-content-row4 {
+        height: 273px;
+    }
 }
 
 @media (max-width:480px) {
