@@ -1509,7 +1509,7 @@ a.social-icon:hover {
     .col-sm-2 {
         display: block;
     }
-   
+
   
     /* .service-content-row1 {
         height: 924px;
@@ -1577,7 +1577,8 @@ a.social-icon:hover {
     }
     .service-content-row2 {
         /* height: 924px; */
-        height: 707px;
+        /* height: 707px; */
+            height: 816px;
     }
    
     .navbar-nav>li:nth-child(5) a {
