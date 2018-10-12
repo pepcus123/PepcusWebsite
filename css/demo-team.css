@@ -1509,10 +1509,31 @@ a.social-icon:hover {
     .col-sm-2 {
         display: block;
     }
+   
   
     /* .service-content-row1 {
         height: 924px;
     } */
+}
+@media(max-width: 1040px){
+
+    .font-size-14 {
+        font-size: 13px;
+        padding-top: 16px;
+    }
+    .image-container-small {
+        height: 217px;
+    }
+    .service-content-row4 {
+        height: 207px;
+    }
+    .col-sm-2 {
+        display: none;
+    }
+    .font-size-14 {
+        font-size: 14px;
+        padding-top: 20px;
+    }
 }
 @media only screen and (max-width:1024px) {
     .xs-padding-50-20 {
@@ -1545,7 +1566,7 @@ a.social-icon:hover {
     .service-content-row1 {
         /* height: 647px; */
         /* height: 1205px; */
-        /* height: 927px; */
+        height: 927px;
     }
     .service-content-block3 {
         /* height: 652px; */
@@ -1560,7 +1581,7 @@ a.social-icon:hover {
     }
    
     .navbar-nav>li:nth-child(5) a {
-        margin-left: 34px;
+        /* margin-left: 34px; */
     }
     .padding-08-25 {
         padding: 22px 25px;
@@ -1581,7 +1602,7 @@ a.social-icon:hover {
          padding: 18px 20px;
     }
     .font-size-14 {
-        font-size: 21px;
+        font-size: 17px;
         padding-top: 20px;
     }
     .service-content-row3 {
@@ -1591,38 +1612,25 @@ a.social-icon:hover {
       .service-content-block3 {
         height: 707px;
     }
-    .image-container-small {
-        height: 253px;
-    }
+   
     .image-container {
         height: 334px;
         /* border: 0px solid #FFFDFD; */
+    }
+     .image-container-small {
+        height: 220px;
     }
     /* .service-content-row1 {
         height: 663px;
     } */
     .service-content-block3 {
         /* height: 540px; */
-        height: 664px;
+        /* height: 664px; */
+        height: 933px;
     }
     
 }
-@media(max-width: 1040px){
 
-    .font-size-14 {
-        font-size: 13px;
-        padding-top: 16px;
-    }
-    .image-container-small {
-        height: 217px;
-    }
-    .service-content-row4 {
-        height: 207px;
-    }
-    .col-sm-2 {
-        display: none;
-    }
-}
 @media (max-width:940px) {
     .footer-image {
         padding-bottom: 53%;
@@ -1633,7 +1641,9 @@ a.social-icon:hover {
     .col-sm-2 {
         display: block;
     }
-
+       .navbar-nav>li:nth-child(5) a {
+        margin-left: 34px;
+    }
    
 }
 
@@ -1675,7 +1685,7 @@ a.social-icon:hover {
         padding-top: 204px;
     }
     .general-team {
-        min-height: 451px;
+        min-height: 433px;
     }
 }
 
@@ -1750,7 +1760,7 @@ a.social-icon:hover {
         font-size: 27px;
     }
     .weight-300-height-16 {
-        font-size: 22px;
+        font-size: 20px;
     }
     .text {
         font-size: 17em;
@@ -1759,10 +1769,15 @@ a.social-icon:hover {
         height: 920px;
     }
     .service-content-block3 {
-        height: 702px;
+        /* height: 702px; */
+            height: 815px;
     }
 }
-
+/* @media(max-width: 786px){
+    .service-content-row1 {
+        height: 1097px;
+    }
+} */
 @media (max-width:768px) {
     .xs-block {
         display: block;
