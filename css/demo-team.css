@@ -2187,6 +2187,9 @@ a.social-icon:hover {
     .font-size-25 {
         font-size: 22px;
     }
+    .image-container-small {
+        height: 222px;
+    }
 }
 
 @media (max-width:480px) {
