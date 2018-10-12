@@ -1519,7 +1519,10 @@ a.social-icon:hover {
     .service-content-row3 {
         height: 494px;
     }
-  
+    .footer-content {
+        color: #fff;
+        padding-top: 174px;
+    }
     /* .service-content-row1 {
         height: 924px;
     } */
@@ -2551,11 +2554,17 @@ a.social-icon:hover {
         height: 311px;
     }
     .footer-content {
-        padding-top: 173px;
+        /* padding-top: 173px; */
+            padding-top: 211px;
     }
     
 }
-
+@media(max-width: 430px){
+    .footer-content {
+        padding-top: 173px;
+            /* padding-top: 211px; */
+    }
+}
 @media (max-width:360px) {
     .footer-image {
         padding-bottom: 128%;
