@@ -2114,16 +2114,7 @@ a.social-icon:hover {
         padding-bottom: 59%;
     }
 }
-@media (max-width:600px) {
-    .footer-image {
-        padding-bottom: 67%;
-    }
-    .image-container {
-        height: 390px;
-    }
 
-
-}
 
 @media (max-width:680px) {
     .footer-content {
@@ -2176,7 +2167,16 @@ a.social-icon:hover {
     height: 603px;
 }
 }
+@media (max-width:600px) {
+    .footer-image {
+        padding-bottom: 67%;
+    }
+    .image-container {
+        height: 390px;
+    }
 
+
+}
 @media (max-width:530px) {
     .footer-image {
         padding-bottom: 81%;
@@ -2189,6 +2189,9 @@ a.social-icon:hover {
     }
     .image-container-small {
         height: 222px;
+    }
+    .service-content-block-HR {
+        height: 637px;
     }
 }
 
@@ -2324,7 +2327,7 @@ a.social-icon:hover {
         height: 600px;
     }
     .service-content-block-HR {
-        height: 579px;
+        height: 629px;
     }
     a.link-footer {
         font-size: 20px;
