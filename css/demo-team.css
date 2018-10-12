@@ -162,7 +162,7 @@ ul {
 body {
     font-family: Roboto, sans-serif;
     font-size: 13px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .link-footer-services {

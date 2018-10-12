@@ -203,13 +203,10 @@ display: flex;
 .pepcus-gallery-content h2::after{
     content: '';
     position: absolute;
-    border-bottom: 6px solid #de3434;
-    /* border-bottom: think double red; */
-    /* border-bottom: 3px thick double red; */
+    border-bottom: 5px solid #de3434;
     left: 50%;
-    /* border-bottom: 6px solid red; */
-    top: 76%;
-    height: 70px;
+    top: 50%;
+    height: 116px;
     width: 8%;
     transform: translateX(-50%)translateY(-50%);
 
@@ -229,18 +226,82 @@ display: flex;
     margin-top: 30px;
     transition: 0.2s all;
     border-color: white;
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
     /* border: 0.5px solid #c14848; */
     font-size: 17px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+ 
+  /* background: rgba(0,0,0,0.09); */
+}
+span{
+  display: block;
+  /* padding: 25px 80px; */
+}
+.btn-hover::before, .btn-hover::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #c14848 !important;
+}
+span::before, span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #c14848;
+}
+.btn-hover:hover::before, .btn-hover:hover::after{
+  width: 100%;
+}
+.btn-hover:hover span::before, .btn-hover:hover span::after{
+  height: 100%;
+}
+.btn-hover::before, .btn-hover::after{
+  transition-delay: 0s;
+}
+.btn-hover span::before, .btn-hover span::after{
+  transition-delay: 0.2s;
+}
+.btn-hover::before{
+  right: 0;
+  top: 0;
+}
+.btn-hover::after{
+  left: 0;
+  bottom: 0;
+}
+.btn-hover span::before{
+  left: 0;
+  top: 0;
+}
+.btn-hover span::after{
+  right: 0;
+  bottom: 0;
+}
+.btn-hover:hover::before, .btn-hover:hover::after{
+  transition-delay: 0.2s;
+}
+.btn-hover:hover span::before, .btn-hover:hover span::after{
+  transition-delay: 0s;
 }
 .btn-default:hover{
-    background-color: #d85151  !important;
-    color: white !important;
     font-weight: bold;
+    border-color: #c14848 !important;
     /* font-size: 14px; */
 }
 .btn-default:active .filter-button:active{
     color: white !important;
 }
+
 .gallery_product{
     margin-right: -13px;
     margin-top: 18px;
@@ -254,14 +315,12 @@ display: flex;
   width: 8.33333%;
 }
 .current{
-    background-color: #d85151  !important;
-    color: white !important;
-    border: 1px solid #d85151 ;
+    /* background-color: #d85151  !important; */
+    /* color: white !important; */
+    border: 2px solid #d85151 ;
     transition: 0.2s all;
 }
-.current::after{
-    content: none;
-}
+
 .p-bottom-20{
        padding: 30px 0px;
 }

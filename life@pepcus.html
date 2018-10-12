@@ -124,13 +124,13 @@
 					<h2>The only way to do great work is to love what you do... So we do..</h2>
 				</div>
 				<div align = "center" class = "col-lg-10 col-md-10 col-sm-12 col-xs-12 pepcus-gallery-head portfolioFilter p-bottom-20">
-					<a class = "btn btn-default" id = "all">All</a>
-					<a class = "btn btn-default" id = "goa">Goa Trip</a>
-					<a class = "btn btn-default" id = "independence">Independence day</a>
-					<a class = "btn btn-default" id = "diwali">Diwali</a>
-					<a class = "btn btn-default" id = "fun">Fun</a>
-					<a class = "btn btn-default" id = "seminar">Seminar</a>
-					<a class = "btn btn-default" id = "office">Office Discussions</a>
+					<a class = "btn btn-default btn-hover" id = "all"><span>All</span></a>
+					<a class = "btn btn-default btn-hover" id = "goa"><span>Goa Trip</span></a>
+					<a class = "btn btn-default btn-hover" id = "independence"><span>Independence day</span></a>
+					<a class = "btn btn-default btn-hover" id = "diwali"><span>Diwali</span></a>
+					<a class = "btn btn-default btn-hover" id = "fun"><span>Fun</span></a>
+					<a class = "btn btn-default btn-hover" id = "seminar"><span>Seminar</span></a>
+					<a class = "btn btn-default btn-hover" id = "office"><span>Office Discussions</span></a>
 				</div>
 			</div>
 			<div class="row my-shuffle-container">
@@ -240,6 +240,17 @@
 	                }, 600);
 	                return false;
 	            });
+	            $(".btn-default").click(function () {
+					$(this).addClass("current");
+				    $(this).removeClass("btn-hover");
+				});
+				$(".btn-default").hover(function (){
+					if(!$(this).hasClass('current'))
+					{
+						$(this).addClass("btn-hover");
+					}
+				    // $(this).addClass("btn-hover");
+				});
 	        });
 
 	    });

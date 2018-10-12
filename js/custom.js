@@ -36,7 +36,7 @@ $(document).ready(function(e) {
     }, 1000 );
   });
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
-    $("*").css({"cursor":"pointer"});
+    $(".team-container").css({"cursor":"pointer"});
     }
     //  $('.image-container').on('touchstart touchend', function(e) {
     //     e.preventDefault();
