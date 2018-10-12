@@ -1629,6 +1629,9 @@ a.social-icon:hover {
         /* height: 664px; */
         height: 933px;
     }
+    .col-sm-2 {
+        display: block;
+    }
     
 }
 
