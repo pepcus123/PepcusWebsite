@@ -2229,6 +2229,9 @@ a.social-icon:hover {
     .service-content-block-HR {
         height: 637px;
     }
+    .service-content-sumedha {
+    height: 657px;
+    }
 }
 
 @media (max-width:480px) {
