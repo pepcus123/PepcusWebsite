@@ -1496,6 +1496,9 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 41%;
     }
+    .service-content-row3 {
+        height: 455px;
+    }
 }
 
 .navbar-nav>li:nth-child(5) a {
