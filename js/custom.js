@@ -3,7 +3,7 @@ $(document).ready(function(e) {
         $('.loading').hide();
     });
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 90) {
             // $('.scrollup').fadeIn();
             // $('.scrollup').fadeIn();
             $('.header-menu').addClass("change-height");
