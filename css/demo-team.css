@@ -1494,10 +1494,14 @@ a.social-icon:hover {
         min-height: 400px;
     }
     .footer-image {
-        padding-bottom: 41%;
+        padding-bottom: 45%;
     }
     .service-content-row3 {
         height: 488px;
+    }
+    .footer-content {
+    color: #fff;
+    padding-top: 206px;
     }
 }
 
@@ -1729,35 +1733,38 @@ a.social-icon:hover {
 
 @media (max-width:783px) {
     .footer-image {
-        padding-bottom: 64%;
+        padding-bottom: 60%;
     }
     .service-content-row1 {
-        height: 624px;
+           height: 795px;
     }
     .service-content-block3 {
-        height: 476px;
+        height: 811px;
     }
     .service-content-block2 {
-        height: 625px;
+        height: 795px;
     }
     .service-content-administrativeHead {
-        height: 455px;
+            height: 845px;
     }
     .service-content-sumedha {
-        height: 526px;
+        height: 626px;
     }
     .service-content-kapilesh {
-        height: 525px;
+        height: 625px;
     }
     .text {
         font-size: 23em;
+    }
+    .font-size-14 {
+        font-size: 18px;
     }
    
 }
 
 @media (max-width:768px) {
     .footer-image {
-        padding-bottom: 57%;
+        padding-bottom: 60%;
     }
     .general-team {
         min-height: 391px;
@@ -2208,7 +2215,7 @@ a.social-icon:hover {
         font-size: 22px;
     }
     .font-size-14 {
-        font-size: 21px;
+        font-size: 20px;
     }
     .service-content-row4 {
         height: 232px;
@@ -2288,7 +2295,7 @@ a.social-icon:hover {
 }
 @media (max-width:600px) {
     .footer-image {
-        padding-bottom: 67%;
+            padding-bottom: 76%;
     }
     .image-container {
         height: 390px;
@@ -2301,7 +2308,7 @@ a.social-icon:hover {
 }
 @media(max-width: 570px){
     .footer-content {
-        padding-top: 143px;
+            padding-top: 193px;
     }
     .footer-image {
         padding-bottom: 88%;
@@ -2318,7 +2325,7 @@ a.social-icon:hover {
 }
 @media (max-width:530px) {
     .footer-image {
-        padding-bottom: 81%;
+        padding-bottom: 86%;
     }
     .service-content-row4 {
         height: 273px;
@@ -2332,6 +2339,7 @@ a.social-icon:hover {
     .service-content-block-HR {
         height: 637px;
     }
+
     
 }
 
@@ -2390,6 +2398,7 @@ a.social-icon:hover {
     .font-size-16 {
         font-size: 18px;
     }
+    
     
 }
 
@@ -2453,7 +2462,7 @@ a.social-icon:hover {
         padding-top: 167px;
     }
     .footer-image {
-        padding-bottom: 88%;
+        padding-bottom: 93%;
     }
     
 }
@@ -2463,7 +2472,7 @@ a.social-icon:hover {
         width: 100%;
     }
     .footer-image {
-        padding-bottom: 110%;
+        padding-bottom: 115%;
     }
     .font-size-50 {
         font-size: 30px;
@@ -2633,7 +2642,7 @@ a.social-icon:hover {
         height: 667px;
     }
     .footer-content {
-        padding-top: 207px;
+        padding-top: 173px;
     }
     .service-content-block2 {
         /* height: 519px; */
