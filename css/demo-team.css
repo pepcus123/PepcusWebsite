@@ -2254,6 +2254,9 @@ a.social-icon:hover {
     .image-container-small {
         height: 295px;
     }
+    /* .footer-content {
+    padding-top: 160px;
+    } */
 }
 @media(max-width: 600px){
     .image-container-small {
@@ -2276,6 +2279,14 @@ a.social-icon:hover {
     }
     a.link-footer {
         font-size: 20px;
+    }
+    .footer-content {
+        padding-top: 178px;
+    }
+}
+@media(max-width: 570px){
+    .footer-content {
+        padding-top: 143px;
     }
 }
 @media(max-width: 480px){
@@ -2331,6 +2342,10 @@ a.social-icon:hover {
     .service-content-sumedha {
         height: 661px;
     }
+    .footer-content {
+    padding-top: 196px;
+}
+    
 }
 @media (max-width:450px) {
     .col-xs-6 {
