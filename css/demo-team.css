@@ -1741,6 +1741,9 @@ a.social-icon:hover {
     .service-content-block3 {
         height: 810px;
     }
+    .font-size-16 {
+        font-size: 21px;
+    }
 }
 @media (max-width:783px) {
     .footer-image {
@@ -2283,19 +2286,22 @@ a.social-icon:hover {
         height: 260px;
     }
     .service-content-block2 {
-        height: 611px;
+        height: 541px;
     }
     .service-content-block1 {
-        height: 773px;
+        height: 736px;
     }
     .service-content-block3 {
-        height: 644px;
+        height: 580px;
     }
     .service-content-row2 {
-        height: 600px;
+        height: 554px;
+    }
+    .service-content-kapilesh{
+        height: 576px;
     }
     .service-content-block-HR {
-        height: 629px;
+        height: 584px;
     }
     a.link-footer {
         font-size: 20px;
@@ -2306,13 +2312,16 @@ a.social-icon:hover {
 }
 @media (max-width:600px) {
     .footer-image {
-            padding-bottom: 76%;
+        padding-bottom: 76%;
     }
     .image-container {
-        height: 390px;
+        height: 415px;
+    }
+    .image-container-small {
+        height: 282px;
     }
     .service-content-sumedha {
-    height: 657px;
+        height: 620px;
     }
 
 
@@ -2502,36 +2511,36 @@ a.social-icon:hover {
     }
     .service-content-block1 {
         /* height: 668px; */
-        height: 630px;
+        height: 658px;
     }
     .service-content-block3 {
         /* height: 549px; */
-            height: 509px;
+        height: 528px;
     }
     .service-content-block2 {
         /* height: 519px; */
-        height: 495px;
+        height: 504px;
     }
     .font-size-14 {
         font-size: 16px;
     }
     .service-content-row2 {
         /* height: 477px; */
-        height: 494px;
+        height: 519px;
     }
     .service-content-sumedha {
         /* height: 477px; */
-        height: 514px;
+        height: 539px;
     }
     .service-content-kapilesh {
-        height: 440px;
+        height: 484px;
     }
     .service-content-block-HR {
-        height: 518px;
+        height: 528px;
     }
     .service-content-administrativeHead {
         /* height: 445px; */
-        height: 424px;
+        height: 438px;
     }
     .service-content-row4 {
         height: 212px;
@@ -2552,7 +2561,7 @@ a.social-icon:hover {
         font-size: 25em;
     }
     .weight-300-height-16 {
-        font-size: 15px;
+        font-size: 16px;
         padding-top: 0px;
     }
     .font-size-16 {
@@ -2572,6 +2581,28 @@ a.social-icon:hover {
         padding-top: 173px;
             /* padding-top: 211px; */
     }
+    .service-content-block-HR {
+         height: 565px;
+    }
+    .service-content-block3 {
+        /* height: 549px; */
+        height: 543px;
+    }
+    .service-content-block2 {
+        /* height: 519px; */
+        height: 518px;
+    }
+    .service-content-block1 {
+        /* height: 668px; */
+        height: 691px;
+    }
+    .service-content-kapilesh {
+         height: 493px;
+    }
+    .service-content-sumedha {
+        /* height: 477px; */
+        height: 548px;
+    }
 }
 @media (max-width:360px) {
     .footer-image {
@@ -2586,7 +2617,7 @@ a.social-icon:hover {
     }
     .service-content-row2 {
         /* height: 560px; */
-        height: 529px;
+        height: 552px;
     }
     .service-content-sumedha {
             height: 585px;
@@ -2597,7 +2628,8 @@ a.social-icon:hover {
     }
     .service-content-administrativeHead {
         /* height: 507px; */
-        height: 461px;
+        /* height: 461px; */
+        height: 476px;
     }
     .image-container {
         height: 280px;
@@ -2652,19 +2684,20 @@ a.social-icon:hover {
     }
     .service-content-block3 {
         /* height: 521px; */
-        height: 719px;
+        /* height: 719px; */
+        height: 586px;
     }
     .service-content-block1 {
         /* height: 639px; */
         /* height: 667px; */
-        height: 740px;
+        height: 699px;
     }
     .footer-content {
         padding-top: 173px;
     }
     .service-content-block2 {
         /* height: 519px; */
-        height: 520px;
+        height: 544px;
     }
 }
 
@@ -2735,7 +2768,11 @@ a.social-icon:hover {
     }
     .service-content-row2 {
         /* height: 560px; */
-        height: 484px;
+        height: 497px;
+    }
+    .service-content-kapilesh {
+        /* height: 560px; */
+        height: 468px;
     }
     .service-content-sumedha {
         height: 521px;
