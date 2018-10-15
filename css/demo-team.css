@@ -2693,7 +2693,7 @@ a.social-icon:hover {
         height: 699px;
     }
     .footer-content {
-        padding-top: 173px;
+        padding-top: 204px;
     }
     .service-content-block2 {
         /* height: 519px; */
@@ -2749,32 +2749,183 @@ a.social-icon:hover {
     } */
     .service-content-kapilesh {
         /* height: 560px; */
-        height: 487px;
+        max-height: 487px;
     }
     .service-content-block-HR {
-        height: 556px;
+        max-height: 556px;
     }
     .service-content-block1 {
         /* height: 639px; */
-        height: 631px;
+        max-height: 631px;
     }
     .service-content-block2 {
         /* height: 519px; */
-        height: 499px;
+        max-height: 499px;
     }
     .service-content-block3 {
         /* height: 521px; */
-        height: 522px;
+        max-height: 522px;
     }
     .service-content-row2 {
         /* height: 560px; */
-        height: 497px;
+        max-height: 497px;
     }
     .service-content-kapilesh {
         /* height: 560px; */
-        height: 468px;
+        max-height: 468px;
     }
     .service-content-sumedha {
-        height: 521px;
+        max-height: 521px;
     }
+}
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+        .service-content-block2 {
+            height: 524px;
+        }
+        .service-content-block3 {
+            height: 514px;
+        }
+        .service-content-row2 {
+            height: 516px;
+        }
+        .image-container {
+            /* height: 390px; */
+            height: 480px;
+        }
+        .service-content-administrativeHead {
+            height: 448px;
+        }
+        .service-content-block-HR {
+            height: 523px;
+        }
+        .image-container-small {
+            /* height: 390px; */
+            height: 309px;
+        }
+        .footer-content {
+            padding-top: 227px;
+        }
+}
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .image-container-small {
+        /* height: 390px; */
+        height: 270px;
+    }
+    .service-content-block-HR {
+        height: 546px;
+    }
+    .service-content-administrativeHead {
+        height: 501px;
+    }
+    .service-content-sumedha {
+        height: 596px;
+    }
+    .service-content-kapilesh {
+        height: 538px;
+    }
+    .service-content-row2 {
+        height: 560px;
+    }
+    .service-content-block3 {
+        height: 593px;
+    }
+    .service-content-block2 {
+        height: 563px;
+    }
+    .service-content-block1 {
+        height: 761px;
+    }
+}
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .service-content-row1 {
+        height: 593px;
+    }
+    .service-content-block2 {
+        height: 450px;
+    }
+    .service-content-block3 {
+        height: 448px;
+    }
+    .service-content-row2 {
+        height: 451px;
+    }
+    .service-content-kapilesh {
+        height: 418px;
+    }
+    .service-content-sumedha {
+        height: 439px;
+    }
+    .service-content-administrativeHead {
+        height: 416px;
+    }
+    .service-content-block-HR {
+        height: 422px;
+    }
+}
+
+@media(max-width: 640px) and (orientation: landscape){
+    .service-content-row1 {
+        height: 658px;
+    }
+    .service-content-block2 {
+        height: 520px;
+    }
+    .service-content-block3 {
+        height: 518px;
+    }
+    .service-content-row2 {
+        height: 506px;
+    }
+    .service-content-sumedha {
+        height: 537px;
+    }
+    .service-content-administrativeHead {
+        height: 467px;
+    }
+    .service-content-block-HR {
+        height: 514px;
+    }
+}
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+        .service-content-block-HR {
+            height: 632px;
+        }
+        .service-content-administrativeHead {
+            height: 498px;
+        }
+        .service-content-sumedha {
+            height: 655px;
+        }
+        .service-content-kapilesh {
+            height: 554px;
+        }
+        .service-content-row2 {
+            height: 589px;
+        }
+        .service-content-block3 {
+            height: 621px;
+        }
+        .service-content-block2 {
+            height: 620px;
+        }
+        .service-content-row1 {
+            height: 816px;
+        }
 }
