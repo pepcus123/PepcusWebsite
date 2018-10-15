@@ -283,7 +283,8 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
 }
 .banner .content {
     margin-bottom: -50px;
-    padding-top: 183px;
+    /* padding-top: 183px; */
+    padding-top: 69px;
 }
 .flex-center {
     display: flex;
@@ -364,6 +365,9 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
 }
 .mar-top-100{
     margin-top: 100px;
+}
+.mar-top-30{
+    margin-top: 30px;
 }
 .mar-top-10{
     margin-top: 10px;
