@@ -128,8 +128,8 @@ h1.loader-pepcus::before {
 }
 
 .general-team {
-    min-height: 500px;
-    background-image: url(../images/parallex/team-8.jpg);
+    min-height: 490px;
+    background-image: url(../images/parallex/team-8edit.jpg);
     position: relative;
     width: 100%;
 }
@@ -331,9 +331,11 @@ div#demo>a>h4 {
 .team-container {
     width: 100%;
     border: 5px solid #fff;
+    margin-top: 35px;
+}
+.team-container-top{
     margin-top: 50px;
 }
-
 .team-container:hover {
     transform: scale(1.02);
     cursor: pointer;
@@ -573,7 +575,9 @@ div#demo>a>h4 {
 .banner .content .main-heading-inner {
     margin-bottom: 25px;
 }
-
+.main-heading-inner{
+    line-height: 53px;
+}
 .banner .content {
     margin-bottom: -50px;
     padding-top: 183px;
@@ -1489,7 +1493,11 @@ a.social-icon:hover {
         min-height: 400px;
     }
     .general-team {
-        min-height: 487px;
+        /* min-height: 487px; */
+        min-height: 590px;
+    }
+    .banner .content {
+        padding-top: 225px;
     }
     .general-contact {
         min-height: 400px;
@@ -1538,7 +1546,7 @@ a.social-icon:hover {
         height: 217px;
     }
     .service-content-row4 {
-        height: 207px;
+        height: 196px;
     }
     .col-sm-2 {
         display: none;
@@ -1604,13 +1612,14 @@ a.social-icon:hover {
          padding-top: 172px;
     }
     .service-content-row4 {
-        height: 260px;
+        /* height: 260px; */
+        min-height: 196px;
     }
     .font-size-16 {
-        font-size: 21px;
+        font-size: 16px;
     }
     .padding-50-00 {
-        padding-top: 82px;
+        padding-top: 49px;
     }
     .padding-50-25 {
          padding: 18px 20px;
@@ -1645,7 +1654,13 @@ a.social-icon:hover {
     .col-sm-2 {
         display: none;
     }
-    
+    .general-team {
+        /* min-height: 487px; */
+        min-height: 538px;
+    }
+    .banner .content {
+        padding-top: 203px;
+    }
 }
 @media (max-width:992px) {
     .navbar-collapse .nav>li {
@@ -1676,6 +1691,13 @@ a.social-icon:hover {
     .col-sm-2 {
     display: block;
     }
+    .general-team {
+        /* min-height: 487px; */
+        min-height: 493px;
+    }
+    .banner .content {
+        padding-top: 207px;
+    }
 }
 @media (max-width:940px) {
     .footer-image {
@@ -1687,9 +1709,12 @@ a.social-icon:hover {
     .col-sm-2 {
         display: block;
     }
-       .navbar-nav>li:nth-child(5) a {
-        margin-left: 34px;
+    .navbar-nav>li:nth-child(5) a {
+        margin-left: -19px;
     }
+    /* .banner .content {
+        padding-top: 166px;
+    } */
    
 }
 
@@ -1719,19 +1744,27 @@ a.social-icon:hover {
         height: 810px;
     }
     .service-content-row2 {
-        height: 816px;
+        height: 807px;
     }
     .service-content-row3 {
         height: 845px;
     }
     .service-content-row4 {
-        height: 279px;
+        /* height: 279px; */
+       height: 211px;
     }
     .banner .content {
-        padding-top: 204px;
+        padding-top: 166px;
     }
     .general-team {
         min-height: 433px;
+    }
+    .font-size-25 {
+        font-size: 21px;
+        padding: 18px 0px;
+    }
+    .main-heading-inner {
+        line-height: 32px;
     }
 }
 @media(max-width: 800px){
@@ -1739,10 +1772,14 @@ a.social-icon:hover {
         height: 1092px;
     }
     .service-content-block3 {
-        height: 810px;
+        /* height: 810px; */
+            height: 789px;
     }
     .font-size-16 {
-        font-size: 21px;
+        font-size: 18px;
+    }
+    .banner .content {
+        padding-top: 187px;
     }
 }
 @media (max-width:783px) {
@@ -1781,14 +1818,16 @@ a.social-icon:hover {
         padding-bottom: 60%;
     }
     .general-team {
-        min-height: 391px;
+        /* min-height: 391px; */
+        min-height: 339px;
         background-image: url(../images/parallex/team-8.jpg);
         position: relative;
         width: 100%;
     }
     .banner .content {
         margin-bottom: -50px;
-        padding-top: 131px;
+        /* padding-top: 131px; */
+        padding-top: 158px;
     }
     .font-size-60 {
         font-size: 39px;
@@ -1797,13 +1836,11 @@ a.social-icon:hover {
         font-size: 24px;
     }
     .parallax {
-        background-size: cover;
+        /* background-size: cover; */
         background-attachment: scroll;
         background-position: bottom;
     }
-    .general-banner{
-        padding-top: 70px;
-    }
+    
 
 }
 
@@ -1863,7 +1900,7 @@ a.social-icon:hover {
         height: 774px;
     }
     .font-size-16 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .padding-50-25 {
         padding: 18px 8px;
@@ -1878,7 +1915,8 @@ a.social-icon:hover {
         height: 628px;
     }
     .service-content-block3 {
-        height: 628px;
+        /* height: 628px; */
+        height: 607px;
     }
     .service-content-kapilesh {
         height: 604px;
@@ -1893,7 +1931,8 @@ a.social-icon:hover {
         height: 637px;
     }
     .service-content-row4 {
-        height: 242px;
+        /* height: 242px; */
+            height: 214px;
     }
     .image-container-small{
               height: 204px;
@@ -1916,6 +1955,9 @@ a.social-icon:hover {
     .padding-50-00 {
         padding-top: 63px;
             /* padding-top: 35px; */
+    }
+    .service-content-block1 {
+           height: 788px;
     }
 
 }
@@ -2021,7 +2063,8 @@ a.social-icon:hover {
         min-height: 300px;
     }
     .general-team {
-        min-height: 292px;
+        /* min-height: 205px; */
+        min-height: 255px;
     }
     .general-contact {
         min-height: 300px;
@@ -2086,7 +2129,8 @@ a.social-icon:hover {
         height: 538px;
     }
     .banner .content {
-        padding-top: 101px;
+        /* padding-top: 101px; */
+        padding-top: 38px;
     }
     .image-container .background-image {
         background-size: cover;
@@ -2101,6 +2145,10 @@ a.social-icon:hover {
     }
     .service-content-block-HR {
         height: 459px;
+    }
+    .general-banner{
+        /* padding-top: 70px; */
+        padding-top: 93px;
     }
 }
 
@@ -2170,6 +2218,14 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 59%;
     }
+    .general-team {
+        /* min-height: 205px; */
+         min-height: 238px;
+    }
+    .banner .content {
+        /* padding-top: 101px; */
+        padding-top: 55px;
+    }
 }
 
 
@@ -2186,9 +2242,16 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 80%;
     }
-           .service-content-block-HR {
-    height: 573px;
-}
+    .service-content-block-HR {
+        height: 573px;
+    }
+    .general-banner .content .font-size-40 {
+        font-size: 23px;
+    }
+    .banner .content {
+        /* padding-top: 101px; */
+        padding-top: 73px;
+    }
 
 }
 
@@ -2228,8 +2291,17 @@ a.social-icon:hover {
     .font-size-16 {
         font-size: 22px;
     }
+    .service-content-row1{
+        height: auto;
+    }
+    .service-content-row3{
+        height: auto;
+    }
+    .service-content-row2{
+        height: auto;
+    }
     .font-size-14 {
-        font-size: 20px;
+        font-size: 21px;
     }
     .service-content-row4 {
         height: 232px;
@@ -2256,12 +2328,6 @@ a.social-icon:hover {
     .general-banner .content .font-size-40 {
         font-size: 23px;
     }
-    .service-content-block2 {
-        height: 519px;
-    }
-    .service-content-row1 {
-        height: 673px;
-    }
 }
 @media(max-width:640px){
     .image-container {
@@ -2273,9 +2339,7 @@ a.social-icon:hover {
     .image-container-small {
         height: 295px;
     }
-    .service-content-block3 {
-        height: 561px;
-    }
+  
     
     /* .footer-content {
     padding-top: 160px;
@@ -2285,29 +2349,15 @@ a.social-icon:hover {
     .image-container-small {
         height: 260px;
     }
-    .service-content-block2 {
-        height: 541px;
-    }
-    .service-content-block1 {
-        height: 736px;
-    }
-    .service-content-block3 {
-        height: 580px;
-    }
-    .service-content-row2 {
-        height: 554px;
-    }
-    .service-content-kapilesh{
-        height: 576px;
-    }
-    .service-content-block-HR {
-        height: 584px;
-    }
     a.link-footer {
         font-size: 20px;
     }
     .footer-content {
         padding-top: 178px;
+    }
+    .general-team {
+        min-height: 205px;
+        /* min-height: 185px; */
     }
 }
 @media (max-width:600px) {
@@ -2321,7 +2371,21 @@ a.social-icon:hover {
         height: 282px;
     }
     .service-content-sumedha {
-        height: 620px;
+        height: auto;
+    }
+    .banner .content {
+        /* padding-top: 101px; */
+        padding-top: 49px;
+    }
+    
+     .service-content-row2 {
+        height: auto;
+    }
+    .service-content-row1{
+        height: auto;
+    }
+    .service-content-row3{
+        height: auto;
     }
 
 
@@ -2356,9 +2420,9 @@ a.social-icon:hover {
     .image-container-small {
         height: 222px;
     }
-    .service-content-block-HR {
+    /* .service-content-block-HR {
         height: 637px;
-    }
+    } */
 
     
 }
@@ -2418,13 +2482,7 @@ a.social-icon:hover {
     .font-size-16 {
         font-size: 18px;
     }
-    
-    
 }
-
-
-
-
 @media(max-width: 480px){
     .image-container-small {
         height: 203px;
@@ -2436,26 +2494,21 @@ a.social-icon:hover {
         height: 361px;
     }
     .general-team {
-        min-height: 258px;
+        /* min-height: 258px; */
+        min-height: 159px;
     }
     .banner .content {
-        padding-top: 80px;
+        /* padding-top: 80px; */
+        padding-top: 35px;
     }
     .font-size-60 {
         font-size: 28px;
     }
     .general-banner .content .font-size-40 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .font-size-14 {
         font-size: 20px;
-    }
-    .service-content-block2 {
-        height: 626px;
-    }
-    .service-content-block-HR {
-        /* height: 614px; */
-        height: 639px;
     }
     .image-container-small {
         height: 204px;
@@ -2471,12 +2524,6 @@ a.social-icon:hover {
     }
     .footer-logo {
         width: 52px;
-    }
-    .service-content-block1 {
-        height: 818px;
-    }
-    .service-content-sumedha {
-        height: 661px;
     }
    .footer-content {
         padding-top: 167px;
@@ -2498,50 +2545,29 @@ a.social-icon:hover {
         font-size: 30px;
     }
     .banner .content {
-        padding-top:65px;
+        /* padding-top:65px; */
+           padding-top: 41px;
+    }
+    .parallax {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: bottom;
     }
     .font-size-60 {
         font-size: 23px;
     }
     .general-team {
-        min-height: 210px;
+        /* min-height: 210px; */
+        min-height: 154px;
     }
     .banner .content .main-heading-inner {
         margin-bottom: 11px;
     }
-    .service-content-block1 {
-        /* height: 668px; */
-        height: 658px;
-    }
-    .service-content-block3 {
-        /* height: 549px; */
-        height: 528px;
-    }
-    .service-content-block2 {
-        /* height: 519px; */
-        height: 504px;
-    }
+  
     .font-size-14 {
         font-size: 16px;
     }
-    .service-content-row2 {
-        /* height: 477px; */
-        height: 519px;
-    }
-    .service-content-sumedha {
-        /* height: 477px; */
-        height: 539px;
-    }
-    .service-content-kapilesh {
-        height: 484px;
-    }
-    .service-content-block-HR {
-        height: 528px;
-    }
-    .service-content-administrativeHead {
-        /* height: 445px; */
-        height: 438px;
-    }
+  
     .service-content-row4 {
         height: 212px;
     }
@@ -2555,7 +2581,7 @@ a.social-icon:hover {
         padding-top: 79px;
     }
     .general-banner .content .font-size-40 {
-        font-size: 17px;
+        font-size: 15px;
     }
     .text {
         font-size: 25em;
@@ -2581,28 +2607,7 @@ a.social-icon:hover {
         padding-top: 173px;
             /* padding-top: 211px; */
     }
-    .service-content-block-HR {
-         height: 565px;
-    }
-    .service-content-block3 {
-        /* height: 549px; */
-        height: 543px;
-    }
-    .service-content-block2 {
-        /* height: 519px; */
-        height: 518px;
-    }
-    .service-content-block1 {
-        /* height: 668px; */
-        height: 691px;
-    }
-    .service-content-kapilesh {
-         height: 493px;
-    }
-    .service-content-sumedha {
-        /* height: 477px; */
-        height: 548px;
-    }
+   
 }
 @media (max-width:360px) {
     .footer-image {
@@ -2615,39 +2620,25 @@ a.social-icon:hover {
     .font-size-14 {
         font-size: 16px;
     }
-    .service-content-row2 {
-        /* height: 560px; */
-        height: 552px;
-    }
-    .service-content-sumedha {
-            height: 585px;
-    }
-    .service-content-kapilesh {
-        height: 512px;
-        /* height: 474px; */
-    }
-    .service-content-administrativeHead {
-        /* height: 507px; */
-        /* height: 461px; */
-        height: 476px;
-    }
+   
     .image-container {
-        height: 280px;
+        height: 312px;
     }
     .image-container-purvi {
         height: 261px;
     }
     .banner .content {
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .font-size-60 {
         font-size: 21px;
     }
     .general-banner .content .font-size-40 {
-        font-size: 14px;
+        font-size: 15px;
     }
     .general-team {
-        min-height: 194px;
+        /* min-height: 194px; */
+        min-height: 143px;
     }
     .parallax {
         background-attachment: scroll;
@@ -2658,10 +2649,11 @@ a.social-icon:hover {
         height: 270px;
     }
     .general-banner{
-        padding-top: 78px;
+        /* padding-top: 78px; */
+        padding-top: 92px;
     }
     .weight-300-height-16 {
-        font-size: 16px;
+        font-size: 15px;
     }
     .font-size-16 {
         font-size: 16px;
@@ -2673,31 +2665,19 @@ a.social-icon:hover {
         font-size: 24px;
     }
     .text {
-        font-size: 21em;
+        font-size: 25em;
     }
     .padding-50-00 {
         /* padding-top: 63px; */
         padding-top: 35px;
     }
-    .service-content-block-HR {
-           height: 580px;
-    }
-    .service-content-block3 {
-        /* height: 521px; */
-        /* height: 719px; */
-        height: 572px;
-    }
-    .service-content-block1 {
-        /* height: 639px; */
-        /* height: 667px; */
-        height: 699px;
-    }
+   
     .footer-content {
         padding-top: 204px;
     }
-    .service-content-block2 {
-        /* height: 519px; */
-        height: 544px;
+   
+    .banner .content .main-heading-inner {
+        margin-bottom: 0px;
     }
 }
 
@@ -2714,9 +2694,9 @@ a.social-icon:hover {
     .general-banner .content .font-size-40 {
         font-size: 14px;
     }
-    .service-content-sumedha {
+    /* .service-content-sumedha {
         height: 591px;
-    }
+    } */
     .font-size-14 {
         font-size: 14px;
     }
@@ -2724,18 +2704,20 @@ a.social-icon:hover {
         font-size: 16px;
     }
     
-    .service-content-administrativeHead {
-        /* height: 459px; */
+    /* .service-content-administrativeHead {
         height: 429px;
-    }
+    } */
     .image-container {
-        height: 254px;
+        /* height: 254px; */
+            height: 276px;
+
     }
     .general-team {
-        min-height: 173px;
+        /* min-height: 173px; */
+        min-height: 126px;
     }
     .general-banner {
-        padding-top: 79px;
+        padding-top: 93px;
     }
     .image-container-purvi {
     height: 233px;
@@ -2743,39 +2725,9 @@ a.social-icon:hover {
     .footer-content {
         padding-top: 184px;
     }
-    /* .service-content-row2 {
-        height: 560px;
-        height: 501px;
-    } */
-    .service-content-kapilesh {
-        /* height: 560px; */
-        max-height: 487px;
-    }
-    .service-content-block-HR {
-        max-height: 556px;
-    }
-    .service-content-block1 {
-        /* height: 639px; */
-        max-height: 631px;
-    }
-    .service-content-block2 {
-        /* height: 519px; */
-        max-height: 499px;
-    }
-    .service-content-block3 {
-        /* height: 521px; */
-        max-height: 522px;
-    }
-    .service-content-row2 {
-        /* height: 560px; */
-        max-height: 497px;
-    }
-    .service-content-kapilesh {
-        /* height: 560px; */
-        max-height: 468px;
-    }
-    .service-content-sumedha {
-        max-height: 521px;
+   
+    .banner .content {
+        padding-top: 20px;
     }
 }
 @media only screen 
@@ -2783,24 +2735,10 @@ a.social-icon:hover {
   and (max-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-        .service-content-block2 {
-            height: 524px;
-        }
-        .service-content-block3 {
-            height: 514px;
-        }
-        .service-content-row2 {
-            height: 516px;
-        }
+       
         .image-container {
             /* height: 390px; */
             height: 480px;
-        }
-        .service-content-administrativeHead {
-            height: 448px;
-        }
-        .service-content-block-HR {
-            height: 523px;
         }
         .image-container-small {
             /* height: 390px; */
@@ -2819,113 +2757,5 @@ a.social-icon:hover {
         /* height: 390px; */
         height: 270px;
     }
-    .service-content-block-HR {
-        height: 546px;
-    }
-    .service-content-administrativeHead {
-        height: 501px;
-    }
-    .service-content-sumedha {
-        height: 596px;
-    }
-    .service-content-kapilesh {
-        height: 538px;
-    }
-    .service-content-row2 {
-        height: 560px;
-    }
-    .service-content-block3 {
-        height: 593px;
-    }
-    .service-content-block2 {
-        height: 563px;
-    }
-    .service-content-block1 {
-        height: 761px;
-    }
-}
-@media only screen 
-  and (min-width: 414px) 
-  and (max-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .service-content-row1 {
-        height: 593px;
-    }
-    .service-content-block2 {
-        height: 450px;
-    }
-    .service-content-block3 {
-        height: 448px;
-    }
-    .service-content-row2 {
-        height: 451px;
-    }
-    .service-content-kapilesh {
-        height: 418px;
-    }
-    .service-content-sumedha {
-        height: 439px;
-    }
-    .service-content-administrativeHead {
-        height: 416px;
-    }
-    .service-content-block-HR {
-        height: 422px;
-    }
 }
 
-@media(max-width: 640px) and (orientation: landscape){
-    .service-content-row1 {
-        height: 658px;
-    }
-    .service-content-block2 {
-        height: 520px;
-    }
-    .service-content-block3 {
-        height: 518px;
-    }
-    .service-content-row2 {
-        height: 506px;
-    }
-    .service-content-sumedha {
-        height: 537px;
-    }
-    .service-content-administrativeHead {
-        height: 467px;
-    }
-    .service-content-block-HR {
-        height: 514px;
-    }
-}
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-
-        .service-content-block-HR {
-            height: 632px;
-        }
-        .service-content-administrativeHead {
-            height: 498px;
-        }
-        .service-content-sumedha {
-            height: 655px;
-        }
-        .service-content-kapilesh {
-            height: 554px;
-        }
-        .service-content-row2 {
-            height: 589px;
-        }
-        .service-content-block3 {
-            height: 621px;
-        }
-        .service-content-block2 {
-            height: 620px;
-        }
-        .service-content-row1 {
-            height: 816px;
-        }
-}
