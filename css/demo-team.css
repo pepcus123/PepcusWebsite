@@ -1552,7 +1552,7 @@ a.social-icon:hover {
         display: none;
     }
     .font-size-14 {
-        font-size: 14px;
+        font-size: 13px;
         padding-top: 20px;
     }
 }
@@ -1900,7 +1900,7 @@ a.social-icon:hover {
         height: 774px;
     }
     .font-size-16 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .padding-50-25 {
         padding: 18px 8px;
@@ -1916,7 +1916,7 @@ a.social-icon:hover {
     }
     .service-content-block3 {
         /* height: 628px; */
-        height: 574px;
+        height: 559px;
     }
     .service-content-kapilesh {
         height: 575px;
@@ -1924,20 +1924,15 @@ a.social-icon:hover {
     .service-content-sumedha {
         height: 575px;
     }
-    /* .service-content-administrativeHead {
-        height: 558px;
+     .padding-08-25 {
+        padding: 15px 25px;
     }
-    .service-content-block-HR {
-        height: 558px;
-    }
-
- */ 
     .service-content-row3{
         height: 558px;
     }
     .service-content-row4 {
         /* height: 242px; */
-            height: 214px;
+        height: 193px;
     }
     .image-container-small{
               height: 204px;
@@ -1966,6 +1961,10 @@ a.social-icon:hover {
     }
     .main-heading-inner {
         line-height: 47px;
+    }
+    .font-size-25 {
+        font-size: 20px;
+        padding: 0px 0px;
     }
 }
 
@@ -2759,7 +2758,7 @@ a.social-icon:hover {
   and (orientation: landscape) {
     .image-container-small {
         /* height: 390px; */
-        height: 270px;
+        height: 318px;
     }
 }
 
