@@ -1906,29 +1906,34 @@ a.social-icon:hover {
         padding: 18px 8px;
     }
     .service-content-row1 {
-        height: 792px;
+        height: 700px;
     }
     .font-size-14 {
         font-size: 18px;
     }
     .service-content-row2 {
-        height: 628px;
+        height: 574px;
     }
     .service-content-block3 {
         /* height: 628px; */
-        height: 607px;
+        height: 574px;
     }
     .service-content-kapilesh {
-        height: 631px;
+        height: 575px;
     }
     .service-content-sumedha {
-        height: 631px;
+        height: 575px;
     }
-    .service-content-administrativeHead {
-        height: 635px;
+    /* .service-content-administrativeHead {
+        height: 558px;
     }
     .service-content-block-HR {
-        height: 637px;
+        height: 558px;
+    }
+
+ */ 
+    .service-content-row3{
+        height: 558px;
     }
     .service-content-row4 {
         /* height: 242px; */
@@ -1944,7 +1949,7 @@ a.social-icon:hover {
         font-size: 16em;
     }
     .weight-300-height-16 {
-        font-size: 18px;
+        font-size: 16px;
     }
     a.link-footer {
         font-size: 25px;
@@ -1957,7 +1962,7 @@ a.social-icon:hover {
             /* padding-top: 35px; */
     }
     .service-content-block1 {
-           height: 788px;
+        height: 700px;
     }
     .main-heading-inner {
         line-height: 47px;
