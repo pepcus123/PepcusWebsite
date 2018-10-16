@@ -2682,6 +2682,12 @@ a.social-icon:hover {
     .banner .content .main-heading-inner {
         margin-bottom: 0px;
     }
+    .main-heading-inner {
+        line-height: 31px;
+    }
+    .service-content-row4 {
+        height: 199px;
+    }
 }
 
 @media (max-width:320px) {
