@@ -2601,8 +2601,8 @@ a.social-icon:hover {
 }
 @media(max-width: 430px){
     .footer-content {
-           padding-top: 206px;
-            /* padding-top: 211px; */
+           /* padding-top: 206px; */
+            padding-top: 182px;
     }
    
 }
