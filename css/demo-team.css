@@ -2408,7 +2408,11 @@ a.social-icon:hover {
         height: 273px;
     }
     .font-size-25 {
-        font-size: 22px;
+        font-size: 27px;
+    }
+    .padding-50-00 {
+        padding-top: 46px;
+        /* padding-top: 35px; */
     }
     .image-container-small {
         height: 222px;
@@ -2597,7 +2601,7 @@ a.social-icon:hover {
 }
 @media(max-width: 430px){
     .footer-content {
-        padding-top: 173px;
+           padding-top: 206px;
             /* padding-top: 211px; */
     }
    
