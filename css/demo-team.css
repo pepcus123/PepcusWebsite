@@ -1959,7 +1959,9 @@ a.social-icon:hover {
     .service-content-block1 {
            height: 788px;
     }
-
+    .main-heading-inner {
+        line-height: 47px;
+    }
 }
 
 @media (max-width:767px) {
