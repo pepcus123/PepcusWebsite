@@ -2551,6 +2551,9 @@ a.social-icon:hover {
         /* padding-top:65px; */
            padding-top: 41px;
     }
+    .main-heading-inner {
+        line-height: 38px;
+    }
     .parallax {
         background-size: cover;
         background-attachment: scroll;
