@@ -2125,9 +2125,7 @@ a.social-icon:hover {
     .padding-50-25 {
         padding: 18px 10px;
     }
-    .service-content-block-HR {
-        height: 538px;
-    }
+   
     .banner .content {
         /* padding-top: 101px; */
         padding-top: 38px;
@@ -2142,9 +2140,6 @@ a.social-icon:hover {
     .image-container-small {
     height: 325px;
     /* border: 0px solid #FFFDFD; */
-    }
-    .service-content-block-HR {
-        height: 459px;
     }
     .general-banner{
         /* padding-top: 70px; */
