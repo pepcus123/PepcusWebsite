@@ -1587,7 +1587,7 @@ a.social-icon:hover {
     .service-content-row1 {
         /* height: 647px; */
         /* height: 1205px; */
-        height: 927px;
+        height: 881px;
     }
     .service-content-block3 {
         /* height: 652px; */
@@ -1599,7 +1599,7 @@ a.social-icon:hover {
     .service-content-row2 {
         /* height: 924px; */
         /* height: 707px; */
-            height: 816px;
+        height: 712px;
     }
    
     .navbar-nav>li:nth-child(5) a {
@@ -1649,7 +1649,7 @@ a.social-icon:hover {
     .service-content-block3 {
         /* height: 540px; */
         /* height: 664px; */
-        height: 933px;
+        height: 881px;
     }
     .col-sm-2 {
         display: none;
@@ -2553,7 +2553,7 @@ a.social-icon:hover {
         background-position: bottom;
     }
     .font-size-60 {
-        font-size: 23px;
+        font-size: 22px;
     }
     .general-team {
         /* min-height: 210px; */
