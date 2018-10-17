@@ -1406,47 +1406,7 @@ a.social-icon:hover {
     .scrollup {
         right: 10px;
     }
-    /* height: 608px; */
-
-    /* ::-webkit-scrollbar { 
-    display: none !important; 
-    color: white;
-     background: white !important;
-    }
-    ::-webkit-scrollbar-track {
-        background: white !important; 
-        display: none !important;
-    }
-    ::-webkit-scrollbar-thumb {
-        background: white !important; 
-    }
-    ::scrollbar{
-        display: none !important; 
-        color: white;
-     background: white !important;
-    }
-     ::scrollbar-track {
-        background: white !important; 
-        display: none !important;
-    }
-    ::scrollbar-thumb {
-        background: white !important; 
-    } */
-/*     body::-webkit-scrollbar {
-    width: 1em;
-    }
-     
-    body::-webkit-scrollbar-track {
-        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    }
-     
-    body::-webkit-scrollbar-thumb {
-      background-color: darkgrey;
-      outline: 1px solid slategrey;
-    }
-    html {
-        overflow-y: auto!important;
-    } */
+   
     body {
         /* cursor: grab; */
         /* overflow: auto !important; */
@@ -1606,7 +1566,7 @@ a.social-icon:hover {
         /* margin-left: 34px; */
     }
     .padding-08-25 {
-        padding: 22px 25px;
+        padding: 14px 25px;
     }
     .footer-content {
          padding-top: 172px;
@@ -1712,9 +1672,6 @@ a.social-icon:hover {
     .navbar-nav>li:nth-child(5) a {
         margin-left: -19px;
     }
-    /* .banner .content {
-        padding-top: 166px;
-    } */
    
 }
 
@@ -1812,45 +1769,6 @@ a.social-icon:hover {
     }
    
 }
-
-@media (max-width:768px) {
-    .footer-image {
-        padding-bottom: 60%;
-    }
-    .general-team {
-        /* min-height: 391px; */
-        min-height: 339px;
-        background-image: url(../images/parallex/team-8.jpg);
-        position: relative;
-        width: 100%;
-    }
-    .banner .content {
-        margin-bottom: -50px;
-        /* padding-top: 131px; */
-        padding-top: 158px;
-    }
-    .font-size-60 {
-        font-size: 39px;
-    }
-    .font-size-40 {
-        font-size: 24px;
-    }
-    .parallax {
-        /* background-size: cover; */
-        background-attachment: scroll;
-        background-position: bottom;
-    }
-    
-
-}
-
-
-
-/* @media(max-width: 786px){
-    .service-content-row1 {
-        height: 1097px;
-    }
-} */
 @media (max-width:768px) {
     .xs-block {
         display: block;
@@ -1965,6 +1883,32 @@ a.social-icon:hover {
     .font-size-25 {
         font-size: 20px;
         padding: 0px 0px;
+    }
+    .footer-image {
+        padding-bottom: 60%;
+    }
+    .general-team {
+        /* min-height: 391px; */
+        min-height: 339px;
+        background-image: url(../images/parallex/team-8.jpg);
+        position: relative;
+        width: 100%;
+    }
+    .banner .content {
+        margin-bottom: -50px;
+        /* padding-top: 131px; */
+        padding-top: 158px;
+    }
+    .font-size-60 {
+        font-size: 39px;
+    }
+    .font-size-40 {
+        font-size: 24px;
+    }
+    .parallax {
+        /* background-size: cover; */
+        background-attachment: scroll;
+        background-position: bottom;
     }
 }
 
@@ -2338,11 +2282,6 @@ a.social-icon:hover {
     .image-container-small {
         height: 295px;
     }
-  
-    
-    /* .footer-content {
-    padding-top: 160px;
-    } */
 }
 @media(max-width: 600px){
     .image-container-small {
@@ -2423,13 +2362,7 @@ a.social-icon:hover {
     .image-container-small {
         height: 222px;
     }
-    /* .service-content-block-HR {
-        height: 637px;
-    } */
-
-    
 }
-
 @media (max-width:480px) {
     h1#a1 {
         top: 30%;
@@ -2485,9 +2418,7 @@ a.social-icon:hover {
     .font-size-16 {
         font-size: 18px;
     }
-}
-@media(max-width: 480px){
-    .image-container-small {
+       .image-container-small {
         height: 203px;
     }
     .service-content-row4 {
@@ -2534,7 +2465,6 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 93%;
     }
-    
 }
 @media (max-width:450px) {
     .col-xs-6 {
@@ -2607,13 +2537,6 @@ a.social-icon:hover {
             padding-top: 211px;
     }
     
-}
-@media(max-width: 430px){
-    .footer-content {
-           /* padding-top: 206px; */
-            padding-top: 182px;
-    }
-   
 }
 @media (max-width:360px) {
     .footer-image {
@@ -2742,25 +2665,25 @@ a.social-icon:hover {
         padding-top: 20px;
     }
 }
-@media only screen 
+/* @media only screen 
   and (min-width: 375px) 
   and (max-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
        
         .image-container {
-            /* height: 390px; */
+         
             height: 480px;
         }
         .image-container-small {
-            /* height: 390px; */
+       
             height: 309px;
         }
         .footer-content {
             padding-top: 227px;
         }
-}
-@media only screen 
+} */
+/* @media only screen 
   and (min-width: 320px) 
   and (max-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -2769,5 +2692,5 @@ a.social-icon:hover {
         /* height: 390px; */
         height: 318px;
     }
-}
+} */
 
