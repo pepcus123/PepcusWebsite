@@ -57,7 +57,7 @@ $(document).ready(function(e) {
 });
 
 var page = document.getElementById('page');
-var sections = page.getElementsByTagName('section');
+// var sections = page.getElementsByTagName('section');
 // This transition can be defined in the CSS if preferred.
 var transition = 'top 0.8s ease-in-out 0s';
 page.style.transition = transition;

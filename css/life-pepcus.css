@@ -251,7 +251,9 @@ display: flex;
 
 .btn-default{
     background-color: transparent !important;
-    color: #c14848 !important;
+    /* color: #c14848 !important; */
+    color: #615f5ffa !important;
+    border:1px solid #615f5f75 !important;
     font-weight: 650;
     margin-top: 30px;
     transition: 0.2s all;
@@ -259,12 +261,9 @@ display: flex;
     display: inline-block;
     position: relative;
     cursor: pointer;
-    /* border: 0.5px solid #c14848; */
     font-size: 17px;
- 
-  /* background: rgba(0,0,0,0.09); */
 }
-
+/* 
 .btn-hover::before{
     content: "";
     position: absolute;
@@ -285,13 +284,13 @@ display: flex;
 
 .btn-hover:hover::before{
   transform: scaleX(1);
-  /* left: 0;
-  right: 0; */
-}
+
+} */
 .btn-default:hover{
     font-weight: bold;
     border-color: white !important;
-    color: #d82323 !important;
+    color:white !important;
+    background: #d85151 !important ;
     /* font-size: 14px; */
 }
 .btn-default:active .filter-button:active{
@@ -311,8 +310,8 @@ display: flex;
   width: 8.33333%;
 }
 .current{
-    /* background-color: #d85151  !important; */
-    color: #d82323 !important;
+    background-color: #d85151  !important;
+    color: white !important;
     border-bottom: 2px solid #df1010 ;
     transition: 0.2s all;
 }

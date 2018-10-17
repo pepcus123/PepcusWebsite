@@ -12,13 +12,14 @@
     <!-- life-pepcus css -->
     <link rel="stylesheet" href="css/life-pepcus.css">
 </head>
-<body>
+<body id = "page">
 	<div class="loading">    <div class="loading-image"><img src="images/loader/loader.gif" alt="loader" /></div>   
 	 <!--<h1 class="loader-pepcus" data-text="Pepcus">Pepcus</h1>--></div>
 	<!-- nav starts -->
 	<nav class="navbar navbar-inverse navbar-fixed-top header-menu">
         <div class="container">
-            <div class="navbar-header">
+        	<div class="row">
+        		<div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -46,6 +47,8 @@
                 </ul>
 
             </div>
+        	</div>
+            
         </div>
     </nav>
 	<!-- nav ends -->
@@ -61,45 +64,7 @@
 		                </div>
 		            </div>
 		        </div> 	
-	       <!--  <div class = "pepcus-slider-width">
-	        	<div class = "owl-demo owl-carousel">
-					<div class = " pepcus-team">
-						<div class="general-team-layer">
-							<img src="../PepcusWebsite/images/parallex/team-2.jpg" alt="The Last of us" class = "img-responsive">
-							<div class = "banner parallex general-team pepcus-general" style = "background:url('../PepcusWebsite/images/parallex/team-2.jpg');position:relative;background-size:cover;">
-								<p>dfddfg</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pepcus-slider-width">
-						<div class="general-team-layer">
-							<div class = "banner parallex general-team pepcus-general" style = "background:url('../PepcusWebsite/images/parallex/team-2.jpg');position:relative;background-size:cover;">
-								<p>dfddfg</p>
-							</div>
-						</div>
-					</div>
-					<div class = "pepcus-slider-width">
-						<div class = "banner parallex general-team pepcus-general" style = "background:url('../PepcusWebsite/images/parallex/team-2.jpg');position:relative;background-size:cover;">
-								<p>dfddfg</p>
-						</div>
-					</div>
-					<div class = "pepcus-slider-width">
-						<div class = "banner parallex general-team pepcus-general" style = "background:url('../PepcusWebsite/images/parallex/team-2.jpg');position:relative;background-size:cover;">
-								<p>dfddfg</p>
-						</div>
-					</div>
-					<div class = "pepcus-slider-width">
-						<div class = "banner parallex general-team pepcus-general" style = "background:url('../PepcusWebsite/images/parallex/team-2.jpg');position:relative;background-size:cover;">
-								<p>dfddfg</p>
-						</div>
-					</div>
-					<div class = "pepcus-slider-width">
-						<div class = "banner parallex general-team pepcus-general" style = "background:url('../PepcusWebsite/images/parallex/team-2.jpg');position:relative;background-size:cover;">
-								<p>dfddfg</p>
-							</div>
-					</div>
- 				</div>
-	        </div> -->
+	       
 	    </div>
 	</section>
 	<!-- parallex section ends -->
@@ -125,12 +90,12 @@
 				</div>
 				<div align = "center" class = "col-lg-10 col-md-10 col-sm-12 col-xs-12 pepcus-gallery-head portfolioFilter p-bottom-20">
 					<a class = "btn btn-default btn-hover" id = "all">All</a>
-					<a class = "btn btn-default btn-hover" id = "goa"><span>Goa Trip</span></a>
-					<a class = "btn btn-default btn-hover" id = "independence"><span>Independence day</span></a>
-					<a class = "btn btn-default btn-hover" id = "diwali"><span>Diwali</span></a>
-					<a class = "btn btn-default btn-hover" id = "fun"><span>Fun</span></a>
-					<a class = "btn btn-default btn-hover" id = "seminar"><span>Seminar</span></a>
-					<a class = "btn btn-default btn-hover" id = "office"><span>Office Discussions</span></a>
+					<a class = "btn btn-default btn-hover" id = "goa">Goa Trip</a>
+					<a class = "btn btn-default btn-hover" id = "independence">Independence day</a>
+					<a class = "btn btn-default btn-hover" id = "diwali">Diwali</a>
+					<a class = "btn btn-default btn-hover" id = "fun">Fun</a>
+					<a class = "btn btn-default btn-hover" id = "seminar">Seminar</a>
+					<a class = "btn btn-default btn-hover" id = "office">Office Discussions</a>
 				</div>
 			</div>
 			<div class="row my-shuffle-container">
@@ -204,7 +169,7 @@
 	<script src = "js/jquery.min.js"></script>
 	<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!-- <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script> -->
+
 	<script type="text/javascript" src="js/carouseller.js"></script>
 	<!-- <script src = "https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.0/shuffle.js"></script> -->
 	<script src = "js/custom.js"></script>
@@ -220,11 +185,6 @@
 	        $(document).ready(function () {
 	            $(window).load(function () {
 	                $('.loading').hide();
-	            });
-	            $("body").niceScroll({
-	                cursorcolor:"#c54041",
-	                cursorborder:"0",
-	                cursorwidth:"8px"
 	            });
 	            $(window).scroll(function () {
 	                if ($(this).scrollTop() > 100) {
