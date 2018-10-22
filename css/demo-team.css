@@ -1524,6 +1524,11 @@ a.social-icon:hover {
     .service-content-row4 {
         min-height: 196px
     }
+    .service-content-row5{
+            margin-top: 0;
+            padding-top: 0;
+            height: 108px;
+    }
     .font-size-16 {
         font-size: 16px
     }
