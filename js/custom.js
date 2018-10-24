@@ -34,7 +34,8 @@ $(document).ready(function(e) {
             "cursor": "pointer"
         })
     }
-    $('.team-container').on('click', function(){ });
+    $('.image-container').on('click', function(){ });
+    document.addEventListener("touchstart", function() {},false);
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
