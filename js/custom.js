@@ -34,6 +34,7 @@ $(document).ready(function(e) {
             "cursor": "pointer"
         })
     }
+    $('.team-container').on('click', function(){ });
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');

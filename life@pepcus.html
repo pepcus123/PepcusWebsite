@@ -209,7 +209,11 @@
 					if(!$(this).hasClass('current'))
 					{
 						$(this).addClass("btn-hover");
+						$(this).removeClass("current");
+					}
+					else{
 						// $(this).removeClass("current");
+						$(this).addClass("btn-hover");
 					}
 				    // $(this).addClass("btn-hover");
 				});

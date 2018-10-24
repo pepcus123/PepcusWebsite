@@ -2,7 +2,7 @@
 <html class="no-js">
 <head>
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../../images/logo/favicon.ico" type="image/x-icon">
     <title>Pepcus: Our Team</title>
@@ -76,6 +76,7 @@
 				<div id="main_team">
 
 				</div>
+				<div id="primary_team"></div>
 			<!-- </div> -->
 			<!-- <div class="row"> -->
 			<div id="secondary_team" class = "col-lg-offset-2 col-md-offset-2">
@@ -619,7 +620,8 @@
 			role: 'CEO & Founder',
 			img1:'../../images/team/Ajay-1.jpg',
 			img2: '../../images/team/Ajay-2.jpg',
-			description: ' Ajay transformed Pepcus delivering world-class services to customers, thereby created a sustainable long-term profitable growth. With over 15 years of experience on the complete spectrum of Software Development activities & having a key focus on quality, Ajay established strong relationship & trust with customers. Considering people most important assets, his unique ideas about work culture & continuous encouragement on ‘fun @ work’ has turned Pepcus an amazing place to work.',
+			description: ' Ajay transformed Pepcus delivering world-class services to customers, thereby created a sustainable long-term profitable growth. With over 15 years of experience on the complete spectrum of Software Development activities & having a key focus on quality, Ajay established strong relationship & trust with customers.'+ ''+
+				'Considering people most important assets, his unique ideas about work culture & continuous encouragement on ‘fun @ work’ has turned Pepcus an amazing place to work.',
 			specialties: ' Client Relationship | Delivery Management | Project Management | Solution Architect'
 		},{
             name: 'Surabhi Bhawsar',
@@ -637,34 +639,36 @@
             img2: '../../images/team/ankit-3@.jpg',
             description: ' A profound professional with  amazing management skills, a certified scrum master, Ankit is highly experienced in leading large size development teams. He has proved capabilities of producing outstanding results which led Pepcus business scaled exponentially. His personal interest in core technologies and innovation are a great asset to the company.',
             specialties: ' Program Management | Technical Leadership'
-        },{
-            name: 'Sushil Mahajan',
-            imageURL: '',
-            role: 'Lead - UI & Web Development',
-            img1:'../../images/team/sushil-1.jpg',
-            img2: '../../images/team/sushil-2@.jpg',
-            description: ' Sushil is a senior UI Engineer with strong interests and expert capabilities in the development of engaging user experiences. Creative, unique and innovative designs speak his commitment and determination. He has strong problem-solving skills and independent self-direction, coupled with an aptitude for team collaboration.',
-            specialties: ' Solution Architect | Frontend Development'
-        },{
-            name: 'Kapilesh Israni',
-            imageURL: '',
-            role: 'Solution Architect',
-            img1:'../../images/team/kapilesh-1.jpg',
-            img2: '../../images/team/kapilesh-2.jpg',
-            description: ' Particularly prompt with the advanced Java stack and client management skills, Kapilesh is a proficient technical manager having profound experience in developing software. His amazing presentation skills, determination & persistence are creating miracles at Pepcus.',
-            specialties: ' Research & Development | Advanced JAVA | Analytics'
-        },{
-            name: 'Sumedha Wani',
-            imageURL: '',
-            role: 'Lead - Quality Assurance',
-            img1:'../../images/team/sumedha-1.jpg',
-            img2: '../../images/team/sumedha-2.jpg',
-            description: ' Quality Certified, process oriented, Sumedha has vast experience in field of Software Quality & Process Management. Leading a large team of testers and automation engineers, she significantly contributes in Pepcus’ USP  ‘sell quality. Prior to Pepcus, she helped making software organizations CMMI certified & thus adds tremendous value in Process Management for Pepcus.',
-            specialties: ' Quality & Automation | Process Management'
         }
+        // ,{
+        //     name: 'Sushil Mahajan',
+        //     imageURL: '',
+        //     role: 'Lead - UI & Web Development',
+        //     img1:'../../images/team/sushil-1.jpg',
+        //     img2: '../../images/team/sushil-2@.jpg',
+        //     description: ' Sushil is a senior UI Engineer with strong interests and expert capabilities in the development of engaging user experiences. Creative, unique and innovative designs speak his commitment and determination. He has strong problem-solving skills and independent self-direction, coupled with an aptitude for team collaboration.',
+        //     specialties: ' Solution Architect | Frontend Development'
+        // },{
+        //     name: 'Kapilesh Israni',
+        //     imageURL: '',
+        //     role: 'Solution Architect',
+        //     img1:'../../images/team/kapilesh-1.jpg',
+        //     img2: '../../images/team/kapilesh-2.jpg',
+        //     description: ' Particularly prompt with the advanced Java stack and client management skills, Kapilesh is a proficient technical manager having profound experience in developing software. His amazing presentation skills, determination & persistence are creating miracles at Pepcus.',
+        //     specialties: ' Research & Development | Advanced JAVA | Analytics'
+        // },{
+        //     name: 'Sumedha Wani',
+        //     imageURL: '',
+        //     role: 'Lead - Quality Assurance',
+        //     img1:'../../images/team/sumedha-1.jpg',
+        //     img2: '../../images/team/sumedha-2.jpg',
+        //     description: ' Quality Certified, process oriented, Sumedha has vast experience in field of Software Quality & Process Management. Leading a large team of testers and automation engineers, she significantly contributes in Pepcus’ USP  ‘sell quality. Prior to Pepcus, she helped making software organizations CMMI certified & thus adds tremendous value in Process Management for Pepcus.',
+        //     specialties: ' Quality & Automation | Process Management'
+        // }
 		];
 		
 		// new WOW().init();
+		
 		var renderMainTeam = function () {
             for (var i=0; i<mainteam.length; i++) {
                 var teamData = mainteam[i];
@@ -689,6 +693,59 @@
                 $("#main_team").append(teamHTML);
             }
         };
+        var primaryteam = [
+        	{
+            name: 'Sushil Mahajan',
+            imageURL: '',
+            role: 'Lead - UI & Web Development',
+            img1:'../../images/team/sushil-1.jpg',
+            img2: '../../images/team/sushil-2@.jpg',
+            description: ' Sushil is a senior UI Engineer with strong interests and expert capabilities in the development of engaging user experiences. Creative, unique and innovative designs speak his commitment and determination. He has strong problem-solving skills and independent self-direction, coupled with an aptitude for team collaboration.',
+            specialties: ' Solution Architect | Frontend Development'
+        },{
+            name: 'Kapilesh Israni',
+            imageURL: '',
+            role: 'Solution Architect',
+            img1:'../../images/team/kapilesh-1.jpg',
+            img2: '../../images/team/kapilesh-2.jpg',
+            description: ' Particularly prompt with the advanced Java stack and client management skills, Kapilesh is a proficient technical manager having profound experience in developing software. His amazing presentation skills, determination & persistence are creating miracles at Pepcus.',
+            specialties: ' Research & Development | Advanced JAVA | Analytics'
+        },{
+            name: 'Sumedha Wani',
+            imageURL: '',
+            role: 'Lead - Quality Assurance',
+            img1:'../../images/team/sumedha-1.jpg',
+            img2: '../../images/team/sumedha-2.jpg',
+            description: ' Quality Certified, process oriented, Sumedha has vast experience in field of Software Quality & Process Management. Leading a large team of testers and automation engineers, she significantly contributes in Pepcus’ USP  ‘sell quality. Prior to Pepcus, she helped making software organizations CMMI certified & thus adds tremendous value in Process Management for Pepcus.',
+            specialties: ' Quality & Automation | Process Management'
+        }
+
+        ];
+        var renderPrimaryTeam = function(){
+            for (var i=0; i<primaryteam.length; i++) {
+                var teamData = primaryteam[i];
+                var teamHTML = $('<div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12">'+
+                    '<div class = "team-container team-container-top">'+
+                    '<div class="image-container">'+
+                    '<div data-bgset = "'+teamData.img1+'" class = "background-image white-shadow lazyload"></div>'+
+                    '<div data-bgset = "'+teamData.img2+'" class = "background-image hover white-shadow lazyload"></div></div>'+
+                    '<div class = "service-section-content service-content-block1 service-content-row2 back-white white-shadow">'+
+                    '<div class="team-name primary-back text-center">'+
+                    '<h3 class="team-name-head white-color font-size-16">'+teamData.name+'</h3></div>'+
+                    '<div class = "padding-50-25 text-center">'+
+                    '<h3 class="services-section-head font-size-16 primary-color mar-bot-15 font-bold">'+teamData.role+'</h3>'+
+                    '<p class="secondary-color weight-300-height-16 font-size-14 mar-bot-15">'+teamData.description+
+                    '<p class="secondary-color weight-300-height-16 font-size-14"><span class="font-bold">'+
+                    'Specialties:</span>'+teamData.specialties+'  </p>'+
+                    '</p>'+
+                    '</div>'+
+                    '</div>'+
+                    '</div>'+
+                    '</div>');
+                $("#primary_team").append(teamHTML);
+            }
+
+		};
         var secondaryTeam = [{
 
         	name: 'Vinay Jain',
@@ -774,7 +831,7 @@
             imageURL: '',
             role: 'Sr. Quality Engineer',
             img1:'../../images/team/Sonam-1.jpg',
-            img2: '../../images/team/Sonam-2.jpg'
+            img2: '../../images/team/Sonam-2edit.jpg'
        },{
 
         	name: 'Shubham Solanki',
@@ -952,6 +1009,7 @@
 	            $(window).load(function () {
 	                $('.loading').hide();
 					renderMainTeam();
+					renderPrimaryTeam();
                     renderSecondaryTeam();
                     renderThirdTeam();
                 });
