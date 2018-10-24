@@ -456,9 +456,12 @@ div#demo>a>h4 {
 
 .team-container:hover .image-container .background-image.hover {
     opacity: 1;
-    cursor: pointer
+    cursor: pointer;
 }
-
+.team-container .image-container:hover .background-image.hover{
+    opacity: 1;
+    cursor: pointer;
+}
 .team-container1 {
     width: 100%;
     margin-top: 50px;
