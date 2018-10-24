@@ -330,6 +330,7 @@ div#demo>a>h4 {
     position: relative;
     margin-bottom: 7px;
     width: 100%;
+    cursor: pointer;
     height: 260px;
     border: 0 solid #fffdfd
 }
