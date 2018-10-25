@@ -311,7 +311,7 @@ div#demo>a>h4 {
 .team-container {
     width: 100%;
     border: 5px solid #fff;
-    margin-top: 35px
+    margin-top: 50px;
 }
 
 .team-container-top {
@@ -325,7 +325,9 @@ div#demo>a>h4 {
     -o-transform: scale(1.02);
     -ms-transform: scale(1.02)
 }
-
+.pepcus-last-blog:hover {
+    text-decoration: none;
+}
 .image-container {
     position: relative;
     margin-bottom: 7px;
@@ -504,7 +506,7 @@ div#demo>a>h4 {
 }
 
 .primary-color {
-    color: #ec6162
+    color: #ff0000;
 }
 
 .secondary-color {
@@ -607,23 +609,23 @@ div#demo>a>h4 {
 }
 
 .padding-50-70 {
-    padding: 50px 70px
+    padding: 50px 70px;
 }
 
 .padding-10-0 {
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 .padding-0-0-20 {
-    padding: 12px 0 31px
+    padding: 0 0 20px;
 }
 
 .padding-50-0 {
-    padding: 50px 0
+    padding: 50px 0;
 }
 
 .img-responsive {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .section-head-content {
@@ -764,9 +766,9 @@ a.link-footer:hover {
 
 .footer-desc-para {
     padding: 20px 0;
-    line-height: 1.3
+    font-size: 20px;
+    line-height: 1.3;
 }
-
 .footer-desc {
     background: #f7f7f7;
     padding: 30px 25px;
@@ -1105,7 +1107,7 @@ h1.loader-pepcus:before {
 
 .navbar-brand {
     height: auto;
-    padding: 7px 15px
+    padding: 7px 0px;
 }
 
 .nav {
@@ -1355,6 +1357,39 @@ a.social-icon:hover {
     color: #fff;
     font-size: 13px
 }
+a.social-icon {
+    display: inline-block;
+    width: 35px;
+    height: 40px;
+    background-image: url("../images/sprite/sprite.png");
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a.social-icon:hover {
+    filter: grayscale(0);
+}
+.facebook-icon {
+    background-position: 0 5px;
+}
+.twitter-icon {
+    background-position: -37px 5px;
+}
+.google-icon {
+    background-position: -73px 5px;
+}
+.linked-icon {
+    background-position: -113px 5px;
+}
+.insta-icon {
+    background-position: -152px 5px;
+}
+a.social-icon:hover {
+    color: #c12e2a;;
+}
 
 .footer-image {
     background: url(../images/footer/TeamPic.png);
@@ -1382,6 +1417,9 @@ a.social-icon:hover {
 @media only screen and (max-width:1280px) {
     .scrollup {
         right: 10px
+    }
+    .navbar-brand{
+        padding: 0;
     }
     .client-section {
         margin-bottom: 20px
@@ -1438,6 +1476,9 @@ a.social-icon:hover {
         color: #fff;
         padding-top: 206px
     }
+    .pepcus-collage {
+        height: 493px;
+    }
 }
 
 .navbar-nav>li:nth-child(5) a {
@@ -1481,52 +1522,53 @@ a.social-icon:hover {
 
 @media only screen and (max-width:1024px) {
     .xs-padding-50-20 {
-        padding: 50px 20px
+        padding: 50px 20px;
     }
     .font-size-60 {
-        font-size: 50px
+        font-size: 60px;
     }
     .font-size-55 {
-        font-size: 45px
+        font-size: 45px;
     }
     .font-size-50 {
-        font-size: 40px
+        font-size: 40px;
     }
     .font-size-45 {
-        font-size: 36px
+        font-size: 36px;
     }
     .font-size-40 {
-        font-size: 32px
+        font-size: 40px;
     }
     .font-size-32 {
-        font-size: 26px
+        font-size: 26px;
     }
     .font-size-26 {
-        font-size: 22px
+        font-size: 22px;
     }
     .font-size-20 {
-        font-size: 16px
+        font-size: 16px;
     }
     .service-content-row1 {
-        height: 881px
+        height: 881px;
     }
     .service-content-block3 {
-        height: 1205px
+        height: 1205px;
     }
     .footer-image {
-        padding-bottom: 44%
+        padding-bottom: 44%;
     }
     .service-content-row2 {
-        height: 712px
+        height: 528px;
     }
+
     .padding-08-25 {
-        padding: 14px 25px
+        padding: 14px 25px;
     }
     .footer-content {
-        padding-top: 172px
+        padding-top: 172px;
     }
     .service-content-row4 {
-        min-height: 196px
+        min-height: 196px;
     }
     .service-content-row5{
             margin-top: 0;
@@ -1534,13 +1576,13 @@ a.social-icon:hover {
             height: 108px;
     }
     .font-size-16 {
-        font-size: 16px
+        font-size: 16px;
     }
     .padding-50-00 {
-        padding-top: 49px
+        padding-top: 49px;
     }
     .padding-50-25 {
-        padding: 18px 20px
+        padding: 18px 10px;
     }
     .font-size-14 {
         font-size: 17px;
@@ -1570,6 +1612,12 @@ a.social-icon:hover {
     .banner .content {
         padding-top: 203px
     }
+    .service-content-administrativeHead {
+        height: 488px;
+    }
+    .service-content-block-HR {
+        height: 495px;
+    }
 }
 
 @media (max-width:992px) {
@@ -1580,19 +1628,22 @@ a.social-icon:hover {
         height: 216px
     }
     a.link-footer {
-        font-size: 27px
+        font-size: 16px;
     }
     .weight-300-height-16 {
         font-size: 20px
+    }
+    .font-size-14 {
+        font-size: 14px;
     }
     .text {
         font-size: 17em
     }
     .service-content-row1 {
-        height: 920px
+        height: 597px;
     }
     .service-content-block3 {
-        height: 801px
+        height: 528px;
     }
     .navbar-nav>li:nth-child(5) a {
         margin-left: 34px
@@ -1645,6 +1696,7 @@ a.social-icon:hover {
     .service-content-row1 {
         height: 1014px
     }
+
     .service-content-block3 {
         height: 810px
     }
@@ -1684,6 +1736,12 @@ a.social-icon:hover {
     }
     .banner .content {
         padding-top: 187px
+    }
+    .pepcus-collage {
+        height: 443px;
+    }
+    .footer-line-height {
+        line-height: 60px;
     }
 }
 
@@ -1749,6 +1807,13 @@ a.social-icon:hover {
     .navbar-nav>li>a {
         padding: 10px
     }
+    .header-menu .nav {
+        margin-top: 10px;
+    }
+    .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+        /* color: #585858; */
+        font-size: 13px;
+    }
     .navbar-collapse .nav>li {
         width: auto
     }
@@ -1777,7 +1842,7 @@ a.social-icon:hover {
         font-size: 18px
     }
     .service-content-row2 {
-        height: 574px
+        height: 560px;
     }
     .service-content-block3 {
         height: 559px
@@ -1807,22 +1872,22 @@ a.social-icon:hover {
         font-size: 16em
     }
     .weight-300-height-16 {
-        font-size: 16px
+        font-size: 16px;
     }
     a.link-footer {
-        font-size: 25px
+        font-size: 20px;
     }
     .footer-content {
-        padding-top: 169px
+        padding-top: 169px;
     }
     .padding-50-00 {
-        padding-top: 63px
+        padding-top: 63px;
     }
     .service-content-block1 {
-        height: 700px
+        height: 700px;
     }
     .main-heading-inner {
-        line-height: 47px
+        line-height: 50px;
     }
     .font-size-25 {
         font-size: 20px;
@@ -1832,24 +1897,33 @@ a.social-icon:hover {
         padding-bottom: 60%
     }
     .general-team {
-        min-height: 339px;
-        background-image: url(../images/parallex/team-8mob.jpg);
+        min-height: 509px;
+        background-image: url(../images/parallex/team-pepcus.jpg);
         position: relative;
         width: 100%
     }
     .banner .content {
         margin-bottom: -50px;
-        padding-top: 158px
+        padding-top: 191px;
     }
     .font-size-60 {
-        font-size: 39px
+        font-size: 60px;
     }
     .font-size-40 {
-        font-size: 24px
+        font-size: 30px;
     }
     .parallax {
         background-attachment: scroll;
         background-position: bottom
+    }
+    .pepcus-collage {
+        height: 492px;
+        padding: 0;
+        margin-bottom: -30px;
+        display: block;
+        position: relative;
+        z-index: 1;
+        margin-top: 55px;
     }
 }
 
@@ -1972,7 +2046,7 @@ a.social-icon:hover {
         font-size: 20px
     }
     .font-size-60 {
-        font-size: 32px
+        font-size: 40px;
     }
     .font-size-32 {
         font-size: 22px
@@ -2028,9 +2102,9 @@ a.social-icon:hover {
     .image-container-small {
         height: 325px
     }
-    .general-banner {
+    /* .general-banner {
         padding-top: 93px
-    }
+    } */
 }
 
 @media (max-width:760px) {
@@ -2153,40 +2227,43 @@ a.social-icon:hover {
 
 @media (max-width:668px) {
     .font-size-16 {
-        font-size: 22px
+        font-size: 22px;
     }
     .service-content-row1 {
-        height: auto
+        height: auto;
     }
     .service-content-row3 {
-        height: auto
+        height: auto;
     }
     .service-content-row2 {
-        height: auto
+        height: auto;
     }
     .font-size-14 {
-        font-size: 21px
+        font-size: 21px;
     }
     .service-content-row4 {
-        height: 232px
+        height: 232px;
     }
     .font-size-25 {
-        padding: 25px 0
+        padding: 25px 0;
     }
     .font-size-25 {
-        padding: 25px 0
+        padding: 25px 0;
     }
     .image-container {
-        height: 440px
+        height: 440px;
     }
     .services-section-head {
-        padding-bottom: 14px
+        padding-bottom: 14px;
     }
     .image-container-small {
-        height: 280px
+        height: 280px;
     }
     .general-banner .content .font-size-40 {
-        font-size: 23px
+        font-size: 25px;
+    }
+    .main-heading-inner {
+        line-height: 47px;
     }
 }
 
@@ -2204,43 +2281,49 @@ a.social-icon:hover {
 
 @media(max-width:600px) {
     .image-container-small {
-        height: 260px
+        height: 260px;
     }
     a.link-footer {
-        font-size: 20px
+        font-size: 20px;
     }
     .footer-content {
-        padding-top: 178px
+        padding-top: 178px;
     }
     .general-team {
-        min-height: 205px
+        min-height: 447px;
     }
 }
 
 @media (max-width:600px) {
     .footer-image {
-        padding-bottom: 76%
+        padding-bottom: 77%;
     }
     .image-container {
-        height: 415px
+        height: 415px;
     }
     .image-container-small {
-        height: 282px
+        height: 282px;
     }
     .service-content-sumedha {
-        height: auto
+        height: auto;
     }
     .banner .content {
-        padding-top: 49px
+        padding-top: 175px;
     }
     .service-content-row2 {
-        height: auto
+        height: auto;
     }
     .service-content-row1 {
-        height: auto
+        height: auto;
     }
     .service-content-row3 {
-        height: auto
+        height: auto;
+    }
+    .text {
+        font-size: 21em;
+    }
+    .pepcus-collage {
+        height: 540px;
     }
 }
 
@@ -2366,7 +2449,7 @@ a.social-icon:hover {
         font-size: 16em
     }
     a.link-footer {
-        font-size: 20px
+        font-size: 13px;
     }
     .weight-300-height-16 {
         font-size: 20px
@@ -2380,6 +2463,14 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 93%
     }
+    .footer-desc-para {
+        padding: 8px 0;
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    .pepcus-collage {
+        height: 468px;
+    }
 }
 
 @media (max-width:450px) {
@@ -2388,16 +2479,16 @@ a.social-icon:hover {
         width: 100%
     }
     .footer-image {
-        padding-bottom: 115%
+        padding-bottom: 127%;
     }
     .font-size-50 {
         font-size: 30px
     }
     .banner .content {
-        padding-top: 38px
+        padding-top: 126px;
     }
     .main-heading-inner {
-        line-height: 38px
+        line-height: 38px;
     }
     .parallax {
         background-size: cover;
@@ -2405,77 +2496,94 @@ a.social-icon:hover {
         background-position: bottom
     }
     .font-size-60 {
-        font-size: 22px
+        font-size: 30px;
     }
     .general-team {
-        min-height: 154px
+        min-height: 283px;
     }
     .banner .content .main-heading-inner {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
     .font-size-14 {
-        font-size: 16px
+        font-size: 16px;
     }
     .service-content-row4 {
-        height: 212px
+        height: 212px;
     }
     .image-container {
-        height: 332px
+        height: 286px;
+    }
+    .image-container-small {
+        height: 355px;
     }
     .image-container-purvi {
-        height: 282px
+        height: 282px;
     }
-    .general-banner {
+    /* .general-banner {
         padding-top: 79px
-    }
+    } */
     .general-banner .content .font-size-40 {
-        font-size: 15px
+        font-size: 17px;
     }
     .text {
-        font-size: 25em
+        font-size: 25em;
     }
     .weight-300-height-16 {
-        font-size: 16px;
-        padding-top: 0
+        font-size: 10px;
+        padding-top: 0;
+    }
+    .font-size-14 {
+        font-size: 14px;
     }
     .font-size-16 {
-        font-size: 19px
+        font-size: 16px;
     }
     .image-container-ankit {
-        height: 311px
+        height: 311px;
     }
     .footer-content {
-        padding-top: 165px
+        padding-top: 193px;
     }
+    .padding-0-0-20 {
+        padding: 0 0 20px;
+    }
+    /* .pepcus-collage {
+        height: 540px;
+    } */
+    .pepcus-collage {
+        height: 500px;
+    }
+    .footer-line-height {
+        line-height: 38px;
+    }
+    
 }
 
 @media (max-width:360px) {
     .footer-image {
-        padding-bottom: 128%
+        padding-bottom: 128%;
     }
     .image-container .background-image {
-        background-size: cover
+        background-size: cover;
     }
-    .font-size-14 {
-        font-size: 16px
-    }
+   
     .image-container {
-        height: 312px
+        height: 312px;
     }
     .image-container-purvi {
-        height: 261px
+        height: 261px;
     }
     .banner .content {
-        padding-top: 30px
+        padding-top: 116px;
     }
     .font-size-60 {
-        font-size: 21px
+        font-size: 27px;
     }
     .general-banner .content .font-size-40 {
-        font-size: 15px
+        font-size: 16px;
     }
     .general-team {
-        min-height: 143px
+        min-height: 281px;
     }
     .parallax {
         background-attachment: scroll;
@@ -2485,77 +2593,98 @@ a.social-icon:hover {
     .image-container-sushil {
         height: 270px
     }
-    .general-banner {
+    /*  .general-banner {
         padding-top: 92px
-    }
+    } */
     .weight-300-height-16 {
-        font-size: 15px
+        font-size: 10px;
+    }
+    .font-size-14 {
+        font-size: 14px;
     }
     .font-size-16 {
-        font-size: 16px
+        font-size: 16px;
     }
     a.link-footer {
-        font-size: 16px
+        font-size: 12px;
     }
     .font-size-50 {
-        font-size: 24px
+        font-size: 24px;
     }
     .text {
-        font-size: 25em
+        font-size: 25em;
     }
     .padding-50-00 {
         padding-top: 35px
     }
     .footer-content {
-        padding-top: 204px
+        padding-top: 204px;
     }
     .banner .content .main-heading-inner {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
     .main-heading-inner {
-        line-height: 31px
+        line-height: 45px;
     }
     .service-content-row4 {
-        height: 199px
+        height: 199px;
+    }
+    .pepcus-collage {
+        height: 426px;
+    }
+    .pepcus-collage {
+        height: 481px;
+    }
+    .footer-line-height {
+        line-height: 14px;
     }
 }
 
 @media (max-width:320px) {
     .footer-image {
-        padding-bottom: 128%
+        padding-bottom: 128%;
     }
     .parallax {
-        background-position: bottom
+        background-position: bottom;
     }
     .font-size-60 {
-        font-size: 19px
+        font-size: 25px;
     }
     .general-banner .content .font-size-40 {
-        font-size: 14px
+        font-size: 14px;
     }
     .font-size-14 {
-        font-size: 14px
+        font-size: 14px;
     }
     .font-size-16 {
-        font-size: 16px
+        font-size: 16px;
     }
     .image-container {
-        height: 276px
+        height: 276px;
     }
     .general-team {
-        min-height: 126px
+        min-height: 257px;
     }
-    .general-banner {
-        padding-top: 93px
+    .footer-line-height{
+        line-height:9px;
     }
     .image-container-purvi {
         height: 233px
     }
     .footer-content {
-        padding-top: 184px
+        padding-top: 171px;
     }
     .banner .content {
-        padding-top: 20px
+        padding-top: 107px;
+    }
+    .main-heading-inner {
+        line-height: 47px;
+    }
+    .pepcus-collage {
+        height: 433px;
+    }
+    .font-size-13 {
+        font-size: 13px;
     }
 }
 
