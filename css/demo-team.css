@@ -1477,7 +1477,7 @@ a.social-icon:hover {
         padding-top: 206px
     }
     .pepcus-collage {
-        height: 493px;
+        height: 581px;
     }
 }
 
@@ -2353,7 +2353,7 @@ a.social-icon:hover {
         height: 273px
     }
     .font-size-25 {
-        font-size: 27px
+        font-size: 20px;
     }
     .padding-50-00 {
         padding-top: 46px
@@ -2471,6 +2471,9 @@ a.social-icon:hover {
     .pepcus-collage {
         height: 468px;
     }
+   /*  .footer-image {
+        padding-bottom: 92%;
+    } */
 }
 
 @media (max-width:450px) {
@@ -2479,7 +2482,7 @@ a.social-icon:hover {
         width: 100%
     }
     .footer-image {
-        padding-bottom: 127%;
+        padding-bottom: 101%;
     }
     .font-size-50 {
         font-size: 30px
@@ -2488,7 +2491,7 @@ a.social-icon:hover {
         padding-top: 126px;
     }
     .main-heading-inner {
-        line-height: 38px;
+        line-height: 43px;
     }
     .parallax {
         background-size: cover;
@@ -2496,7 +2499,7 @@ a.social-icon:hover {
         background-position: bottom
     }
     .font-size-60 {
-        font-size: 30px;
+        font-size: 32px;
     }
     .general-team {
         min-height: 283px;
@@ -2508,7 +2511,7 @@ a.social-icon:hover {
         font-size: 16px;
     }
     .service-content-row4 {
-        height: 212px;
+        height: 198px;
     }
     .image-container {
         height: 286px;
@@ -2523,7 +2526,7 @@ a.social-icon:hover {
         padding-top: 79px
     } */
     .general-banner .content .font-size-40 {
-        font-size: 17px;
+        font-size: 15px;
     }
     .text {
         font-size: 25em;
@@ -2542,7 +2545,7 @@ a.social-icon:hover {
         height: 311px;
     }
     .footer-content {
-        padding-top: 193px;
+        padding-top: 140px;
     }
     .padding-0-0-20 {
         padding: 0 0 20px;
@@ -2551,7 +2554,7 @@ a.social-icon:hover {
         height: 540px;
     } */
     .pepcus-collage {
-        height: 500px;
+        height: 395px;
     }
     .footer-line-height {
         line-height: 38px;
@@ -2577,10 +2580,10 @@ a.social-icon:hover {
         padding-top: 116px;
     }
     .font-size-60 {
-        font-size: 27px;
+        font-size: 32px;
     }
     .general-banner .content .font-size-40 {
-        font-size: 16px;
+        font-size: 15px;
     }
     .general-team {
         min-height: 281px;
@@ -2618,7 +2621,7 @@ a.social-icon:hover {
         padding-top: 35px
     }
     .footer-content {
-        padding-top: 204px;
+        padding-top: 175px;
     }
     .banner .content .main-heading-inner {
         margin-bottom: 0;
@@ -2633,11 +2636,12 @@ a.social-icon:hover {
         height: 426px;
     }
     .pepcus-collage {
-        height: 481px;
+        height: 475px;
     }
     .footer-line-height {
         line-height: 14px;
     }
+
 }
 
 @media (max-width:320px) {
