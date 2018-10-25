@@ -1549,7 +1549,7 @@ a.social-icon:hover {
         font-size: 16px;
     }
     .service-content-row1 {
-        height: 881px;
+        height: 685px;
     }
     .service-content-block3 {
         height: 1205px;
@@ -1585,7 +1585,7 @@ a.social-icon:hover {
         padding: 18px 10px;
     }
     .font-size-14 {
-        font-size: 17px;
+        font-size: 14px;
         padding-top: 20px
     }
     .service-content-row3 {
@@ -1601,7 +1601,7 @@ a.social-icon:hover {
         height: 220px
     }
     .service-content-block3 {
-        height: 881px
+        height: 686px;
     }
     .col-sm-2 {
         display: none
@@ -1613,10 +1613,12 @@ a.social-icon:hover {
         padding-top: 203px
     }
     .service-content-administrativeHead {
-        height: 488px;
+        height: 514px;
+
     }
     .service-content-block-HR {
-        height: 495px;
+        height: 514px;
+
     }
     .pepcus-collage {
         height: 474px;
