@@ -2433,13 +2433,13 @@ a.social-icon:hover {
         height: 361px
     }
     .general-team {
-        min-height: 159px
+        min-height: 341px;
     }
     .banner .content {
-        padding-top: 35px
+        padding-top: 124px;
     }
     .font-size-60 {
-        font-size: 28px
+        font-size: 30px;
     }
     .general-banner .content .font-size-40 {
         font-size: 16px
