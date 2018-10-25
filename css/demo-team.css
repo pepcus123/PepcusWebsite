@@ -2482,7 +2482,7 @@ a.social-icon:hover {
         width: 100%
     }
     .footer-image {
-        padding-bottom: 101%;
+        padding-bottom: 114%;
     }
     .font-size-50 {
         font-size: 30px
@@ -2561,7 +2561,11 @@ a.social-icon:hover {
     }
     
 }
-
+@media(max-width: 400px) {
+    .pepcus-collage {
+        height: 441px;
+    }
+}
 @media (max-width:360px) {
     .footer-image {
         padding-bottom: 128%;
