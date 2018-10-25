@@ -776,7 +776,7 @@ a.link-footer:hover {
 }
 
 .footer-desc-link a:hover {
-    color: #c71111;
+    color: #898989;
     transition: .2s all;
     -webkit-transition: .2s all;
     -moz-transition: .2s all;
