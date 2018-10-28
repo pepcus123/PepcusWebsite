@@ -75,12 +75,12 @@ h1.loader-pepcus::before {
     }
 }
 
-.general-team {
-    min-height: 490px;
-    background-image: url(../images/parallex/team-8edit.jpg);
+/* .general-team {
+    min-height: 500px;
+    background-image: url(../images/parallex/team-8mob.jpg);
     position: relative;
     width: 100%
-}
+} */
 /* 
 .loading-image img {
     width: 50px
@@ -320,6 +320,13 @@ div#demo>a>h4 {
     transition: .5s ease;
     background: rgba(113, 2, 2, .86)
 }
+.general-team {
+    /* min-height: 500px; */
+    background-image: url(../images/parallex/team-8mob.jpg);
+    position: relative;
+    width: 100%;
+}
+
 
 .team-container:hover .overlay {
     opacity: 1;
@@ -487,13 +494,13 @@ div#demo>a>h4 {
     line-height: 1.6;
 } */
 
-.font-size-60 {
+/* .font-size-60 {
     font-size: 60px
-}
+} */
 
-.font-size-55 {
+/* .font-size-55 {
     font-size: 55px
-}
+} */
 
 /* .font-size-50 {
     font-size: 50px
@@ -528,22 +535,21 @@ div#demo>a>h4 {
     padding-top: 16px
 }
 
-.banner .content .main-heading-inner {
+/* .banner .content .main-heading-inner {
     margin-bottom: 25px
-}
+} */
 
 /* .main-heading-inner {
     line-height: 53px
 } */
 
-.banner .content {
+/* .banner .content {
     margin-bottom: -50px;
-    /* padding-top: 183px */
 }
-
-.flex-center {
+ */
+/* .flex-center {
     align-items: center
-}
+} */
 
 .line-height-13 {
     line-height: 1.3
@@ -1024,7 +1030,7 @@ h1.loader-pepcus:before {
 .pepcus-collage {
     height: 427px;
     padding: 0;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
     display: block;
     position: relative;
     z-index: 1;
@@ -1367,17 +1373,18 @@ a.social-icon:hover {
 }
  */
 .footer-image {
+    background-attachment: fixed;
     background: url(../images/footer/TeamPic.png);
     position: relative;
     background-size: cover;
     width: 100%;
-    /* min-height: 450px; */
-    padding-bottom: 30.3%
+    min-height: 450px;
+    /* padding-bottom: 30.3% */
 }
 
-.main-heading-inner span {
+/* .main-heading-inner span {
     color: #f10505
-}
+} */
 
 .footer-content {
     color: #fff;
@@ -1416,7 +1423,7 @@ a.social-icon:hover {
         margin-left: 36px;
     }
     .parallax {
-        background-size: contain;
+        background-size: cover;
     }
     .nicescroll-cursors {
         border: none!important;
@@ -1430,9 +1437,9 @@ a.social-icon:hover {
     .general2-img {
         min-height: 400px;
     }
-    .general-team {
+    /* .general-team {
         min-height: 440px;
-    }
+    } */
     /* .banner .content {
         padding-top: 225px
     } */
@@ -1500,9 +1507,9 @@ a.social-icon:hover {
     .xs-padding-50-20 {
         padding: 50px 20px;
     }
-    .font-size-60 {
+    /* .font-size-60 {
         font-size: 60px;
-    }
+    } */
     .font-size-55 {
         font-size: 45px;
     }
@@ -1588,6 +1595,10 @@ a.social-icon:hover {
      /* .banner .content {
         padding-top: 203px
     } */
+    .parallax {
+        background-size: contain;
+        background-position: 0px 80px;
+    }
     .service-content-administrativeHead {
         height: 514px;
 
@@ -1599,6 +1610,11 @@ a.social-icon:hover {
     .pepcus-collage {
         height: 474px;
     }
+    /* .general-team {
+        background-image: url(../images/parallex/team-pepcus1@.jpg);
+        position: relative;
+        width: 100%;
+    } */
 }
 
 @media (max-width:992px) {
@@ -1632,9 +1648,9 @@ a.social-icon:hover {
     .col-sm-2 {
         display: block
     }
-    .general-team {
+    /* .general-team {
         min-height: 493px
-    }
+    } */
     /* .banner .content {
         padding-top: 207px
     } */
@@ -1642,16 +1658,16 @@ a.social-icon:hover {
 
 @media (max-width:940px) {
     .footer-image {
-        padding-bottom: 53%
+        padding-bottom: 53%;
     }
-    .banner .content .main-heading-inner {
-        margin-bottom: 10px
-    }
+    /* .banner .content .main-heading-inner {
+        margin-bottom: 21px;
+    } */
     .col-sm-2 {
-        display: block
+        display: block;
     }
     .navbar-nav>li:nth-child(5) a {
-        margin-left: -19px
+        margin-left: -19px;
     }
 }
 
@@ -1693,16 +1709,18 @@ a.social-icon:hover {
     /* .banner .content {
         padding-top: 166px
     } */
-    .general-team {
-        min-height: 356px;
-    }
+    /* .general-team {
+        min-height: 400px;
+    } */
+
     .font-size-25 {
         font-size: 21px;
         padding: 18px 0;
     }
-    .main-heading-inner {
+    /* .main-heading-inner {
         line-height: 32px;
-    }
+    } */
+    
 }
 
 @media(max-width:800px) {
@@ -1867,9 +1885,9 @@ a.social-icon:hover {
     .service-content-block1 {
         height: 700px;
     }
-    .main-heading-inner {
+    /* .main-heading-inner {
         line-height: 50px;
-    }
+    } */
     .font-size-25 {
         font-size: 20px;
         padding: 0 0;
@@ -1877,20 +1895,20 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 60%;
     }
-    .general-team {
-        /* min-height: 509px; */
+    /* .general-team {
+        min-height: 500px;
         background-image: url(../images/parallex/team-pepcus1.jpg);
         position: relative;
         width: 100%;
-    }
-    .banner .content {
+    } */
+    /* .banner .content {
         margin-bottom: -50px;
         padding-top: 0px;
-        /* padding-top: 191px; */
-    }
-    .font-size-60 {
+   
+    } */
+    /* .font-size-60 {
         font-size: 60px;
-    }
+    } */
     .font-size-40 {
         font-size: 30px;
     }
@@ -1903,6 +1921,16 @@ a.social-icon:hover {
         z-index: 1;
         margin-top: 55px;
     }
+    .general-team {
+        min-height: 400px;
+        background-image: url(../images/parallex/team-pepcus1@.jpg);
+        /* position: relative; */
+        width: 100%;
+    }
+    /* .parallex {
+        background-size: contain;
+        background-position: 0px 80px;
+    } */
 }
 
 @media (max-width:767px) {
@@ -1910,7 +1938,7 @@ a.social-icon:hover {
         font-size: 21px
     }
     .banner .content {
-        margin-bottom: -61px;
+        margin-bottom: -50px;
     }
     .services-section-head .font-size-32 {
         font-size: 20px;
@@ -2002,11 +2030,11 @@ a.social-icon:hover {
     .general1-img {
         min-height: 300px;
     }
-    .general2-img {
+    /* .general2-img {
         min-height: 300px;
-    }
+    } */
     .general-team {
-        min-height: 332px;
+        min-height: 300px;
     }
     .general-contact {
         min-height: 300px;
@@ -2240,9 +2268,9 @@ a.social-icon:hover {
     .general-banner .content .font-size-40 {
         font-size: 25px;
     }
-    .main-heading-inner {
+    /* .main-heading-inner {
         line-height: 47px;
-    }
+    } */
 }
 
 @media(max-width:640px) {
@@ -2405,9 +2433,9 @@ a.social-icon:hover {
     .image-container {
         height: 361px;
     }
-    .general-team {
+    /* .general-team {
         min-height: 250px;
-    }
+    } */
     /* .banner .content {
         padding-top: 124px;
     } */
@@ -2468,9 +2496,9 @@ a.social-icon:hover {
     /* .banner .content {
         padding-top: 126px;
     } */
-    .main-heading-inner {
+    /* .main-heading-inner {
         line-height: 43px;
-    }
+    } */
     /* .parallax {
         background-size: cover;
         background-attachment: scroll;
@@ -2482,9 +2510,9 @@ a.social-icon:hover {
     /* .general-team {
         min-height: 283px;
     } */
-    .banner .content .main-heading-inner {
+    /* .banner .content .main-heading-inner {
         margin-bottom: 0;
-    }
+    } */
     .font-size-14 {
         font-size: 16px;
     }
@@ -2573,14 +2601,10 @@ a.social-icon:hover {
     .general-banner .content .font-size-40 {
         font-size: 15px;
     }
-    .general-team {
+   /*  .general-team {
         min-height: 241px;
-    }
-    .parallax {
-        /* background-attachment: scroll; */
-        background-size: contain;
-        /* background-position: bottom */
-    }
+    } */
+  
     .image-container-sushil {
         height: 270px
     }
@@ -2611,12 +2635,12 @@ a.social-icon:hover {
     /* .footer-content {
         padding-top: 175px;
     } */
-    .banner .content .main-heading-inner {
+    /* .banner .content .main-heading-inner {
         margin-bottom: 0;
-    }
-    .main-heading-inner {
+    } */
+    /* .main-heading-inner {
         line-height: 45px;
-    }
+    } */
     .service-content-row4 {
         height: 199px;
     }
@@ -2636,9 +2660,6 @@ a.social-icon:hover {
     .footer-image {
         padding-bottom: 128%;
     }
-    .parallax {
-        background-position: bottom;
-    }
     .font-size-60 {
         font-size: 25px;
     }
@@ -2654,9 +2675,9 @@ a.social-icon:hover {
     .image-container {
         height: 276px;
     }
-    .general-team {
+   /*  .general-team {
         min-height: 257px;
-    }
+    } */
     .footer-line-height{
         line-height:9px;
     }
@@ -2669,9 +2690,9 @@ a.social-icon:hover {
     /* .banner .content {
         padding-top: 107px;
     } */
-    .main-heading-inner {
+    /* .main-heading-inner {
         line-height: 47px;
-    }
+    } */
     .pepcus-collage {
         height: 433px;
     }

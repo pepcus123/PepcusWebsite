@@ -558,12 +558,7 @@ footer{
 .general1-img{min-height: 500px; background-image: url("../images/parallex/services1.jpg");}
 .general2-img{min-height: 500px; background-image: url("../images/parallex/about1.jpg");}
 .general-team{min-height: 500px; background-image: url("../images/parallex/team-8.jpg");position:relative;width:100%;}
-.general-team-layer{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(130, 27, 27, 0.76)
-}
+
 .general-contact{min-height: 500px; background-image: url("../images/parallex/contact1.jpg");}
 .parallax {
     /* Create the parallax scrolling effect */
@@ -1677,7 +1672,7 @@ h2#goal_para{top:50%;right:15%;}
         margin-bottom: -20px;
     }
     .banner .content {
-        margin-bottom: -100px;
+        margin-bottom: -70px;
     }
     .services-section-head .font-size-32 {
         font-size: 20px;
