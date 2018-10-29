@@ -415,6 +415,12 @@ h2#goal_para{top:50%;right:15%;}
     .general-team {
         min-height: 400px;
     }
+    .general-team {
+        /* min-height: 500px;  */
+        background-image: url("../images/parallex/team-Pepcus-edit@.png");
+        position:relative;
+        width:100%;
+    }
    
 }
 @media only screen and (max-width: 1024px) {
@@ -449,7 +455,8 @@ h2#goal_para{top:50%;right:15%;}
         height: 685px;
     }
     .service-content-block1 {
-        height: 476px;
+        /* height: 476px; */
+        height: 629px;
     }
     .service-content-row4 {
         min-height: 244px;
@@ -475,6 +482,9 @@ h2#goal_para{top:50%;right:15%;}
     }
     .padding-50-25 {
         padding: 19px 25px;
+    }
+    .footer-height {
+        height: 385px;
     }
 }
 
@@ -672,16 +682,27 @@ h2#goal_para{top:50%;right:15%;}
     .general-team {
         min-height: 400px;
     }
-    .general-team {
-        /* min-height: 500px;  */
-        background-image: url("../images/parallex/team-Pepcus-edit@.png");
-        position:relative;
-        width:100%;
-    }
+    
     #third_team div:nth-child(19) {
         margin-left: 16.66666667%;
     }
+    .service-content-block1 {
+        height: 590px;
+    }
+    #secondary_team div:nth-child(n+0) .service-content-block1 {
+        height: 500px;
+    }
+    #main_team div:nth-child(3) .service-content-block1 {
+        height: 500px;
+    }
+    #primary_team div:nth-child(1) .service-content-block1 {
+        height: 500px;
+    }
+    .parallax {
+        background-size: cover;
+    }
 }
+
 @media(max-width:768px) {
     .sm-overflow-hidden {
         overflow: hidden;
@@ -740,7 +761,7 @@ h2#goal_para{top:50%;right:15%;}
         background-image: none;
     }
     .scroll-top-section{
-        display: none;
+        display: block;
     }
     .navbar-nav>li>a, .change-height .navbar-nav>li>a {
         padding: 10px;
@@ -777,6 +798,15 @@ h2#goal_para{top:50%;right:15%;}
     #secondary_team div:nth-child(n+0) .service-content-block1 {
         height: 503px;
     }
+    /* #third_team div:nth-child(19) {
+        margin-left:0;
+    }
+    .image-container {
+        height: 492px;
+    }
+    .image-container-small {
+        height: 612px;
+    } */
 }
 @media(max-width:767px) {
     .general-banner .content .font-size-40 {
@@ -1140,5 +1170,17 @@ h2#goal_para{top:50%;right:15%;}
     }
     .text {
         font-size: 29em;
+    }
+    .parallax {
+        background-size: contain;
+        background-position: 0px 75px;
+    }
+    .banner .content {
+        margin-bottom: -40px;
+    }
+}
+@media (max-width: 640px) and (orientation: landscape) {
+    .parallax {
+        background-size: cover;
     }
 }
