@@ -35,11 +35,11 @@ $(document).ready(function(e) {
         })
     }
     $('.image-container').on('click', function(){ });
-    document.addEventListener("touchend", function() {},false);
+    document.addEventListener("click", function() {},false);
 
     $('.image-container').on('touchend', function(e) {
         e.preventDefault();
-        $(this).toggleClass('hover_effect');
+        $(this).toggleClass('hover');
     });
 });
 var page = document.getElementById('page');
