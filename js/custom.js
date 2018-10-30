@@ -56,7 +56,7 @@ $(document).ready(function(e) {
 
     //Mouse Out   
     $('.image-container').bind('mouseleave touchmove click', function(){
-        $(this).find(".hover").fadeOut();
+        $(this).find(".hover1").fadeOut();
     });
      $('.image-container').on('touchstart', function() {
         $(this).trigger('hover');
