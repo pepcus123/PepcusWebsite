@@ -61,6 +61,10 @@ $(document).ready(function(e) {
      $('.image-container').on('touchstart', function() {
         $(this).trigger('hover');
       });
+     $('.image-container').hover(
+       function(){ $(this).addClass('hover') },
+       function(){ $(this).removeClass('hover') }
+    )
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
