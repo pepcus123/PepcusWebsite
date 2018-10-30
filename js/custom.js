@@ -46,25 +46,21 @@ $(document).ready(function(e) {
         var link = el.attr("href");
         window.location = link;
     });
-    $('.image-container').on('touchend', function() {
-    $(this).click();
+    $(function()
+    {
+    $("#image1").hover(function()
+    {
+        $(this).addClass("hover");
+    }, function()
+    {
+        var link = $(this);
+        window.setTimeout(function(){
+            $(link).removeClass("hover");
+        }, 500);
     });
-       //Mouse Enter
-    $('.image-container').bind('touchstart mouseenter', function(){
-        $(this).find(".hover").fadeIn();
-    });
+});
 
-    //Mouse Out   
-    $('.image-container').bind('mouseleave touchmove click', function(){
-        $(this).find(".hover1").fadeOut();
-    });
-     $('.image-container').on('touchstart', function() {
-        $(this).trigger('hover');
-      });
-     $('.image-container').hover(
-       function(){ $(this).addClass('hover') },
-       function(){ $(this).removeClass('hover') }
-    )
+
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
