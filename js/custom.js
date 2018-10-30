@@ -49,6 +49,15 @@ $(document).ready(function(e) {
     $('.image-container').on('touchend', function() {
     $(this).click();
     });
+    $("body").on("mouseover", function() {
+       if (document.getElementsByTagName && document.querySelector) { // check compatibility
+           document.getElementsByTagName("div")[0].style.display = 'block'; //show element
+           document.querySelector(".image-container div").style.display = 'none'; // hide element
+        } else {
+            $(".image-container").show();
+            $(".image-container div").hide();
+        }
+    });
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
