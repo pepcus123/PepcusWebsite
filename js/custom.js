@@ -49,14 +49,14 @@ $(document).ready(function(e) {
     $('.image-container').on('touchend', function() {
     $(this).click();
     });
-    $("body").on("mouseover", function() {
-       if (document.getElementsByTagName && document.querySelector) { // check compatibility
-           document.getElementsByTagName("div")[0].style.display = 'block'; //show element
-           document.querySelector(".image-container div").style.display = 'none'; // hide element
-        } else {
-            $(".image-container").show();
-            $(".image-container div").hide();
-        }
+       //Mouse Enter
+    $('.image-container').bind('touchstart mouseenter', function(){
+        $(this).find(".hover").fadeIn();
+    });
+
+    //Mouse Out   
+    $('.image-container').bind('mouseleave touchmove click', function(){
+        $(this).find(".hover").fadeOut();
     });
 });
 var page = document.getElementById('page');
