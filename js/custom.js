@@ -36,8 +36,8 @@ $(document).ready(function(e) {
     }
     $('.image-container').on('click', function(){ });
     document.addEventListener("click", function() {},false);
-
-    $('.image-container').on('touchend', function(e) {
+    $(".image-container").off('click');
+    $('.image-container').on('touchstart touchend', function(e) {
         e.preventDefault();
         $(this).toggleClass('hover');
     });
