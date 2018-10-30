@@ -46,22 +46,19 @@ $(document).ready(function(e) {
         var link = el.attr("href");
         window.location = link;
     });
-    $(function()
-    {
-    $("#image1").on("click",function()
-    {
-        $(this).addClass("hover");
-    }, function()
-    {
-        var link = $(this);
-        window.setTimeout(function(){
-            $(link).removeClass("hover");
-        }, 500);
+   
+
+
+
+
+});
+     $('.image-container').click(function(){
+            alert("sfsdf");
+            if($(".hover").css('opacity') == 0)
+            $(".hover").css('opacity','1');
+            if($(".hover").css('opacity') == 1)
+            $(".hover").css('opacity','0');
     });
-});
-
-
-});
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
 var transition = 'top 0.8s ease-in-out 0s';
