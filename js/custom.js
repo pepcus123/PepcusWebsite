@@ -41,6 +41,14 @@ $(document).ready(function(e) {
         e.preventDefault();
         $(this).toggleClass('hover');
     });
+    $(".image-container").on("click touchend", function(e) {
+        var el = $(this);
+        var link = el.attr("href");
+        window.location = link;
+    });
+    $('.image-container').on('touchend', function() {
+    $(this).click();
+    });
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
