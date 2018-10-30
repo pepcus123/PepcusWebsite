@@ -58,6 +58,9 @@ $(document).ready(function(e) {
     $('.image-container').bind('mouseleave touchmove click', function(){
         $(this).find(".hover").fadeOut();
     });
+     $('.image-container').on('touchstart', function() {
+        $(this).trigger('hover');
+      });
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
