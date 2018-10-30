@@ -34,9 +34,9 @@ $(document).ready(function(e) {
             "cursor": "pointer"
         })
     }
-    $('.image-container').on('click', function(){ });
-    document.addEventListener("click", function() {},false);
-    $(".image-container").off('click');
+    $('.image-container').on('mouseout', function(){ });
+    document.addEventListener("mouseout", function() {},false);
+    $(".image-container").off('mouseover');
     $('.image-container').on('touchstart touchend', function(e) {
         e.preventDefault();
         $(this).toggleClass('hover');
