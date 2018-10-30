@@ -48,7 +48,7 @@ $(document).ready(function(e) {
     });
     $(function()
     {
-    $("#image1").hover(function()
+    $("#image1").on("click",function()
     {
         $(this).addClass("hover");
     }, function()
