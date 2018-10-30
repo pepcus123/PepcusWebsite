@@ -16,7 +16,7 @@
    	<link rel="stylesheet" href="css/carouseller.css">
 
 </head>
-<body>
+<body id = "page">
 	<div class="loading"> <div class="loading-image"><img src="images/loader/loader.gif" alt="loader" /></div>   
 	 <!--<h1 class="loader-pepcus" data-text="Pepcus">Pepcus</h1>--></div>
 	<!-- nav starts -->
@@ -106,7 +106,7 @@
 									 </h3></div> -->
 									 <div class = "padding-top-50 text-uppercase text-center">
 									 	<a href="http://pepcus.com/contact.html" class = "text-decoration-hover-none">
-				                            <h3 class="services-section-head service-section-margin team-text-shadow font-size-20 padding-10-0 primary-color mar-bot-15 font-bold">You may be the next
+				                            <h3 class="services-section-head service-section-margin team-text-shadow font-size-20 padding-50-0 primary-color mar-bot-15 font-bold">You may be the next
 											</h3>
 										</a>
 		                        	</div>
@@ -296,7 +296,7 @@
 	<!-- <script src = "js/jquery.lazy.min.js"></script> -->
 	<script type="text/javascript" src="js/carouseller.js"></script>
 	<!-- <script src = "js/wow.min.js"></script> -->
-	<script src = "js/custom.min.js"></script>
+	<script src = "js/custom.js"></script>
 	<!-- <script src = "js/hoverontouch.js"></script> -->
 	<!-- <script src = "js/nice-scroll.js"></script> -->
 	<script type="text/javascript">
@@ -652,23 +652,7 @@
         var renderThirdTeam = function () {
             for (var k=0; k<thirdTeam.length; k++) {
                 var teamData = thirdTeam[k];
-     //            var teamOverlay = $('<div class = " col-lg-3 col-md-3 col-sm-4 col-xs-12">'+
-					// 	'<div class = "team-container team-container-top">'+
-					// 		'<div class="image-container image-container-small">'+
-					// 			'<div data-bgset = "'+teamData.img1+'" class = "background-image lazyload"></div>'+
-					// 			'<div class="overlay">'+
-					// 			    '<div class="text">?</div>'+
-					// 			'</div>'+
-								
-					// 		'<div class = "service-section-content  service-content-row5 back-white white-shadow">'+
-								
-					// 			 '<div class = "padding-top-50 text-uppercase text-center">'+
-		   //                          '<h3 class="services-section-head service-section-margin font-size-25 primary-color mar-bot-15 font-bold">'+teamData.name+'</h3>'+
-	    //                     	'</div>'+
-					// 		'</div>'+
-					// 	'</div>'+
-					// '</div>');
-
+    
                 var teamHTML = $('<div class = " col-lg-3 col-md-3 col-sm-4 col-xs-12">'+
                     '<div class = "team-container team-container-top">'+
                     '<div class="image-container image-container-small">'+

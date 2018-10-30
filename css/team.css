@@ -1,9 +1,19 @@
-
+.padding-50-25 {
+    padding: 25px 25px;
+}
+.padding-10-0 {
+   
+    padding: 10px 0;
+}
+.padding-50-0 {
+    padding: 50px 0;
+}
 .team-container{
     width: 100%;
     height: auto;
     border: 5px solid #fff;
     margin-top: 50px;
+    cursor: pointer;
 }
 .team-container-top {
     margin-top: 50px;
@@ -122,6 +132,7 @@
   margin-bottom: 7px;
   width: 100%;
   height: 278px;
+  cursor: pointer;
 }
 .image-container .background-image{
     width: 100%;
@@ -301,6 +312,9 @@
     .footer-height {
         height: 385px;
     }
+    /* .padding-10-0 {
+         padding: 58px 0;
+    } */
 }
 
 @media(max-width:668px) {

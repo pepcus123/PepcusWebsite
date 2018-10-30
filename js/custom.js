@@ -35,7 +35,12 @@ $(document).ready(function(e) {
         })
     }
     $('.image-container').on('click', function(){ });
-    document.addEventListener("touchstart", function() {},false);
+    document.addEventListener("touchend", function() {},false);
+
+    $('.image-container').on('touchend', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
 });
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
@@ -60,3 +65,4 @@ function slideDown(e) {
         page.onclick = slideDown
     }, 800)
 }
+// document.addEventListener('touchstart', functionref, false) // on user tap, "touchstart" fires first
