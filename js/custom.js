@@ -34,31 +34,8 @@ $(document).ready(function(e) {
             "cursor": "pointer"
         })
     }
-    $('.image-container').on('mouseout', function(){ });
-    document.addEventListener("mouseout", function() {},false);
-    $(".image-container").off('mouseover');
-    $('.image-container').on('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover');
-    });
-    $(".image-container").on("click touchend", function(e) {
-        var el = $(this);
-        var link = el.attr("href");
-        window.location = link;
-    });
-   
-
-
-
-
 });
-     $('.image-container').click(function(){
-            alert("sfsdf");
-            if($(".hover").css('opacity') == 0)
-            $(".hover").css('opacity','1');
-            if($(".hover").css('opacity') == 1)
-            $(".hover").css('opacity','0');
-    });
+     
 var page = document.getElementById('page');
 var sections = page.getElementsByTagName('section');
 var transition = 'top 0.8s ease-in-out 0s';
