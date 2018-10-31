@@ -671,7 +671,7 @@
                     console.log(teamImage);*/
                     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
                         $("div.image-container").on('click', 'div', function(e) {
-                           alert($(this).attr("class"));
+                           // alert($(this).attr("class"));
                            if($(this).attr("class") == "background-image hover white-shadow lazyloaded"){
                                 if ($(this).css('opacity') == 0)
                                     $(this).css('opacity', '1');
@@ -679,13 +679,13 @@
                                     $(this).css('opacity', '0');
                                 
                            }
-                           if($(this).attr("class") == "overlay"){
-                                if ($(this).css('opacity') == 0)
-                                    $(this).css('opacity', '1');
-                                if ($(this).css('opacity') == 1)
-                                    $(this).css('opacity', '0');
+                           // if($(this).attr("class") == "overlay"){
+                           //      if ($(this).css('opacity') == 0)
+                           //          $(this).css('opacity', '1');
+                           //      if ($(this).css('opacity') == 1)
+                           //          $(this).css('opacity', '0');
                                 
-                           }
+                           // }
                            // if($(this).attr("class") == "overlay"){
                            //      if ($(this).css('opacity') == 0)
                            //          $(this).css('opacity', '1');
