@@ -319,6 +319,26 @@
     /* .padding-10-0 {
          padding: 58px 0;
     } */
+    .image-container-mobile{
+        position: relative;
+        margin-bottom: 7px;
+        width: 100%;
+        height: 278px;
+        cursor: pointer;
+    }
+    .image-container-mobile .background-image{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-transition: all .2s;
+        transition: all .2s;
+    }
+    .team-container .image-container-mobile:hover .background-image.hover {
+        opacity: 1;
+    }
+
 }
 
 @media(max-width:668px) {
