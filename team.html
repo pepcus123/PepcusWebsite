@@ -20,7 +20,7 @@
 
 <body id="page">
     <div class="loading">
-        <div class="loading-image"><img src="images/loader/loader.gif" alt="loader" /></div>
+        <div class="loading-image"><img src="images/loader/loader.gif" data-src="images/loader/loader.gif" class = "lazy" alt="loader" /></div>
         <!--<h1 class="loader-pepcus" data-text="Pepcus">Pepcus</h1>--></div>
     <!-- nav starts -->
     <section>
@@ -295,6 +295,7 @@
     <!-- <script src = "js/jquery.lazy.min.js"></script> -->
     <script type="text/javascript" src="js/carouseller.js"></script>
     <!-- <script src = "js/wow.min.js"></script> -->
+    <script src = "js/lazy-image.js"></script>
     <script src="js/custom.js"></script>
     <!-- <script src = "js/hoverontouch.js"></script> -->
     <!-- <script src = "js/nice-scroll.js"></script> -->
@@ -754,6 +755,7 @@
         window.addEventListener('load', function() {
             new FastClick(document.body);
         }, false);
+
     </script>
 </body>
 
