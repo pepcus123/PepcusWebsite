@@ -291,6 +291,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/ls.bgset.min.js"></script>
     <script src="js/lazysizes.min.js"></script>
+    <script type='application/javascript' src = "js/fastclick.js"></script>
     <!-- <script src = "js/jquery.lazy.min.js"></script> -->
     <script type="text/javascript" src="js/carouseller.js"></script>
     <!-- <script src = "js/wow.min.js"></script> -->
@@ -750,6 +751,9 @@
 
         });
         // $('.lazy').lazyload();
+        window.addEventListener('load', function() {
+            new FastClick(document.body);
+        }, false);
     </script>
 </body>
 
