@@ -1,6 +1,10 @@
 .padding-50-25 {
     padding: 25px 25px;
 }
+html {
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+}
 .padding-10-0 {
    
     padding: 10px 0;
