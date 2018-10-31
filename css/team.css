@@ -266,6 +266,10 @@ touch-action: manipulation;
     opacity: 1;
     cursor: pointer;
 }
+.hover-toggle {
+    opacity: 1;
+    /* cursor: pointer; */
+}
 .team-container .image-container:hover .background-image.hover{
     opacity: 1;
     cursor: pointer;
