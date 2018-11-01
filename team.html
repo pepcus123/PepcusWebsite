@@ -337,7 +337,7 @@
         var renderMainTeam = function() {
             for (var i = 0; i < mainteam.length; i++) {
                 var teamData = mainteam[i];
-                var teamHTML = $('<div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12">' +
+                var teamHTML = $('<div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12 disable-click" id = "team1">' +
                     '<div class = "team-container team-container-top">' +
                     '<div class="image-container" id = "image1">' +
                     '<div data-bgset = "' + teamData.img1 + '" class = "background-image white-shadow lazyload"></div>' +
@@ -668,6 +668,7 @@
                     renderSecondaryTeam();
                     renderThirdTeam();
                     const data = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
+                    var timesClicked = 0;
                     if (data) {
                         $("div.image-container").on('click', 'div', function(e) {
                             // alert($(this).attr("class"));
@@ -679,12 +680,77 @@
                                 // $(this).toggle('hover-toggle');
 
                             }
+                            // $().off('click').on('click',function(){
+                            //      alert($(this).attr("class"));
+                            // })
+                             // return false;
                             console.log("hello this is mobile..!")
+                            
                         });
+                       // $("#team1").click(function(){
+                       //      $("#team1").off("click");
+                       //  });
+                        
+                    // $('div.disable-click').click(function(){ 
+                    //     // alert("You clicked me!");
+                    //     // if ($('.hover').css('opacity') == 0)
+                    //     //     $('.hover').css('opacity', '1');
+                    //      // if ($(this).hasClass("hover")){
+                    //         // alert($(this).attr("class"));
+                    //         if ($(this).hasClass("disable-click")){
+                    //                 if ($('.hover').css('opacity') == 1)
+                    //                 $('.hover').css('opacity', '0');
+                    //                 // else{
+                    //                 //     $('.hover').css('opacity', '1');
+                    //                 // }
+                    //              // if ($('.hover').css('opacity') == 0)
+                    //              //    $('.hover').css('opacity', '1');
+                    //             }
+                               
+                            
+                    //      // }
+                        
+                    // });
+                    $.fn.clickOff = function(callback, selfDestroy) {
+                    var clicked = false;
+                    var parent = this;
+                    var destroy = selfDestroy || true;
+                    
+                    parent.click(function() {
+                        clicked = true;
+                    });
+                    
+                    $(document).click(function(event) { 
+                        if (!clicked) {
+                            callback(parent, event);
+                        }
+                        if (destroy) {
+                            //parent.clickOff = function() {};
+                            //parent.off("click");
+                            //$(document).off("click");
+                            //parent.off("clickOff");
+                        };
+                        clicked = false;
+                    });
+                    };
+                    $("div.image-container").clickOff(function() {
+                        // alert($(this).attr("class"));
+                        // alert("");
+                        $(".hover").css('opacity', '0');
+                        // if ($(".hover").css('opacity') == 1)
+                        // $(".hover").css('opacity', '0');
+                        // if ($(this).attr("class")) {
+                        //     alert("sdsdfdsf");
+                        //     $('div.image-container').unbind('click');
+                        // }
+                    });
 
-                    } else {
+                 }
+                     else {
                         console.log("hello this is desktop..!")
+                      
                     }
+
                     $('.image-container').click(function() {
                         // alert("sfsdf");
                         // if ($(".hover").css('opacity') == 0)
