@@ -12,8 +12,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
     <!-- Demo css -->
     <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
-    <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/demo.min.css">
+    <link rel="stylesheet" href="css/team.min.css">
     <!-- <link rel="stylesheet" href="css/demo-team.css"> -->
     <link rel="stylesheet" href="css/carouseller.css">
 
@@ -680,37 +680,10 @@
                                 // $(this).toggle('hover-toggle');
 
                             }
-                            // $().off('click').on('click',function(){
-                            //      alert($(this).attr("class"));
-                            // })
-                             // return false;
                             console.log("hello this is mobile..!")
                             
                         });
-                       // $("#team1").click(function(){
-                       //      $("#team1").off("click");
-                       //  });
-                        
-                    // $('div.disable-click').click(function(){ 
-                    //     // alert("You clicked me!");
-                    //     // if ($('.hover').css('opacity') == 0)
-                    //     //     $('.hover').css('opacity', '1');
-                    //      // if ($(this).hasClass("hover")){
-                    //         // alert($(this).attr("class"));
-                    //         if ($(this).hasClass("disable-click")){
-                    //                 if ($('.hover').css('opacity') == 1)
-                    //                 $('.hover').css('opacity', '0');
-                    //                 // else{
-                    //                 //     $('.hover').css('opacity', '1');
-                    //                 // }
-                    //              // if ($('.hover').css('opacity') == 0)
-                    //              //    $('.hover').css('opacity', '1');
-                    //             }
-                               
-                            
-                    //      // }
-                        
-                    // });
+                       
                     $.fn.clickOff = function(callback, selfDestroy) {
                     var clicked = false;
                     var parent = this;
@@ -725,10 +698,6 @@
                             callback(parent, event);
                         }
                         if (destroy) {
-                            //parent.clickOff = function() {};
-                            //parent.off("click");
-                            //$(document).off("click");
-                            //parent.off("clickOff");
                         };
                         clicked = false;
                     });
@@ -737,12 +706,6 @@
                         // alert($(this).attr("class"));
                         // alert("");
                         $(".hover").css('opacity', '0');
-                        // if ($(".hover").css('opacity') == 1)
-                        // $(".hover").css('opacity', '0');
-                        // if ($(this).attr("class")) {
-                        //     alert("sdsdfdsf");
-                        //     $('div.image-container').unbind('click');
-                        // }
                     });
 
                  }
@@ -759,21 +722,12 @@
                         //     $(".hover").css('opacity', '0');
                         // $(".hover").toggle();
                     });
-                    $('.team-container').click(function() {
-                        // alert("sfsdf");
-                        // if($(".hover").css('opacity') == 0)
-                        // $(".hover").css('opacity','1');
-                        // if($(".hover").css('opacity') == 1)
-                        // $(".hover").css('opacity','0');
-                        // $(".hover").toggle();
-                    });
 
                 });
 
             });
 
         });
-        // $('.lazy').lazyload();
         window.addEventListener('load', function() {
             new FastClick(document.body);
         }, false);
