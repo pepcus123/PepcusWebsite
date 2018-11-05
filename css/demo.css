@@ -247,7 +247,11 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
 .tertiary-color {
     color: #242424;
 }
-.weight-300-height-16{
+.weight-300-height-16 {
+    font-weight:  300;
+    line-height: 1.6;
+}
+.weight-height-300-16 {
     font-weight:  300;
     line-height: 1.6;
 }
