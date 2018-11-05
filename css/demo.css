@@ -513,6 +513,9 @@ a.link-footer:hover{
 .footer-logo{
     width: 70px;
 }
+.footer-logo-small{
+    width: 40px;
+}
 .footer-copy{
     overflow: hidden;
 }
