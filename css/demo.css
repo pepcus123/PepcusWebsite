@@ -251,8 +251,14 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
     font-weight:  300;
     line-height: 1.6;
 }
-.weight-height-300-16 {
+/* .weight-height-300-16 {
     font-weight:  300;
+    line-height: 1.6;
+} */
+.font-weight-300 {
+    font-weight: 300;
+}
+.line-height-16 {
     line-height: 1.6;
 }
 .font-size-60{
@@ -506,7 +512,7 @@ a.link-footer:hover{
     color: #898989;
     font-weight: bold;
 }
-.footer-desc-link a{
+.footer-desc-link a {
     display: inline-block;
     margin-bottom: 5px;
 }
