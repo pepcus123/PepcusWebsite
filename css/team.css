@@ -288,26 +288,19 @@ touch-action: manipulation;
     width: 100%;
     height: 100%;
 }
-@media only screen and (max-width: 1400px) {
-    .parallax {
-        background-size: cover;
-    }
-}
 @media only screen and (max-width: 1280px) {
     .parallax {
-        background-size: contain;
+        background-size: cover;
     }
     .general-team {
         min-height: 400px;
     }
-    
-   
 }
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .parallax {
         background-size: contain;
     }
-} */
+}
 @media only screen and (max-width: 1024px) {
    /*  .parallax {
         background-size: contain;
