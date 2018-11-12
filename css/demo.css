@@ -1790,7 +1790,9 @@ h2#goal_para{top:50%;right:15%;}
         width: 40px;
         margin: 0 auto 10px;
     }
-
+    .footer-logo-small {
+        width: 32px;
+    }
     .xxs-padding-20-10 {
         padding: 20px 10px;
     }
