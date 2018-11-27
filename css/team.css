@@ -276,7 +276,7 @@ touch-action: manipulation;
 }
 .general-team {
     min-height: 500px;
-    background-image: url(../images/parallex/team-8mob1.png);
+    background-image: url(../images/parallex/general-team.png);
     position: relative;
     width: 100%;
 }
