@@ -350,6 +350,9 @@ img#github-logo{z-index:-1;position: fixed;bottom: -20px;right: 2%;opacity: 0.4;
 .padding-75-0 {
     padding: 75px 0;
 }
+.padding-75-0-0 {
+    padding: 75px 0 0;
+}
 .padding-75 {
     padding: 75px;
 }
@@ -689,6 +692,7 @@ footer{
     opacity: 1;
 }
 .overlay img{
+
   position: absolute;
   top: 0;
   bottom: 0;

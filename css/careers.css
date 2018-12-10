@@ -1,0 +1,335 @@
+.general-team {
+	min-height: 500px;
+    background-image: url(../images/parallex/banner-image-careers-edited.jpg);
+    position: relative;
+    width: 100%;
+}
+@media only screen and (max-width: 1280px) {
+	.general-team {
+		min-height: 400px;
+	}
+}
+.mar-50-auto {
+	margin: 50px auto;
+}
+.mar-50-auto-0 {
+	margin: 50px auto 0;
+}
+.mar-bot-50 {
+	margin-bottom:50px;
+}
+.mar-bot-100 {
+	margin-bottom: 100px;
+}
+.mar-0-auto {
+	margin: 0 auto;
+}
+.pull-none {
+	float: none;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.mar-left-2em {
+	margin-left: -2em;
+}
+/* .mar-right-1em {
+	margin-right: 1em;
+} */
+.padding-20-50 {
+	padding: 20px 50px;
+}
+.line-height-18 {
+	line-height: 16px;
+}
+.card {
+	position: relative;
+}
+.card-hover:hover::before {
+	width: 100%;
+	cursor: pointer;
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    height: 100%;
+    height: 100%;
+    top: 0;
+}
+.card-overlay {
+
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(119, 1, 1, 0.72);
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image-text {
+	position: relative;
+	top: 50%;
+	text-align: center;
+	color: white;
+	/* transform: translateY(-50%); */
+    vertical-align: top;
+}
+.card-image-text a {
+	background: #890606;
+	padding: 10px;
+	margin-top: 0.5em;
+	color: white;
+}
+.card-hover {
+	height: 280px;
+}
+.card-hover .card-block,.card-hover a{
+	/* display: none; */
+	opacity: 0;
+}
+.card-hover:hover .card-image-text {
+	cursor: pointer;
+	transform: translateY(-45%);
+	transition: 0.3s linear;
+}
+.card-hover:hover .card-block {
+	cursor: pointer;
+	transition: 0.4s opacity;
+	transition-delay: 0.4s;
+	/* display: block; */
+	opacity: 1;
+}
+.card-hover:hover a {
+	cursor: pointer;
+	transition: 0.4s opacity;
+	transition-delay: 0.6s;
+	/* display: inline-block; */
+	opacity: 1;
+}
+.btn-more span {
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn-more span::after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  /* top: 0; */
+  font-size: 22px;
+  top: -6px;
+  right: 40px;
+  transition: 0.3s linear;
+}
+.btn-more:hover span {
+	cursor: pointer;
+	padding-right: 15px;
+}
+.btn-more:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+.padding-75-0-0 {
+    padding: 75px 0 0;
+}
+.videoWrapper video {
+	object-fit: fill;
+}
+.clear-both {
+	clear: both;
+}
+.slider-arrow {
+	/* background: #ea2a2a; */
+	background: -webkit-linear-gradient(#f23737,#b45252);
+    border: none;
+	font-size: 25px;
+	padding: 10px;
+	color: white;
+	opacity: 0;
+	/* cursor: pointer; */
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+}
+.owl-carousel:hover .slider-arrow {
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	opacity: 1;
+}
+.owl-nav .owl-prev i {
+	left: -5%;
+	transform: translateY(-50%);
+}
+.owl-nav .owl-next i {
+	right: -5%;
+	transform: translateY(-50%);
+}
+.owl-dots {
+	text-align: center;
+}
+.owl-dots .owl-dot {
+	outline: none;
+	border: 2px solid #ea2a2a !important;
+    display: inline-block;
+    margin: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active {
+	outline: none;
+	background: #ea2a2a !important;
+}
+.owl-carousel .owl-item {
+  display: flex;
+  flex: 1 0 auto;
+  cursor: pointer;
+}
+.owl-carousel .caption {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+.owl-carousel .flex-text {
+  flex-grow: 1;
+}
+.owl-carousel .thumbnail {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+#slider2 .owl-carousel{
+    height:200px;
+    width:100%;
+}
+.owl-item img {
+	/* height: 100%; */
+	/* max-height: 200px; */
+	/* height: 100%; */
+	/* max-height: 200px; */
+}
+.owl-item {
+	width: 100%;
+}
+#slider2 .item {
+	width: 100%;
+	height: 200px;
+}
+a.social-icon {
+	width: 34px;
+	height: 40px;
+}
+.google-icon {
+    background-position: -78px 5px;
+}
+.facebook-icon {
+    background-position: -4px 5px;
+}
+.linked-icon {
+    background-position: -117px 5px;
+}
+.twitter-icon {
+    background-position: -40px 5px;
+}
+.insta-icon {
+    background-position: -154px 5px;
+}
+a.youtube-icon {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    /* margin-left: 3px; */
+    background-image: url(../images/sprite/youtube-icon.png);
+}
+a.youtube-icon:hover {
+    filter: grayscale(0);
+}
+a.google-business-icon {
+	display: inline-block;
+	width: 34px;
+    height: 29px;
+    background-position: -6px 0px;
+    background-image: url(../images/sprite/google-business-icon.png);
+}
+a.google-business-icon:hover,a.slideshare-icon:hover {
+	filter: grayscale(0);
+}
+a.slideshare-icon {
+	display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-left: 4px;
+    background-position: 0px 0px;
+    background-image: url(../images/sprite/slideshare-icon-rounded.png);
+}
+/* .owl-item:hover {
+	transition: 0.3s ease-in-out;
+	transform: scale(1.2);
+} */
+.explore-more-btn .btn-explore {
+	/* background: #ec0017; */
+	background: -webkit-linear-gradient(#f23737,#b45252);
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.explore-more-btn .btn-explore:hover {
+	color: white;
+	transition: 0.3s ease-in-out;
+	transform: scale(1.06);
+	text-decoration: none;
+}
+.technology-icon > li {
+	display: inline-block;
+	/* margin-right: 1em; */
+	height: 150px;
+}
+.technology-icon > li > img {
+	height: 100%;
+}
+.client-section a img {
+    max-width: 300px;
+    height: 80px;
+    margin: 0 15px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.java-icon img {
+	height: 100px;
+}
+
+.client-section a:hover > img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    transform: scale(1.2);
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+ 
+    /* max-width: 113px; */
+}
+#slider .client-section  img {
+	max-height: 79px;
+}
+.backbone-icon a img {
+	height: 80px;
+	max-width: 100%;
+    margin-top: 20px;
+}
+/* .disabled{
+    opacity:0.6;
+} */
