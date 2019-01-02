@@ -1,0 +1,12 @@
+.general-team {
+	/* min-height: 500px; */
+    background-image: url(../images/careers/JAVA-Engineer-banner.jpg);
+    position: relative;	
+    width: 100%;
+}
+.background-block {
+	min-height: 500px;
+    background-image: url(../images/careers/java-engineer-bg.jpeg);
+    /* position: relative; */
+    width: 100%;
+}

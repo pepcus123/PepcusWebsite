@@ -29,11 +29,6 @@ $(document).ready(function(e) {
             scrollTop: $(this.hash).offset().top
         }, 1000)
     });
-    if (/iP(hone|od|ad)/.test(navigator.platform)) {
-        $(".team-container").css({
-            "cursor": "pointer"
-        })
-    }
 });
      
 var page = document.getElementById('page');

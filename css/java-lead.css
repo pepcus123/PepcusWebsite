@@ -1,0 +1,144 @@
+.general-team {
+	/* min-height: 500px; */
+    background-image: url(../images/careers/JAVA-Lead-banner@.jpg);
+    position: relative;	
+    width: 100%;
+}
+.parallax {
+	background-position: 50% 70%;
+}
+@media only screen and (max-width: 1280px) {
+	.general-team {
+		min-height: 400px;
+	}
+}
+.btn-more span::after {
+	top: -4px;
+}
+.font-size-20 {
+	font-size: 20px;
+}
+.font-size-18 {
+	font-size: 18px;
+}
+.font-weight-600 {
+	font-weight: 600;
+}
+.card-hover:hover .btn-more {
+	cursor: pointer;
+	transition: 0.4s opacity;
+	transition-delay: 0.8s;
+	/* display: inline-block; */
+	opacity: 1;
+}
+.card-image-text .btn-more {
+	background: #890606;
+	padding: 10px;
+	border-radius: 3px;
+    border: none;
+	display: inline-block;
+	margin-top: 0.5em;
+	color: white;
+}
+/* .card-hover:hover .btn-more {
+	transition: 0.6s opacity;
+    transition-delay: 0.6s;
+} */
+.card-hover:hover h2 {
+	transition-delay: 0.2s;
+}
+.card-hover .btn-more {
+	opacity: 0;
+}
+.card-hover:hover .btn-more {
+	cursor: pointer;
+	transition: 0.4s opacity;
+	transition-delay: 0.6s;
+	display: inline-block;
+	opacity: 1;
+}
+.card-hover:hover .card-btn-more {
+	cursor: pointer;
+	transition: 0.4s opacity;
+	transition-delay: 0.6s;
+	display: inline-block;
+	opacity: 1;
+}
+.btn-apply {
+	background: #c54041;
+    padding: 10px;
+    display: inline-block;
+    float: right;
+    margin-top: 0.5em;
+}
+.btn-apply:hover {
+	color: #fff;
+	background: #b30405;
+	transition: 0.4s all;
+}
+.background-block {
+	min-height: 500px;
+    background-image: url(../images/careers/java-lead-bg2.jpeg);
+    /* position: relative; */
+    width: 100%;
+}
+.card-block-box {
+	/* background: #fdfbfb; */
+	background: #fdfdfdf2;
+    border-radius: 3px;
+    box-shadow: 0px 2px 6px 0px #e0dbdb;
+}
+.mar-35-0 {
+	margin: 35px 0;
+}
+.padding-left-50 {
+	padding-left: 50px;
+}
+.card-block-box span {
+	color: #615f5f;
+	font-weight: 500;
+	/* font-size: 18px; */
+}
+.wrapper-text-para h3 {
+	display: inline-block;
+}
+.list-block ul {
+	/* list-style-position: inside; */
+}
+.list-block ul,.list-block li {
+	list-style-type: disc;
+	font-size: 16px;
+	color: #615f5f;
+	line-height: 25px;
+}
+@media (max-width: 1024px) {
+	.parallax {
+		background-position: 0 70%;
+	}
+}
+@media (max-width: 768px) {
+	.padding-50 {
+    	padding: 25px;
+	}
+	.wrapper-text-para h3 {
+		margin-top: 0px;
+	}
+	.btn-apply {
+		margin-top: 0em;
+		padding: 5px;
+	}
+	.parallax {
+		background-position: 72% 70%;
+	}
+}
+@media (max-width: 600px) {
+	.padding-50 {
+    	padding: 20px;
+	}
+	.wrapper-text-para h3 {
+		margin-top: 12px;
+	}
+	.font-size-20 {
+    	font-size: 18px;
+	}
+}

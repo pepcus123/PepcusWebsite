@@ -12,6 +12,9 @@
 .mar-50-auto {
 	margin: 50px auto;
 }
+.mar-120-auto-50 {
+	margin: 120px auto 50px;
+}
 .mar-50-auto-0 {
 	margin: 50px auto 0;
 }
@@ -30,6 +33,9 @@
 .font-size-18 {
     font-size: 18px;
 }
+.font-size-26 {
+	font-size:26px;
+}
 .mar-left-2em {
 	margin-left: -2em;
 }
@@ -39,8 +45,12 @@
 .padding-20-50 {
 	padding: 20px 50px;
 }
-.line-height-18 {
+.line-height-16 {
 	line-height: 16px;
+}
+.opening-block .card-anchor {
+	background: transparent;
+	text-decoration: none;
 }
 .card {
 	position: relative;
@@ -107,6 +117,12 @@
 	/* display: inline-block; */
 	opacity: 1;
 }
+.btn-more {
+	background: #890606;
+	cursor: pointer;
+	margin-top: 1em;
+	opacity: 0;
+}
 .btn-more span {
   cursor: pointer;
   color: white;
@@ -120,6 +136,7 @@
   opacity: 0;
   /* top: 0; */
   font-size: 22px;
+  /* top: -4px; */
   top: -6px;
   right: 40px;
   transition: 0.3s linear;
@@ -184,14 +201,14 @@
 	background: #ea2a2a !important;
 }
 .owl-carousel .owl-item {
-  display: flex;
+ /*  display: flex;
   flex: 1 0 auto;
-  cursor: pointer;
+  cursor: pointer; */
 }
 .owl-carousel .caption {
-  display: flex;
+  /* display: flex;
   flex: 1 0 auto;
-  flex-direction: column;
+  flex-direction: column; */
 }
 .owl-carousel .flex-text {
   flex-grow: 1;
@@ -201,7 +218,7 @@
   flex-direction: column;
   margin: 0 15px;
 }
-#slider2 .owl-carousel{
+#slider2 .item img{
     height:200px;
     width:100%;
 }
@@ -292,17 +309,21 @@ a.slideshare-icon {
 .technology-icon > li > img {
 	height: 100%;
 }
+.client-section {
+	padding: 10px 0;
+}
 .client-section a img {
-    max-width: 300px;
-    height: 80px;
-    margin: 0 15px;
+    /* max-width: 300px; */
+    /* height: 80px; */
+    /* margin: 0 15px; */
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: all 1s;
     transition: all 1s;
 }
-.java-icon img {
-	height: 100px;
+.java-icon a img {
+	/* height: 100px; */
+	width: auto !important;
 }
 
 .client-section a:hover > img {
@@ -314,22 +335,110 @@ a.slideshare-icon {
 }
 .owl-carousel .owl-item img {
     display: block;
-    width: auto;
+    /* width: auto; */
     /* margin: 0 auto; */
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
- 
-    /* max-width: 113px; */
+   /*  margin-left: auto;
+    margin-right: auto; */
+    /* height: auto; */
 }
 #slider .client-section  img {
-	max-height: 79px;
+	/* max-height: 100%; */
+	height: 55px;
+	width: auto;
 }
-.backbone-icon a img {
+/* .backbone-icon a img {
 	height: 80px;
 	max-width: 100%;
     margin-top: 20px;
-}
+} */
 /* .disabled{
     opacity:0.6;
 } */
+.card-parallax {
+	background-position: 50% 50%;
+	background-size:cover;
+}
+.java-lead-card {
+	position:relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../images/careers/JAVA-Lead.jpg');
+}
+.java-engineer-card {
+	position:relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../images/careers/JAVA-Engineer.jpg');
+}
+.react-engineer-card {
+	position:relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../images/careers/React-Engineer.jpg');
+}
+.devops-engineer-card {
+	position:relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../images/careers/Devops-Engineer.jpg');
+}
+.qa-lead-card {
+	position:relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../images/careers/QA-Lead.jpg');
+}
+.qa-engineer-card {
+	position:relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../images/careers/QA-Engineer.jpg');
+}
+.php-engineer-card {
+	position:relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../images/careers/PHP-Engineer.jpg');
+}
+.card-heading {
+	position: absolute;
+    transform: translate(-50%,-50%);
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+.card-heading p, .card-heading h3 {
+	opacity: 0;
+}
+.card-hover:hover .card-heading {
+	/* transform: translate(-50%,-70%); */
+	top: 50%;
+	transition: 0.3s all;
+	/* transition-delay: 1s; */
+}
+.card-hover:hover .card-heading p {
+	opacity: 1;
+	/* top: 60%; */
+	transition: 1s all;
+	transition-delay: 0.5s;
+}
+.card-hover:hover .card-heading h3 {
+	opacity: 1;
+	transition: 1s all;
+	transition-delay:  0.7s;
+}
+.card-hover:hover .btn-more {
+	opacity: 1;
+	transition: 1s all;
+	transition-delay:  0.8s;
+}
+.font-size-14 {
+	font-size: 14px;
+}
+@media (max-width:320px) {
+	.client-section {
+		padding: 0;
+	}
+	#slider .client-section img {
+    	max-height: 40px;
+	}
+	.owl-carousel .owl-item img {
+		max-width: 100%;
+	}
+	.jsf-icon a img {
+		margin-top: 4px;
+	}
+	.backbone-icon a img {
+		margin-top: 10px;
+	}
+	.card-hover {
+    	height: 232px;
+	}
+}

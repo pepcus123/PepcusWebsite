@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html class="no-js" lang = "en-us">
+<head>
+	<meta charset="utf-8">
+    <meta name = "description" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> -->
+    <link rel="icon" href="images/logo/favicon.ico" type="image/x-icon">
+	<title>Pepcus: Our Careers</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"> -->
+    <link rel="stylesheet" href="css/demo.min.css">
+    <link rel="stylesheet" type="text/css" href="css/careers.css">
+    <link rel="stylesheet" type="text/css" href="css/java-lead.css">
+    <link rel="stylesheet" type="text/css" href="css/career-form.css">
+</head>
+<body id = "page">
+	<div class="loading">
+        <div class="loading-image"><img src="images/loader/loader.gif" data-src="images/loader/loader.gif" class="lazy" alt="loader" /></div>
+        <!--<h1 class="loader-pepcus" data-text="Pepcus">Pepcus</h1>-->
+    </div>
+    <!-- nav starts -->
+    <section>
+        <nav class="navbar navbar-inverse navbar-fixed-top header-menu">
+            <div class="container">
+                <div class="row">
+                   <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img width="75" src="images/logo/logonew.png" alt="Logo-new" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right text-uppercase">
+                        <li><a href="index.html">Home</a></li>
+                        <!--<li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                        </li>-->
+                        <li><a href="about.html">About </a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="active"><a href="careers.html">Careers</a></li>
+                        <li><a href="team.html">team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <!--<li><a class="primary-btn-pepcus" href="#">portfolio demo</a></li>-->
+                    </ul>
+                </div> 
+                </div>
+                
+            </div>
+        </nav>
+    </section>
+    <!-- nav ends -->
+    <!-- background-section starts -->
+    <section class = "montserrat-font-family">
+        <div class = "parallax background-block">
+            <div class="container">
+                <div class="row">
+                    <div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12 mar-120-auto-50 padding-50">
+                        <div class="col-md-12">
+                            <div class = "card-block-box padding-50">
+                            <h2 class="contact-label primary-color font-size-16 mar-bot-35 text-center xxs-margin-bot-15">Please fill the form below. All fields are mandatory.</h2>
+                            <form class="form-horizontal padding-50-25 xxs-padding-20-10" method="post" id="contact_form">
+                            <!-- Text input-->
+                            <div class="row">
+                                <div class="col-md-7 col-xxs-12">
+                                    <div class="form-group first-name-box">
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">First Name <span class="primary-color font-size-20">*</span></label>
+                                    <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input name="first_name" id="first_name" class="form-control" type="text" required>
+                                    </div>
+                                    </div>
+                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>First name should be of minimum 3 letter</span></div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group last-name-box">
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Last Name <span class="primary-color font-size-20">*</span></label>
+                                    <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input name="last_name" id="last_name" class="form-control" type="text" required>
+                                        </div>
+                                    </div>
+                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div>
+                                </div>
+                                <div class="form-group last-name-box">
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Upload Resume/CV <span class="primary-color font-size-20">*</span></label>
+                                    <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-file"></i></span>
+                                            <input name="last_name" id="last_name" class="form-control" type="file" required>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div> -->
+                                </div>
+                                <div class="form-group linkedin-url-box">
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Linkedin Url<span class="primary-color font-size-20">*</span></label>
+                                    <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-linkedin"></i></span>
+                                            <input name="last_name" id="linkedin_url" class="form-control" type="text" required>
+                                        </div>
+                                    </div>
+                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Url should like https://www.test.t&1234</span></div>
+                                </div>
+                                <div class="form-group url-box">
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Facebook Url<span class="primary-color font-size-20">*</span></label>
+                                    <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-facebook-f"></i></span>
+                                            <input name = "url_link" id="url_link" class ="form-control" type = "text" required>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="pull-right mar-top-10 padding-right-15 error"><span>Url entered wrong</span></div> -->
+                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Url entered wrong</span></div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-xxs-12">
+                                <div class="form-group phone-box">
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Mobile No <span class="primary-color font-size-20">*</span></label>
+                                    <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                            <input name="phone" id="phone" class="form-control" type="text" required>
+                                        </div>
+                                    </div>
+                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Mobile no. should be of 10 digit  </span></div>
+                                </div>
+                                <div class="form-group email-box">
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">E-Mail<span class="primary-color font-size-20">*</span></label>
+                                    <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class = "glyphicon glyphicon-envelope"></i></span>
+                                        <input name="email" id="email" class="form-control" type="text" required="">
+                                    </div>
+                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Email format should be like  <span class="font-bold">test@test.com</span></span></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="form-group">
+                        <label class="col-md-2 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Upload Resume/CV</label>
+                        <div class="col-md-10 col-sm-8 col-xxs-12 inputGroupContainer">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                <textarea class="form-control" id="comment" name="comment"></textarea>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="form-group captcha-box">
+                        <label class="col-md-12 mar-bot-15 font-size-14 captcha-label text-center">Please complete the security check <span class="primary-color font-size-20">*</span></label>
+                        <div class="col-md-12 col-sm-8 col-xxs-12 inputGroupContainer">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xxs-12 text-right font-size-40 xxs-align-center xxs-margin-bot-15">
+                                    <div class="captcha-label Fascinate-font-family" id="txtCaptchaDiv">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xxs-12">
+                                    <input type="hidden" id="txtCaptcha">
+                                    <div>
+                                        <input type="text" class="form-control" name="txtInput" id="txt_captcha_input" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mar-top-10 error"><span>Please fill correct captcha  </span></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12 text-center">
+                            <button type="submit" id="submit" class="btn btn-warning openDetails btn-send"  disabled>Submit <span class="glyphicon glyphicon-send"></span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- background-section ends -->
+    <footer class="montserrat-font-family clear-both">
+            <div class="footer-link padding-50-0">
+                <div class="container">
+                    <div class="col-md-8 col-sm-12 col-xxs-12 sm-overflow-hidden">
+                        <div class="footer-primary-link col-sm-4">
+                            <ul>
+                                <li><a href="index.html" class="link-footer secondary-color">Home</a></li>
+                                <li><a href="about.html" class="link-footer secondary-color">About</a></li>
+                                <!-- <li><a href="services.html" class="link-footer secondary-color">Technology</a></li>
+                                <li><a href="services.html" class="link-footer secondary-color">Portfolio</a></li>-->
+                                <li><a href="team.html" class="link-footer secondary-color">Team</a></li>
+                                <!--<li><a href="faq.html" class="link-footer secondary-color">FAQ</a></li>-->
+                                <li><a href="contact.html" class="link-footer secondary-color">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-secondary-link col-sm-8">
+                                <ul>
+                                    <li><a href="services.html" class="link-footer link-footer-services secondary-color">Services</a></li>
+                                    <li><a href="cwd.html" class="link-footer secondary-color">Custom Web Development</a></li>
+                                    <li><a href="md.html" class="link-footer secondary-color">Mobile Development</a></li>
+                                    <li><a href="sta.html" class="link-footer secondary-color">Software Testing & Automation</a></li>
+
+                                    <li><a href="startup.html" class="link-footer secondary-color">Startups</a></li>
+                                    <li><a href="op.html" class="link-footer secondary-color">Outsourcing Partnership</a></li>
+                                    <li><a href="sm.html" class="link-footer secondary-color">Support & Maintenance</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xxs-12">
+                            <div class="footer-desc padding-50-25 secondary-color">
+                                <div class="footer-desc-head">
+                                    <!--<h6 class="mar-bot-15 poppins-font-family font-size-26">Pepcus</h6>-->
+                                    <div class="footer-logo footer-logo-small mar-bot-15">
+                                        <a href="index.html"><img width="50" class="img-responsive" src="images/logo/logo-small.png" alt="pepcus logo" /></a>
+                                    </div>
+                                </div>
+                                <div class="footer-desc-para font-size-16 mar-bot-15"> We help customers to focus on their core business areas and let their IT needs be OUR RESPONSIBILITY.
+                                </div>
+                                <div class="padding-0-0-20">
+                                        <a target="_blank" class="social-icon linked-icon" href="https://www.linkedin.com/company/pepcus-software-services-pvt-ltd-/" aria-label="Linkedin"  rel="noopener"></a>
+                                        <a target="_blank" class="social-icon facebook-icon" href="https://www.facebook.com/Pepcus-Software-Services-Private-Limited-449184531801853/" aria-label="Facebook"  rel="noopener"></a>
+                                        <a target="_blank" class="youtube-icon social-icon" href="https://www.youtube.com/watch?v=U-pf-W33oTs" aria-label="Youtube"  rel="noopener"></a>
+                                        <a target="_blank" class="social-icon insta-icon" href="https://www.instagram.com/?hl=en" aria-label="Instagram"  rel="noopener"></a>
+                                        <!-- <a target="_blank" class="social-icon google-business-icon" href="https://goo.gl/AXM4f4" aria-label="Google" rel="noopener"></a> -->
+                                        <a target="_blank" class="social-icon slideshare-icon" href="https://www.slideshare.net/Pepcus" aria-label="Twitter" rel="noopener"></a>
+                                        <a target="_blank" class="social-icon twitter-icon" href="https://twitter.com/Pepcus_Software" aria-label="Twitter" rel="noopener"></a>
+                                        <a target="_blank" class="social-icon google-icon" href="https://plus.google.com/u/0/b/101335912503925791807/101335912503925791807" aria-label="Google-plus"  rel="noopener"></a>
+                                 
+                                    <div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="footer-desc-link">
+                                    <div><a class="primary-color font-size-16 font-bold" href="#">info@pepcus.com</a></div>
+                                    <div><a class="primary-color font-size-16 font-bold" href="#">careers@pepcus.com</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copy padding-10-0">
+                    <div class="container flex-center">
+                        <div class="footer-desc-copy col-md-12 text-center">
+                            <p class="font-weight-300 line-height-16">
+                                Copyright ©2018 Pepcus Software Services Pvt. Ltd. All rights reserved. Read our 
+                                <a class="privacy-policy" href="privacy.html">Privacy Policy</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer section ends -->
+    <script type='application/javascript' src="js/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src = "js/owl.carousel.min.js"></script>
+    <script type = "text/javascript" src = "js/jquery.fancybox.min.js"></script>
+    <script type='application/javascript' src="js/custom.min.js"></script>
+    <script type="text/javascript" charset="utf-8" async defer>
+        $(function() {
+            $(document).ready(function() {
+                $(window).load(function() {
+                    $('.loading').hide();
+                });
+                var validForm = false;
+            var validCaptcha = false;
+            $('#contact_form').keyup(function() {
+                verifyForm();
+                captch_call();
+                sendForm();
+            });
+            var a = Math.ceil(Math.random() * 9) + " ";
+            var b = Math.ceil(Math.random() * 9) + " ";
+            var c = Math.ceil(Math.random() * 9) + " ";
+            var d = Math.ceil(Math.random() * 9) + " ";
+            var e = Math.ceil(Math.random() * 9) + " ";
+
+            var code = a + b + c + d + e;
+            RemovedSpaceCode = code.replace(/\s/g, '');
+            $("#txtCaptchaDiv > span").html(code);
+            $("input#txtCaptcha").val(RemovedSpaceCode);
+            console.log(code);
+            function verifyForm (){
+                var first_name = document.getElementById("first_name");
+                var last_name = document.getElementById("last_name");
+                var email = document.getElementById("email");
+                var url_link = document.getElementById("url_link");
+                var phone = document.getElementById("phone");
+                var company = document.getElementById("company");
+                var comment = document.getElementById("comment");
+                $('#first_name').keyup(function() {
+                    if (!(first_name.value.length >= 3)) {
+                        $(".first-name-box .error").addClass("redColor");
+                    } else {
+                        $(".first-name-box .error").removeClass("redColor");
+                    }
+                });
+                $('#last_name').keyup(function() {
+                    if (!(last_name.value.length >= 3)) {
+                        $(".last-name-box .error").addClass("redColor");
+                    } else {
+                        $(".last-name-box .error").removeClass("redColor");
+                    }
+                });
+                $('#phone').keyup(function() {
+                    if (!(phone.value.match(/^\d{10}$/))) {
+                        $(".phone-box .error").addClass("redColor");
+                    } else {
+                        $(".phone-box .error").removeClass("redColor");
+                    }
+                });
+                $('#email').keyup(function() {
+                    if (!(email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/))) {
+                        $(".email-box .error").addClass("redColor");
+                    } else {
+                        $(".email-box .error").removeClass("redColor");
+                    }
+                });
+                $('#url_link').keyup(function() {
+                    console.log("link..");
+                    if (!(url_link.value.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g))) {
+                        console.log("error..");
+                        $(".url-box .error").addClass("redColor");
+                    } else {
+                        $(".url-box .error").removeClass("redColor");
+                    }
+                });
+                $('#linkedin_url').keyup(function() {
+                    console.log("link..");
+                    if (!(url_link.value.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g))) {
+                        console.log("error..");
+                        $(".linkedin-url-box .error").addClass("redColor");
+                    } else {
+                        $(".linkedin-url-box .error").removeClass("redColor");
+                    }
+                });
+
+                if(first_name.value.length >= 3 && last_name.value.length>=3 && /*company.value.length>=2 && comment.value.length>=10 &&*/ phone.value.match(/^\d{10}$/) && email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+                    validForm = true;
+                    $('#submit').prop('disabled',false);
+                } else {
+                    validForm = false;
+                    $('#submit').prop('disabled',true);
+                }
+            }
+            function captch_call () {
+            $('#txt_captcha_input').keyup(function() {
+                var captchaVal = $('#txtCaptcha').val();
+                if(this.value === captchaVal){
+                    $(".captcha-box .error").removeClass("redColor");
+                    validCaptcha = true;
+                    $('#submit').prop('disabled',false);
+                }else{
+                    $(".captcha-box .error").addClass("redColor");
+                    validCaptcha = false;
+                    $('#submit').prop('disabled',true);
+                }
+            });
+        }
+            function sendForm () {
+                console.log("verify", validForm);
+                console.log("captcha", validCaptcha);
+                if (validForm && validCaptcha) {
+                    $('#submit').prop('disabled',false);
+                } else {
+                    $('#submit').prop('disabled',true);
+                }
+            }
+                        
+                    });
+        });
+    </script>
+    <script type='text/javascript'>
+    
+</script>
+</body>
+</html>

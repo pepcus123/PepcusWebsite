@@ -1,0 +1,12 @@
+.general-team {
+	/* min-height: 500px; */
+    background-image: url(../images/careers/React-Engineer-banner.jpg);
+    position: relative;	
+    width: 100%;
+}
+.background-block {
+	min-height: 500px;
+    background-image: url(../images/careers/react-engineeer-bg3.jpeg);
+    /* position: relative; */
+    width: 100%;
+}
