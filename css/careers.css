@@ -278,14 +278,10 @@ a.slideshare-icon {
 	display: inline-block;
     width: 32px;
     height: 32px;
-    margin-left: 4px;
-    background-position: 0px 0px;
+    margin-left: 0;
     background-image: url(../images/sprite/slideshare-icon-rounded.png);
+	background-position: 0 0;
 }
-/* .owl-item:hover {
-	transition: 0.3s ease-in-out;
-	transform: scale(1.2);
-} */
 .explore-more-btn .btn-explore {
 	/* background: #ec0017; */
 	background: -webkit-linear-gradient(#f23737,#b45252);
