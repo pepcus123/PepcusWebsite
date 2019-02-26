@@ -212,14 +212,11 @@ touch-action: manipulation;
 .service-content-row4 {
     height: 224px;
 }
-
-
 .banner .content .main-heading-inner {
     margin-bottom: 25px;
 }
 .banner .content {
     margin-bottom: 0px;
-    /* padding-top: 183px; */
     padding-top: 50px;
 }
 .flex-center {
@@ -227,7 +224,6 @@ touch-action: manipulation;
     justify-content: center;
     align-items: center;
 }
-
 .footer-image li:hover{
     opacity: 1;
 }

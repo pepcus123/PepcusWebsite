@@ -1,14 +1,10 @@
 .general-team {
 	min-height: 500px;
-    background-image: url(../images/parallex/banner-image-careers-edited.jpg);
+    background-image: url(../images/parallex/join-our-team.jpg);
     position: relative;
     width: 100%;
 }
-@media only screen and (max-width: 1280px) {
-	.general-team {
-		min-height: 400px;
-	}
-}
+
 .mar-50-auto {
 	margin: 50px auto;
 }
@@ -61,7 +57,6 @@
     content: " ";
     background-color: rgba(0, 0, 0, 0.63);
     position: absolute;
-    height: 100%;
     height: 100%;
     top: 0;
 }
@@ -134,9 +129,7 @@
   content: '\00bb';
   position: absolute;
   opacity: 0;
-  /* top: 0; */
   font-size: 22px;
-  /* top: -4px; */
   top: -6px;
   right: 40px;
   transition: 0.3s linear;
@@ -189,7 +182,7 @@
 }
 .owl-dots .owl-dot {
 	outline: none;
-	border: 2px solid #ea2a2a !important;
+	border: 2px solid #828282 !important;
     display: inline-block;
     margin: 10px;
     width: 12px;
@@ -198,7 +191,7 @@
 }
 .owl-dots .owl-dot.active {
 	outline: none;
-	background: #ea2a2a !important;
+	background:#828282 !important;
 }
 .owl-carousel .owl-item {
  /*  display: flex;
@@ -219,7 +212,6 @@
   margin: 0 15px;
 }
 #slider2 .item img{
-    height:200px;
     width:100%;
 }
 .owl-item img {
@@ -268,7 +260,7 @@ a.google-business-icon {
 	display: inline-block;
 	width: 34px;
     height: 29px;
-    background-position: -6px 0px;
+    background-position: -6px 0;
     background-image: url(../images/sprite/google-business-icon.png);
 }
 a.google-business-icon:hover,a.slideshare-icon:hover {
@@ -317,11 +309,13 @@ a.slideshare-icon {
     -webkit-transition: all 1s;
     transition: all 1s;
 }
-.java-icon a img {
-	/* height: 100px; */
-	width: auto !important;
+/*.java-icon a img {*/
+	/*!* height: 100px; *!*/
+	/*width: auto !important;*/
+/*}*/
+.clients .client-container .client-section a img {
+	max-width: 110px;
 }
-
 .client-section a:hover > img {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
@@ -329,27 +323,27 @@ a.slideshare-icon {
     -webkit-transition: all 1s;
     transition: all 1s;
 }
-.owl-carousel .owl-item img {
-    display: block;
-    /* width: auto; */
-    /* margin: 0 auto; */
-   /*  margin-left: auto;
-    margin-right: auto; */
-    /* height: auto; */
-}
+/*.owl-carousel .owl-item img {*/
+    /*display: block;*/
+    /*!* width: auto; *!*/
+    /*!* margin: 0 auto; *!*/
+   /*!*  margin-left: auto;*/
+    /*margin-right: auto; *!*/
+    /*!* height: auto; *!*/
+/*}*/
 #slider .client-section  img {
 	/* max-height: 100%; */
-	height: 55px;
+	/*min-height: 83px;*/
+	/*height:55px;*/
+	max-height: 120px;
 	width: auto;
 }
-/* .backbone-icon a img {
-	height: 80px;
-	max-width: 100%;
-    margin-top: 20px;
-} */
-/* .disabled{
-    opacity:0.6;
-} */
+.clients .client-container .client-section a:hover>img {
+	transform: scale(1.2);
+}
+.clients {
+	padding: 70px 0;
+}
 .card-parallax {
 	background-position: 50% 50%;
 	background-size:cover;
@@ -417,6 +411,11 @@ a.slideshare-icon {
 }
 .font-size-14 {
 	font-size: 14px;
+}
+@media only screen and (max-width: 1280px) {
+	.general-team {
+		min-height: 400px;
+	}
 }
 @media (max-width:320px) {
 	.client-section {
