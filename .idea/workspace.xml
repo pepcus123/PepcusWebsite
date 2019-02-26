@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/1-edit.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/10.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/11.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/13.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/15.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/18.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/1@.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/21.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/25.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/27.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/28.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/30.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/5.jpg" afterDir="false" />
@@ -52,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="582" column="40" lean-forward="true" selection-start-line="582" selection-start-column="40" selection-end-line="582" selection-end-column="40" />
+              <caret line="582" column="40" selection-start-line="582" selection-start-column="40" selection-end-line="582" selection-end-column="40" />
               <folding>
                 <element signature="e#2190#2634#0" />
               </folding>
@@ -96,11 +82,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="careers.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="316" column="14" selection-start-line="316" selection-start-column="14" selection-end-line="316" selection-end-column="14" />
+            <state relative-caret-position="259">
+              <caret line="387" column="22" selection-start-line="387" selection-start-column="22" selection-end-line="387" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -132,8 +118,8 @@
         <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/css/team.css" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/css/careers.css" />
       </list>
     </option>
   </component>
@@ -211,12 +197,12 @@
       <updated>1545655933560</updated>
       <workItem from="1545655935135" duration="13692000" />
       <workItem from="1546847242336" duration="85000" />
-      <workItem from="1551090186685" duration="21852000" />
+      <workItem from="1551090186685" duration="22474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35629000" />
+    <option name="totallyTimeSpent" value="36251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
@@ -325,13 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/careers.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="316" column="14" selection-start-line="316" selection-start-column="14" selection-end-line="316" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8721">
@@ -351,10 +330,17 @@
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="582" column="40" lean-forward="true" selection-start-line="582" selection-start-column="40" selection-end-line="582" selection-end-column="40" />
+          <caret line="582" column="40" selection-start-line="582" selection-start-column="40" selection-end-line="582" selection-end-column="40" />
           <folding>
             <element signature="e#2190#2634#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/careers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="387" column="22" selection-start-line="387" selection-start-column="22" selection-end-line="387" selection-end-column="22" />
         </state>
       </provider>
     </entry>

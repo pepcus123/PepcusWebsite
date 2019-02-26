@@ -384,6 +384,9 @@ a.slideshare-icon {
     text-align: center;
     color: white;
 }
+.card-heading p {
+	line-height: 20px;
+}
 .card-heading p, .card-heading h3 {
 	opacity: 0;
 }
