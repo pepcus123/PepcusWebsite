@@ -106,9 +106,9 @@
 	}
 }
 @media (max-width: 1024px) {
-	.parallax {
-		background-position: 0 70%;
-	}
+	/*.parallax {*/
+		/*background-position: 0 70%;*/
+	/*}*/
 }
 @media (max-width: 768px) {
 	.padding-50 {
@@ -121,9 +121,6 @@
 		margin-top: 0;
 		padding: 5px;
 	}
-	.parallax {
-		background-position: -0 -200px;
-	}
 }
 @media (max-width: 600px) {
 	.padding-50 {
@@ -134,8 +131,5 @@
 	}
 	.font-size-20 {
     	font-size: 18px;
-	}
-	.parallax {
-		background-position: -115px -33px;
 	}
 }
