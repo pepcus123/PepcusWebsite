@@ -2,97 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/career-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/devops-engineer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/devops-engineer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/java-engineer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/java-engineer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/java-lead.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/java-lead.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/php-engineer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/php-engineer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/qa-engineer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/qa-engineer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/qa-lead.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/qa-lead.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/react-engineer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/react-engineer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devops-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/devops-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/JSF-icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/backbone-icon-edited.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/backbone-icon-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/backbone-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/java-block-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/java-j2ee-icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/java-j2ee-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/java-j2ee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/java8-icon-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/java8-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jquery-icon-2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jquery-icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jquery-icon-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jquery-icon-edited.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jquery-icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jsf-icon-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jsf-icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jsf-icon-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jsf-icon-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jsf-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/jsf-showcase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/nodejs-icon-4 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/nodejs-icon-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/nodejs-icon-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/nodejs-icon-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/nodejs-icon-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/nodejs-icon-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/nodejs-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/php-icon-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/php-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/php-icon2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/php-icon3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/php-icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/primefaces-icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/primefaces-icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/primefaces-icon-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/primefaces-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon-new2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/react-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/spring-icon-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/spring-icon-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/spring-icon-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/spring-icon-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/spring-icon-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/spring-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/struts-icon-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/struts-icon-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/careers/struts-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/Devops-Engineer-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/Devops-Engineer-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/JAVA-Engineer-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/JAVA-Engineer-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/JAVA-Lead-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/JAVA-Lead-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/PHP-Engineer-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/PHP-Engineer-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/QA-Engineer-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/QA-Engineer-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/QA-Lead-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/QA-Lead-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/React-Engineer-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/React-Engineer-banner-new.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/10.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/12.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/15.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/16.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/18.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/20.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/21.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/22.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/23.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/23.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/27.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/sliders/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/java-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-lead.html" beforeDir="false" afterPath="$PROJECT_DIR$/java-lead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/php-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/qa-engineer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa-lead.html" beforeDir="false" afterPath="$PROJECT_DIR$/qa-lead.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-engineer.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-engineer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sliders/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sliders/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sliders/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sliders/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/6.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -112,8 +46,8 @@
       <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="783" column="35" selection-start-line="783" selection-start-column="35" selection-end-line="783" selection-end-column="35" />
               <folding>
                 <element signature="e#2190#2634#0" />
               </folding>
@@ -124,8 +58,8 @@
       <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="468" column="46" selection-start-line="468" selection-start-column="46" selection-end-line="468" selection-end-column="46" />
+            <state relative-caret-position="388">
+              <caret line="485" column="26" selection-start-line="485" selection-start-column="26" selection-end-line="485" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -146,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/php-engineer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="337" column="38" lean-forward="true" selection-start-line="337" selection-start-column="38" selection-end-line="337" selection-end-column="38" />
+              <caret line="337" column="38" selection-start-line="337" selection-start-column="38" selection-end-line="337" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -155,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/qa-engineer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
-              <caret line="329" column="38" lean-forward="true" selection-start-line="329" selection-start-column="38" selection-end-line="329" selection-end-column="38" />
+              <caret line="329" column="38" selection-start-line="329" selection-start-column="38" selection-end-line="329" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -164,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/qa-lead.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="330" column="38" lean-forward="true" selection-start-line="330" selection-start-column="38" selection-end-line="330" selection-end-column="38" />
+              <caret line="330" column="38" selection-start-line="330" selection-start-column="38" selection-end-line="330" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -173,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/react-engineer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="336" column="38" lean-forward="true" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
+              <caret line="336" column="38" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -191,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/java-engineer.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="343" column="41" lean-forward="true" selection-start-line="343" selection-start-column="41" selection-end-line="343" selection-end-column="41" />
+              <caret line="343" column="41" selection-start-line="343" selection-start-column="41" selection-end-line="343" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -202,8 +136,8 @@
       <file leaf-file-name="java-lead.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/java-lead.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="140" column="42" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+            <state relative-caret-position="-170">
+              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -215,6 +149,9 @@
       <find>general-team</find>
       <find>a.slideshare-icon</find>
       <find>#slider2 .item img</find>
+      <find>.card-image-text .btn-more</find>
+      <find>.btn-apply</find>
+      <find>.btn-more</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -233,7 +170,6 @@
         <option value="$PROJECT_DIR$/css/qa-engineer.css" />
         <option value="$PROJECT_DIR$/css/php-engineer.css" />
         <option value="$PROJECT_DIR$/career-form.html" />
-        <option value="$PROJECT_DIR$/careers.html" />
         <option value="$PROJECT_DIR$/devops-engineer.html" />
         <option value="$PROJECT_DIR$/java-engineer.html" />
         <option value="$PROJECT_DIR$/java-lead.html" />
@@ -242,6 +178,7 @@
         <option value="$PROJECT_DIR$/qa-lead.html" />
         <option value="$PROJECT_DIR$/react-engineer.html" />
         <option value="$PROJECT_DIR$/css/java-lead.css" />
+        <option value="$PROJECT_DIR$/careers.html" />
         <option value="$PROJECT_DIR$/css/careers.css" />
       </list>
     </option>
@@ -320,12 +257,12 @@
       <updated>1545655933560</updated>
       <workItem from="1545655935135" duration="13692000" />
       <workItem from="1546847242336" duration="85000" />
-      <workItem from="1551090186685" duration="32572000" />
+      <workItem from="1551090186685" duration="35248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46349000" />
+    <option name="totallyTimeSpent" value="49025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
@@ -499,16 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-          <folding>
-            <element signature="e#2190#2634#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devops-engineer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -519,7 +446,7 @@
     <entry file="file://$PROJECT_DIR$/java-engineer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="343" column="41" lean-forward="true" selection-start-line="343" selection-start-column="41" selection-end-line="343" selection-end-column="41" />
+          <caret line="343" column="41" selection-start-line="343" selection-start-column="41" selection-end-line="343" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -529,28 +456,28 @@
     <entry file="file://$PROJECT_DIR$/php-engineer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="337" column="38" lean-forward="true" selection-start-line="337" selection-start-column="38" selection-end-line="337" selection-end-column="38" />
+          <caret line="337" column="38" selection-start-line="337" selection-start-column="38" selection-end-line="337" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qa-engineer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
-          <caret line="329" column="38" lean-forward="true" selection-start-line="329" selection-start-column="38" selection-end-line="329" selection-end-column="38" />
+          <caret line="329" column="38" selection-start-line="329" selection-start-column="38" selection-end-line="329" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qa-lead.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="330" column="38" lean-forward="true" selection-start-line="330" selection-start-column="38" selection-end-line="330" selection-end-column="38" />
+          <caret line="330" column="38" selection-start-line="330" selection-start-column="38" selection-end-line="330" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-engineer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="336" column="38" lean-forward="true" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
+          <caret line="336" column="38" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -566,15 +493,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/java-lead.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="140" column="42" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+        <state relative-caret-position="-170">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="783" column="35" selection-start-line="783" selection-start-column="35" selection-end-line="783" selection-end-column="35" />
+          <folding>
+            <element signature="e#2190#2634#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/careers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="468" column="46" selection-start-line="468" selection-start-column="46" selection-end-line="468" selection-end-column="46" />
+        <state relative-caret-position="388">
+          <caret line="485" column="26" selection-start-line="485" selection-start-column="26" selection-end-line="485" selection-end-column="26" />
         </state>
       </provider>
     </entry>

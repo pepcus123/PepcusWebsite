@@ -116,6 +116,7 @@
 	background: #890606;
 	cursor: pointer;
 	margin-top: 1em;
+	min-width:110px;
 	opacity: 0;
 }
 .btn-more span {
@@ -309,10 +310,6 @@ a.slideshare-icon {
     -webkit-transition: all 1s;
     transition: all 1s;
 }
-/*.java-icon a img {*/
-	/*!* height: 100px; *!*/
-	/*width: auto !important;*/
-/*}*/
 .clients .client-container .client-section a img {
 	max-width: 110px;
 }
@@ -436,14 +433,6 @@ a.slideshare-icon {
 	.card-hover .btn-more {
 		opacity:1;
 	}
-}
-@media (max-width: 600px) {
-	.mar-35-0 {
-		margin: 20px 0;
-	}
-	.card-hover .btn-more {
-		opacity:1;
-	}
 	.card-heading p, .card-heading h3 {
 		opacity: 1;
 	}
@@ -462,14 +451,39 @@ a.slideshare-icon {
 	.card-image-text {
 		transform: translateY(-50%);
 	}
+	.font-size-14 {
+		font-size: 13px;
+	}
+	.font-size-18 {
+		font-size: 13px;
+	}
 	.card-hover::before {
 		width: 100%;
 		cursor: pointer;
 		content: " ";
-		background-color: rgba(0, 0, 0, 0.29);
+		background-color: rgba(0, 0, 0, 0.15);
 		position: absolute;
 		height: 100%;
 		top: 0;
+	}
+	.font-size-40 {
+		font-size: 28px;
+	}
+	.font-size-26 {
+		font-size: 20px;
+	}
+	.parallax {
+		background-position: 0% 20%;
+		background-size: contain;
+	}
+
+}
+@media (max-width: 600px) {
+	.mar-35-0 {
+		margin: 20px 0;
+	}
+	.general-team {
+		min-height: 340px;
 	}
 }
 @media (max-width:320px) {

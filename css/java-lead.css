@@ -7,11 +7,6 @@
 .parallax {
 	background-position: 50% 70%;
 }
-@media only screen and (max-width: 1280px) {
-	.general-team {
-		min-height: 400px;
-	}
-}
 .btn-more span::after {
 	top: -4px;
 }
@@ -35,7 +30,8 @@
 	background: #890606;
 	padding: 10px;
 	border-radius: 3px;
-    border: none;
+	border: none;
+	min-width:110px;
 	display: inline-block;
 	margin-top: 0.5em;
 	color: white;
@@ -64,10 +60,10 @@
 }
 .btn-apply {
 	background: #c54041;
-    padding: 10px;
-    display: inline-block;
-    float: right;
-    margin-top: 0.5em;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+	margin-top: 0;
 }
 .btn-apply:hover {
 	color: #fff;
@@ -76,15 +72,15 @@
 }
 .background-block {
 	min-height: 500px;
-    background-image: url(../images/careers/java-lead-bg2.jpeg);
-    /* position: relative; */
-    width: 100%;
+	background-image: url(../images/careers/java-lead-bg2.jpeg);
+	/* position: relative; */
+	width: 100%;
 }
 .card-block-box {
 	/* background: #fdfbfb; */
 	background: #fdfdfdf2;
-    border-radius: 3px;
-    box-shadow: 0px 2px 6px 0px #e0dbdb;
+	border-radius: 3px;
+	box-shadow: 0 2px 6px 0 #e0dbdb;
 }
 
 .padding-left-50 {
@@ -98,14 +94,16 @@
 .wrapper-text-para h3 {
 	display: inline-block;
 }
-.list-block ul {
-	/* list-style-position: inside; */
-}
 .list-block ul,.list-block li {
 	list-style-type: disc;
 	font-size: 16px;
 	color: #615f5f;
 	line-height: 25px;
+}
+@media only screen and (max-width: 1280px) {
+	.general-team {
+		min-height: 400px;
+	}
 }
 @media (max-width: 1024px) {
 	.parallax {
@@ -117,10 +115,10 @@
     	padding: 25px;
 	}
 	.wrapper-text-para h3 {
-		margin-top: 0px;
+		margin-top: 0;
 	}
 	.btn-apply {
-		margin-top: 0em;
+		margin-top: 0;
 		padding: 5px;
 	}
 	.parallax {
