@@ -1,12 +1,11 @@
 .general-team {
 	/* min-height: 500px; */
-    background-image: url(../images/careers/Devops-Engineer-banner.jpg);
+    background-image: url(../images/careers/Devops-Engineer-banner-new.jpg);
     position: relative;	
     width: 100%;
 }
 .background-block {
 	min-height: 500px;
     background-image: url(../images/careers/devops-engineer-bg.jpeg);
-    /* position: relative; */
     width: 100%;
 }

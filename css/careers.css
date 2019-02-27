@@ -182,7 +182,7 @@
 }
 .owl-dots .owl-dot {
 	outline: none;
-	border: 2px solid #828282 !important;
+	border: 2px solid #686868 !important;
     display: inline-block;
     margin: 10px;
     width: 12px;
@@ -191,7 +191,7 @@
 }
 .owl-dots .owl-dot.active {
 	outline: none;
-	background:#828282 !important;
+	background: #686868 !important;
 }
 .owl-carousel .owl-item {
  /*  display: flex;
@@ -415,9 +415,61 @@ a.slideshare-icon {
 .font-size-14 {
 	font-size: 14px;
 }
+.line-height-18 {
+	line-height: 18px;
+}
+.btn-send .glyphicon-send {
+	color: #ffffff;
+}
+.card-hover .btn-more {
+	opacity: 0;
+}
+.mar-35-0 {
+	margin: 35px 0;
+}
 @media only screen and (max-width: 1280px) {
 	.general-team {
 		min-height: 400px;
+	}
+}
+@media (max-width:768px) {
+	.card-hover .btn-more {
+		opacity:1;
+	}
+}
+@media (max-width: 600px) {
+	.mar-35-0 {
+		margin: 20px 0;
+	}
+	.card-hover .btn-more {
+		opacity:1;
+	}
+	.card-heading p, .card-heading h3 {
+		opacity: 1;
+	}
+	.card-heading {
+		top: 50%;
+	}
+	.card-hover .card-block {
+		opacity: 1;
+	}
+	.card-hover .card-btn-more {
+		opacity: 1;
+	}
+	.card-hover .btn-more {
+		opacity: 1;
+	}
+	.card-image-text {
+		transform: translateY(-50%);
+	}
+	.card-hover::before {
+		width: 100%;
+		cursor: pointer;
+		content: " ";
+		background-color: rgba(0, 0, 0, 0.29);
+		position: absolute;
+		height: 100%;
+		top: 0;
 	}
 }
 @media (max-width:320px) {
