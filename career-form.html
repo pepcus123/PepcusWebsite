@@ -11,6 +11,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
     <!-- <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"> -->
+    <link rel="stylesheet" href="css/jquery-filestyle.min.css">
+    <link rel="stylesheet" href="css/jquery-filestyle.css">
     <link rel="stylesheet" href="css/demo.min.css">
     <link rel="stylesheet" type="text/css" href="css/careers.css">
     <link rel="stylesheet" type="text/css" href="css/java-lead.css">
@@ -96,11 +98,19 @@
                                     <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div>
                                 </div>
                                 <div class="form-group last-name-box">
-                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Upload Resume/CV <span class="primary-color font-size-20">*</span></label>
+                                    <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">
+                                        Upload Resume/CV
+                                        <span class="primary-color font-size-20">*</span>
+                                    </label>
                                     <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
                                         <div class="input-group">
-                                            <span class="input-group-addon"><i class="glyphicon glyphicon-file"></i></span>
-                                            <input name="last_name" id="last_name" class="form-control" type="file" required>
+                                            <input type="file"
+                                                   class="filestyle"
+                                                   data-buttonBefore="true"
+                                                   data-classInput="form-control"
+                                                   data-classIcon="fa fa-folder-open"
+                                            required/>
+                                            <!--<span class="input-group-addon"><is class="glyphicon glyphicon-file"></i></span>-->
                                         </div>
                                     </div>
                                     <!-- <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div> -->
@@ -273,6 +283,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src = "js/owl.carousel.min.js"></script>
     <script type = "text/javascript" src = "js/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="js/jquery-filestyle.min.js"></script>
     <script type='application/javascript' src="js/custom.min.js"></script>
     <script type="text/javascript" charset="utf-8" async defer>
         $(function() {
@@ -280,7 +291,11 @@
                 $(window).load(function() {
                     $('.loading').hide();
                 });
-                var validForm = false;
+              $(":file").filestyle({buttonBefore: true,
+              iconName:true});
+
+
+              var validForm = false;
             var validCaptcha = false;
             $('#contact_form').keyup(function() {
                 verifyForm();
@@ -384,9 +399,10 @@
                     $('#submit').prop('disabled',true);
                 }
             }
-                        
+
                     });
         });
+
     </script>
     <script type='text/javascript'>
     
