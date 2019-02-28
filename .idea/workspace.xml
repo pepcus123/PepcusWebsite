@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/career-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/career-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="756" column="85" selection-start-line="756" selection-start-column="85" selection-end-line="756" selection-end-column="85" />
+            <state relative-caret-position="357">
+              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
               <folding>
                 <element signature="e#2190#2634#0" />
               </folding>
@@ -57,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/css/jquery.fancybox-transitions.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -71,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="404" column="1" lean-forward="true" selection-start-line="404" selection-start-column="1" selection-end-line="404" selection-end-column="1" />
+            <state relative-caret-position="112">
+              <caret line="500" column="1" lean-forward="true" selection-start-line="500" selection-start-column="1" selection-end-line="500" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -84,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
-              <caret line="570" column="53" lean-forward="true" selection-start-line="570" selection-start-column="53" selection-end-line="570" selection-end-column="53" />
+              <caret line="570" column="53" selection-start-line="570" selection-start-column="53" selection-end-line="570" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -102,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/js/jquery-filestyle.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="7575" lean-forward="true" selection-start-column="7575" selection-end-column="7575" />
+              <caret column="7575" selection-start-column="7575" selection-end-column="7575" />
             </state>
           </provider>
         </entry>
@@ -122,12 +119,12 @@
     <findStrings>
       <find>general-team</find>
       <find>a.slideshare-icon</find>
-      <find />
-      <find />
+      <find>#slider2 .item img</find>
+      <find>.card-image-text .btn-more</find>
       <find>.btn-apply</find>
       <find>.btn-more</find>
-      <find />
-      <find />
+      <find>.explore-more-btn .btn-explore:hover</find>
+      <find>.card-hover:hover .card-heading p</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,8 +155,8 @@
         <option value="$PROJECT_DIR$/css/jquery.fancybox-transitions.css" />
         <option value="$PROJECT_DIR$/js/jquery.fancybox-transitions.js" />
         <option value="$PROJECT_DIR$/js/jquery.fancybox.transitions.js" />
-        <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/css/careers.css" />
       </list>
     </option>
   </component>
@@ -172,7 +169,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1377" />
@@ -238,12 +235,12 @@
       <workItem from="1545655935135" duration="13692000" />
       <workItem from="1546847242336" duration="85000" />
       <workItem from="1551090186685" duration="50352000" />
-      <workItem from="1551348897329" duration="4344000" />
+      <workItem from="1551348897329" duration="5000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68473000" />
+    <option name="totallyTimeSpent" value="69129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1377" height="733" extended-state="0" />
@@ -534,7 +531,7 @@
     <entry file="file://$PROJECT_DIR$/js/jquery-filestyle.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7575" lean-forward="true" selection-start-column="7575" selection-end-column="7575" />
+          <caret column="7575" selection-start-column="7575" selection-end-column="7575" />
         </state>
       </provider>
     </entry>
@@ -555,14 +552,14 @@
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
-          <caret line="570" column="53" lean-forward="true" selection-start-line="570" selection-start-column="53" selection-end-line="570" selection-end-column="53" />
+          <caret line="570" column="53" selection-start-line="570" selection-start-column="53" selection-end-line="570" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery.fancybox-transitions.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -580,20 +577,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/careers.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="404" column="1" lean-forward="true" selection-start-line="404" selection-start-column="1" selection-end-line="404" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="756" column="85" selection-start-line="756" selection-start-column="85" selection-end-line="756" selection-end-column="85" />
+        <state relative-caret-position="357">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
           <folding>
             <element signature="e#2190#2634#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/careers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="500" column="1" lean-forward="true" selection-start-line="500" selection-start-column="1" selection-end-line="500" selection-end-column="1" />
         </state>
       </provider>
     </entry>
