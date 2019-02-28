@@ -4,7 +4,9 @@
     position: relative;
     width: 100%;
 }
-
+.parallax {
+	background-position: center;
+}
 .mar-50-auto {
 	margin: 50px auto;
 }
