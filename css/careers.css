@@ -217,8 +217,8 @@
 #slider2 .item img{
     width:100%;
 }
-.owl-item img {
-	 min-height: 200px;
+.slider2 img {
+	 max-height: 200px;
 }
 .owl-item {
 	width: 100%;

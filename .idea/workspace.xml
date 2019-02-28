@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PepcusWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PepcusWebsite.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/parallex/banner-image - Copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/2.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="501" column="40" selection-start-line="501" selection-start-column="40" selection-end-line="501" selection-end-column="40" />
+            <state relative-caret-position="187">
+              <caret line="474" column="37" selection-start-line="474" selection-start-column="30" selection-end-line="474" selection-end-column="37" />
               <folding>
                 <element signature="e#2190#2634#0" />
               </folding>
@@ -73,8 +74,8 @@
       <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="221" column="1" lean-forward="true" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+            <state relative-caret-position="155">
+              <caret line="219" column="14" lean-forward="true" selection-start-line="219" selection-start-column="14" selection-end-line="219" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -127,6 +128,7 @@
       <find>.btn-more</find>
       <find>.explore-more-btn .btn-explore:hover</find>
       <find>.card-hover:hover .card-heading p</find>
+      <find>.owl-item img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,12 +239,12 @@
       <workItem from="1545655935135" duration="13692000" />
       <workItem from="1546847242336" duration="85000" />
       <workItem from="1551090186685" duration="50352000" />
-      <workItem from="1551348897329" duration="6300000" />
+      <workItem from="1551348897329" duration="7260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70429000" />
+    <option name="totallyTimeSpent" value="71389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1377" height="733" extended-state="0" />
@@ -581,8 +583,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="501" column="40" selection-start-line="501" selection-start-column="40" selection-end-line="501" selection-end-column="40" />
+        <state relative-caret-position="187">
+          <caret line="474" column="37" selection-start-line="474" selection-start-column="30" selection-end-line="474" selection-end-column="37" />
           <folding>
             <element signature="e#2190#2634#0" />
           </folding>
@@ -591,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/careers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="221" column="1" lean-forward="true" selection-start-line="221" selection-start-column="1" selection-end-line="221" selection-end-column="1" />
+        <state relative-caret-position="155">
+          <caret line="219" column="14" lean-forward="true" selection-start-line="219" selection-start-column="14" selection-end-line="219" selection-end-column="14" />
         </state>
       </provider>
     </entry>
