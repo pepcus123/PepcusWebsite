@@ -300,9 +300,6 @@ a.slideshare-icon {
 	padding: 10px 0;
 }
 .client-section a img {
-    /* max-width: 300px; */
-    /* height: 80px; */
-    /* margin: 0 15px; */
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: all 1s;
