@@ -218,10 +218,7 @@
     width:100%;
 }
 .owl-item img {
-	/* height: 100%; */
-	/* max-height: 200px; */
-	/* height: 100%; */
-	/* max-height: 200px; */
+	 min-height: 200px;
 }
 .owl-item {
 	width: 100%;
