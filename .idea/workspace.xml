@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PepcusWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PepcusWebsite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -74,8 +70,8 @@
       <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="219" column="14" lean-forward="true" selection-start-line="219" selection-start-column="14" selection-end-line="219" selection-end-column="14" />
+            <state relative-caret-position="178">
+              <caret line="442" column="24" selection-start-line="442" selection-start-column="24" selection-end-line="442" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -239,12 +235,12 @@
       <workItem from="1545655935135" duration="13692000" />
       <workItem from="1546847242336" duration="85000" />
       <workItem from="1551090186685" duration="50352000" />
-      <workItem from="1551348897329" duration="7260000" />
+      <workItem from="1551348897329" duration="7954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71389000" />
+    <option name="totallyTimeSpent" value="72083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1377" height="733" extended-state="0" />
@@ -593,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/careers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="219" column="14" lean-forward="true" selection-start-line="219" selection-start-column="14" selection-end-line="219" selection-end-column="14" />
+        <state relative-caret-position="178">
+          <caret line="442" column="24" selection-start-line="442" selection-start-column="24" selection-end-line="442" selection-end-column="24" />
         </state>
       </provider>
     </entry>
