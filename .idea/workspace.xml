@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/career-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/career-form.html" afterDir="false" />
-    </list>
+    <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -97,8 +95,8 @@
       <file leaf-file-name="career-form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/career-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="253" column="175" selection-start-line="253" selection-start-column="175" selection-end-line="253" selection-end-column="175" />
+            <state relative-caret-position="204">
+              <caret line="251" column="65" lean-forward="true" selection-start-line="251" selection-start-column="65" selection-end-line="251" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -214,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/CSS Practice" />
+    <property name="last_opened_file_path" value="E:/REACT LEARNING/react-notes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RunDashboard">
@@ -242,12 +240,12 @@
       <workItem from="1545655935135" duration="13692000" />
       <workItem from="1546847242336" duration="85000" />
       <workItem from="1551090186685" duration="50352000" />
-      <workItem from="1551348897329" duration="9554000" />
+      <workItem from="1551348897329" duration="11394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73683000" />
+    <option name="totallyTimeSpent" value="75523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1377" height="733" extended-state="0" />
@@ -603,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/career-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="253" column="175" selection-start-line="253" selection-start-column="175" selection-end-line="253" selection-end-column="175" />
+        <state relative-caret-position="204">
+          <caret line="251" column="65" lean-forward="true" selection-start-line="251" selection-start-column="65" selection-end-line="251" selection-end-column="65" />
         </state>
       </provider>
     </entry>
