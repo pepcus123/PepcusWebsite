@@ -218,7 +218,12 @@
     width:100%;
 }
 .slider2 img {
-	 max-height: 200px;
+	height: 100%;
+	object-fit: cover;
+	max-width: initial;
+}
+.gallery-blog .owl-carousel, .owl-carousel.owl-loaded {
+	display: flex;
 }
 .owl-item {
 	width: 100%;
@@ -441,6 +446,7 @@ a.slideshare-icon {
 	background: #efefef;
 	color: #e4dfdf;
 }
+
 @media only screen and (max-width: 1280px) {
 	.general-team {
 		min-height: 400px;
