@@ -115,13 +115,13 @@
     <findStrings>
       <find>general-team</find>
       <find>a.slideshare-icon</find>
-      <find>#slider2 .item img</find>
-      <find>.card-image-text .btn-more</find>
+      <find />
+      <find />
       <find>.btn-apply</find>
       <find>.btn-more</find>
-      <find>.explore-more-btn .btn-explore:hover</find>
-      <find>.card-hover:hover .card-heading p</find>
-      <find>.owl-item img</find>
+      <find />
+      <find />
+      <find />
       <find>slider2</find>
     </findStrings>
   </component>
@@ -168,7 +168,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1377" />
