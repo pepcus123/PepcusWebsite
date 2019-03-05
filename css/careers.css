@@ -441,6 +441,18 @@ a.slideshare-icon {
 		min-height: 400px;
 	}
 }
+@media (max-width: 1024px) {
+	.tech-expertise-slider {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+	.gallery-section-slider {
+		display: flex;
+		float: none;
+		margin: 20px auto;
+	}
+}
 @media (max-width:768px) {
 	.card-hover .btn-more {
 		opacity:1;

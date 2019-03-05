@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="775" column="43" lean-forward="true" selection-start-line="775" selection-start-column="43" selection-end-line="775" selection-end-column="43" />
+            <state relative-caret-position="246">
+              <caret line="479" column="24" lean-forward="true" selection-start-line="479" selection-start-column="24" selection-end-line="479" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -64,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="224" selection-start-line="224" selection-end-line="224" />
+            <state relative-caret-position="274">
+              <caret line="452" column="4" selection-start-line="452" selection-start-column="4" selection-end-line="452" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -115,13 +117,13 @@
     <findStrings>
       <find>general-team</find>
       <find>a.slideshare-icon</find>
-      <find />
-      <find />
+      <find>#slider2 .item img</find>
+      <find>.card-image-text .btn-more</find>
       <find>.btn-apply</find>
       <find>.btn-more</find>
-      <find />
-      <find />
-      <find />
+      <find>.explore-more-btn .btn-explore:hover</find>
+      <find>.card-hover:hover .card-heading p</find>
+      <find>.owl-item img</find>
       <find>slider2</find>
     </findStrings>
   </component>
@@ -154,8 +156,8 @@
         <option value="$PROJECT_DIR$/js/jquery.fancybox.transitions.js" />
         <option value="$PROJECT_DIR$/css/career-form.css" />
         <option value="$PROJECT_DIR$/career-form.html" />
-        <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/css/careers.css" />
       </list>
     </option>
   </component>
@@ -168,7 +170,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1377" />
@@ -236,12 +238,12 @@
       <workItem from="1551090186685" duration="50352000" />
       <workItem from="1551348897329" duration="11394000" />
       <workItem from="1551705066997" duration="2252000" />
-      <workItem from="1551766880973" duration="2414000" />
+      <workItem from="1551766880973" duration="4862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80189000" />
+    <option name="totallyTimeSpent" value="82637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1377" height="733" extended-state="0" />
@@ -602,17 +604,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/careers.css">
+    <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        <state relative-caret-position="246">
+          <caret line="479" column="24" lean-forward="true" selection-start-line="479" selection-start-column="24" selection-end-line="479" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/careers.html">
+    <entry file="file://$PROJECT_DIR$/css/careers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="775" column="43" lean-forward="true" selection-start-line="775" selection-start-column="43" selection-end-line="775" selection-end-column="43" />
+        <state relative-caret-position="274">
+          <caret line="452" column="4" selection-start-line="452" selection-start-column="4" selection-end-line="452" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -327,7 +327,7 @@
                                 Our Tech Expertise
                             </h3>
                             <section class="client-container text-center">
-                                <div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                                <div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 tech-expertise-slider">
                                     <div class = "owl-carousel" id = "slider">
                                 <div class="item client-section java-icon">
                                   <div class="">
@@ -471,7 +471,7 @@
                     If work isn’t FUN, you are NOT playing on the right team
                 </h3>
             </div>
-        	<div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 mar-bot-50">
+        	<div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 mar-bot-50 gallery-section-slider">
         		<div class = "slider2 owl-carousel" id = "slider2">
         			<div class = "item">
                         <a data-fancybox="gallery" href="images/sliders/1.jpg">
@@ -781,8 +781,9 @@
 				    navText:['<i class = "slider-arrow fa fa-angle-left"></i>','<i class = "slider-arrow fa fa-angle-right"></i>'],
 				    margin:15,
     				slideBy: 3,
-                    dots:false, 
+                    dots:false,
                     autoplay:true,
+                    slideTransition: 'linear',
                     autoplayTimeout:2500,
 					autoWidth: false,
 				    autoplayHoverPause:true,
@@ -798,19 +799,19 @@
                     responsive:{
 				        0:{
 				            items:1,
-				            nav:false,
+				            nav:false
 				        },
 				        600:{
 				            items:2,
                             mouseDrag: true,
                             touchDrag: true,
-				            nav:false,
+				            nav:false
 				        },
 				        1000:{
 				            items:3,
                             mouseDrag: true,
                             touchDrag: true,
-				            nav:true,
+				            nav:true
 
 				          
 				        }
@@ -825,6 +826,7 @@
                     autoplay:true,
                     autoplayTimeout:2500,
                     autoWidth: false,
+                   slideTransition: 'linear',
                     autoplayHoverPause:true,
                     responsiveClass:true,
                     responsive:{
@@ -840,8 +842,9 @@
                             nav:false,
                             dots: false
                         },
+
                         1000:{
-                            items:5,
+                            items:3,
                             mouseDrag: true,
                             touchDrag: true,
                             nav:false
