@@ -475,9 +475,8 @@
         		<div class = "slider2 owl-carousel" id = "slider2">
         			<div class = "item">
                         <a data-fancybox="gallery" href="images/sliders/1.jpg">
-                            <img src="images/sliders/1.jpg" alt="slider-1 image" class = "img-responsive"/>
+                            <img data-src="images/sliders/1.jpg" src="images/sliders/1.jpg" alt="slider-1 image" class = "lazy img-responsive"/>
                         </a>
-        				
         			</div>
         			<div class = "item">
                         <a data-fancybox="gallery" href="images/sliders/2.jpg">
@@ -769,6 +768,7 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
             <script type="text/javascript" src = "js/owl.carousel.min.js"></script>
             <script type = "text/javascript" src = "js/jquery.fancybox.min.js"></script>
+            <script type="text/javascript" src="js/lazyload.min.js"></script>
             <script type='application/javascript' src="js/custom.min.js"></script>
             <script type="text/javascript" charset="utf-8">
     	$(function() {
@@ -777,7 +777,7 @@
                     $('.loading').hide();
                 });
                 $('.slider2').owlCarousel({
-				    loop:false,
+				    loop:true,
 				    navText:['<i class = "slider-arrow fa fa-angle-left"></i>','<i class = "slider-arrow fa fa-angle-right"></i>'],
 				    margin:15,
     				slideBy: 3,
@@ -788,14 +788,6 @@
 					autoWidth: false,
 				    autoplayHoverPause:true,
 				    responsiveClass:true,
-                    // afterAction: function(){
-                    //     if ( this.currentItem == 0 ) {
-                    //       $('.prev').addClass('disabled');
-                    //     }
-                    //     if ( this.currentItem == this.maximumItem ) {
-                    //       $('.next').addClass('disabled');
-                    //     }
-                    // }
                     responsive:{
 				        0:{
 				            items:1,
@@ -823,6 +815,7 @@
                     dots:true,
                     navText:false,
                     slideBy: 5,
+                   lazyLoad:true,
                     autoplay:true,
                     autoplayTimeout:2500,
                     autoWidth: false,
@@ -842,9 +835,8 @@
                             nav:false,
                             dots: false
                         },
-
                         1000:{
-                            items:3,
+                            items:5,
                             mouseDrag: true,
                             touchDrag: true,
                             nav:false
@@ -890,7 +882,7 @@
 
             });
             });
-       
+
     </script>
 </body>
 </html>
