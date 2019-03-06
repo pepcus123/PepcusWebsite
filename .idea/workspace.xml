@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/JAVA-Engineer-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/JAVA-Engineer-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/JAVA-Engineer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/JAVA-Engineer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/JAVA-Lead-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/JAVA-Lead-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/PHP-Engineer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/PHP-Engineer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/QA-Engineer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/QA-Engineer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/React-Engineer-banner-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/React-Engineer-banner-new.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/careers/React-Engineer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/careers/React-Engineer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/parallex/banner-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/parallex/banner-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-lead.html" beforeDir="false" afterPath="$PROJECT_DIR$/java-lead.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +27,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
+            <state relative-caret-position="4890">
               <caret line="638" column="106" selection-start-line="638" selection-start-column="106" selection-end-line="638" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java-engineer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-engineer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1462">
+              <caret line="199" column="50" lean-forward="true" selection-start-line="199" selection-start-column="50" selection-end-line="199" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java-lead.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-lead.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1131">
+              <caret line="173" column="58" selection-start-line="173" selection-start-column="58" selection-end-line="173" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -55,15 +86,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.fancybox-transitions.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/jquery.fancybox-transitions.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-799">
-              <caret line="434" column="19" lean-forward="true" selection-start-line="434" selection-start-column="19" selection-end-line="434" selection-end-column="19" />
+              <caret line="434" column="19" selection-start-line="434" selection-start-column="19" selection-end-line="434" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -87,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9690">
-              <caret line="570" column="53" selection-start-line="570" selection-start-column="53" selection-end-line="570" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -141,7 +154,6 @@
         <option value="$PROJECT_DIR$/css/php-engineer.css" />
         <option value="$PROJECT_DIR$/devops-engineer.html" />
         <option value="$PROJECT_DIR$/java-engineer.html" />
-        <option value="$PROJECT_DIR$/java-lead.html" />
         <option value="$PROJECT_DIR$/php-engineer.html" />
         <option value="$PROJECT_DIR$/qa-engineer.html" />
         <option value="$PROJECT_DIR$/qa-lead.html" />
@@ -156,6 +168,7 @@
         <option value="$PROJECT_DIR$/career-form.html" />
         <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/java-lead.html" />
       </list>
     </option>
   </component>
@@ -237,25 +250,25 @@
       <workItem from="1551348897329" duration="11394000" />
       <workItem from="1551705066997" duration="2252000" />
       <workItem from="1551766880973" duration="6868000" />
-      <workItem from="1551853869248" duration="2066000" />
+      <workItem from="1551853869248" duration="2626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86709000" />
+    <option name="totallyTimeSpent" value="87269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1377" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25093353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25093353" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18881118" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18881118" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-engineer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="343" column="41" selection-start-line="343" selection-start-column="41" selection-end-line="343" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php-engineer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -523,13 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5712">
           <caret line="336" column="38" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-lead.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5831">
-          <caret line="343" column="34" selection-start-line="343" selection-start-column="34" selection-end-line="343" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -599,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/css/careers.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-799">
-          <caret line="434" column="19" lean-forward="true" selection-start-line="434" selection-start-column="19" selection-end-line="434" selection-end-column="19" />
+          <caret line="434" column="19" selection-start-line="434" selection-start-column="19" selection-end-line="434" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -612,8 +611,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="4890">
           <caret line="638" column="106" selection-start-line="638" selection-start-column="106" selection-end-line="638" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-engineer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1462">
+          <caret line="199" column="50" lean-forward="true" selection-start-line="199" selection-start-column="50" selection-end-line="199" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-lead.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1131">
+          <caret line="173" column="58" selection-start-line="173" selection-start-column="58" selection-end-line="173" selection-end-column="58" />
         </state>
       </provider>
     </entry>
