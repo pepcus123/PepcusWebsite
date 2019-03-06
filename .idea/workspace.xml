@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/3.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +22,17 @@
       <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="784" column="34" lean-forward="true" selection-start-line="784" selection-start-column="34" selection-end-line="784" selection-end-column="34" />
+            <state relative-caret-position="249">
+              <caret line="638" column="106" selection-start-line="638" selection-start-column="106" selection-end-line="638" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="embed.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -101,15 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4267">
               <caret line="251" column="65" selection-start-line="251" selection-start-column="65" selection-end-line="251" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-filestyle.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jquery-filestyle.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7575" selection-start-column="7575" selection-end-column="7575" />
             </state>
           </provider>
         </entry>
@@ -242,12 +237,12 @@
       <workItem from="1551348897329" duration="11394000" />
       <workItem from="1551705066997" duration="2252000" />
       <workItem from="1551766880973" duration="6868000" />
-      <workItem from="1551853869248" duration="437000" />
+      <workItem from="1551853869248" duration="2066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85080000" />
+    <option name="totallyTimeSpent" value="86709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1377" height="733" extended-state="0" />
@@ -279,13 +274,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/careers.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6273">
-          <caret line="369" column="1" lean-forward="true" selection-start-line="369" selection-start-column="1" selection-end-line="369" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/career-form.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -615,10 +603,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="784" column="34" lean-forward="true" selection-start-line="784" selection-start-column="34" selection-end-line="784" selection-end-column="34" />
+        <state relative-caret-position="249">
+          <caret line="638" column="106" selection-start-line="638" selection-start-column="106" selection-end-line="638" selection-end-column="106" />
         </state>
       </provider>
     </entry>
