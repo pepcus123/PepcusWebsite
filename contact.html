@@ -556,7 +556,7 @@
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
     (function(){
-        emailjs.init("user_eIaGRKJsOQOlG7TC0KIkK");
+        emailjs.init("user_C7o9MN5WhPmC9wbRpbBeB");
         var myform = $("form#contact_form");
         myform.submit(function(event){
           event.preventDefault();
@@ -566,7 +566,7 @@
             }, {});
           // Change to your service ID, or keep using the default service
             var service_id = "default_service";
-          var template_id = "contact_template";
+          var template_id = "pepcus";
             myform.find("button").text("Sending...");
             emailjs.send(service_id,template_id,params)
                     .then(function(){
