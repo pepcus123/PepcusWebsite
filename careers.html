@@ -975,8 +975,8 @@
             <div class = "col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <img src="images/sliders/3.jpg" alt="" class = "img-responsive">
             </div> -->
-        	<div class = "explore-more-btn clear-both text-center mar-bot-50 text-uppercase">
-        		<a target = "_blank" href= "http://pepcus.com/why-pepcus.html" class = "btn btn-explore">explore life at pepcus</a>
+        	<div class = "explore-more-btn clear-both text-center mar-bot-50 text-uppercase" id="explore-btn">
+        		<!--<a target = "_blank" href= "http://pepcus.com/why-pepcus.html" class = "btn btn-explore">explore life at pepcus</a>-->
         	</div>
         </section>
         <!-- gallery section ends -->
@@ -1111,7 +1111,7 @@
                 slideSpeed : 5000,
                 scrollPerPage : true,
                 slideBy: 5,
-                autoPlay:2500,
+                autoPlay:false,
                 autoPlayTimeout:1800,
                 autoWidth: false,
                 slideTransition: 'linear',
@@ -1331,6 +1331,12 @@
           }
           $("#slider2").html(content);
         };
+        var exploreGalleryBtn = function(exploreBtn) {
+          $.each(exploreBtn, function(key, value) {
+            var htmlRender = "<a target = \"_blank\" href= \" "+value.exploreBtnHref+"\" class = \"btn btn-explore\">"+value.exploreBtnText+"</a>";
+            $(htmlRender).appendTo("#explore-btn");
+          });
+        };
         var footerSectionHyperlink = function(footerHyperlink) {
           $.each(footerHyperlink, function(key, value) {
             var htmlRender = "<ul>" +
@@ -1398,6 +1404,7 @@
           renderTechExpertiseSlider(data.techExpertise);
           renderGallerySliderTitle(data.gallerySliderTitle);
           renderGallerySlider(data.gallerySliderWrapper);
+          exploreGalleryBtn(data.exploreGalleryButton);
           footerSectionHyperlink(data.footerWrapper);
           footerSecondaryTitle(data.footerSecondary);
           footerLogoWrapper(data.pepcusFooterLogo);

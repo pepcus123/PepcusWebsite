@@ -301,6 +301,12 @@
       "alt": "slider 30 jpg"
     }
   ],
+  "exploreGalleryButton" : [
+    {
+      "exploreBtnText" : "explore life at Pepcus",
+      "exploreBtnHref" : "https://www.youtube.com/watch?v=U-pf-W33oTs&list=PLyTyrJ-M-5yqG4WICuL_p9XjvE5YHqsut"
+    }
+  ],
   "footerWrapper" : [
     {
       "footerPrimaryTitle": "Home"

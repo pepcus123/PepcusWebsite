@@ -203,8 +203,9 @@
 	background: #686868 !important;
 }
 #slider2 .owl-wrapper .owl-item {
-	width: 349.65px !important;
-	margin-right: 16px !important;
+	padding-right:20px;
+	/*width: 349.65px !important;*/
+	/*margin-right: 16px !important;*/
 }
 .owl-carousel .caption {
   /* display: flex;
