@@ -10,6 +10,9 @@
 .mar-50-auto {
 	margin: 50px auto;
 }
+.mar-15-0-10 {
+	margin: 15px 0 10px;
+}
 .mar-120-auto-50 {
 	margin: 120px auto 50px;
 }
@@ -50,9 +53,12 @@
 	background: transparent;
 	text-decoration: none;
 }
-.card {
-	position: relative;
+.font-size-16 {
+	font-size:16px;
 }
+/*.card {*/
+	/*position: relative;*/
+/*}*/
 .card-hover:hover::before {
 	width: 100%;
 	cursor: pointer;
@@ -196,10 +202,9 @@
 	outline: none;
 	background: #686868 !important;
 }
-.owl-carousel .owl-item {
- /*  display: flex;
-  flex: 1 0 auto;
-  cursor: pointer; */
+#slider2 .owl-wrapper .owl-item {
+	width: 349.65px !important;
+	margin-right: 16px !important;
 }
 .owl-carousel .caption {
   /* display: flex;
@@ -370,6 +375,8 @@ a.slideshare-icon {
     transform: translate(-50%,-50%);
     top: 70%;
     left: 50%;
+	width: 100%;
+	padding: 0 25px;
     text-align: center;
     color: white;
 }
@@ -435,6 +442,136 @@ a.slideshare-icon {
 	/*background: #efefef;*/
 	/*color: #e4dfdf;*/
 /*}*/
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 9999; /* Sit on top */
+	padding-top: 5px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgba(41, 41, 41, 0.77);
+
+}
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: 25px auto;
+	padding: 0;
+	border: 1px solid #888;
+	width: 70%;
+}
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.modal-heading {
+	/*background: #d6103c;*/
+	background: #b50808;
+	padding: 25px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+.padding-left-50 {
+	padding-left: 50px;
+}
+.card-block-box span {
+	color: #615f5f;
+	font-weight: 500;
+}
+.wrapper-text-para h3 {
+	display: inline-block;
+}
+.list-block ul,.list-block li {
+	list-style-type: disc;
+	font-size: 14px;
+	color: #615f5f;
+	line-height: 25px;
+}
+.btn-apply {
+	background: #c54041;
+	padding: 10px;
+	display: inline-block;
+	float: right;
+	margin-top: 0;
+}
+.btn-apply:hover {
+	color: #fff;
+	background: #b30405;
+	transition: 0.4s all;
+}
+.btn-close {
+	border:1px solid #c54041;
+	color: #c54041;
+	padding: 8px;
+	display: inline-block;
+	float: right;
+	margin-top: 0;
+	font-size: 16px;
+	opacity: 1;
+	font-weight: normal;
+}
+.btn-close:hover {
+	color: #b30405;
+	opacity:1;
+	border: 1px solid #b30405;
+	transition: 0.4s all;
+}
+.modal-wrapper {
+	max-height: 450px;
+	overflow: auto;
+	padding:25px;
+	min-height: 100%;
+	background: #fbfbfb;
+}
+.modal-footer {
+	padding: 15px 60px;
+	text-align: right;
+	border-top: 1px solid #e5e5e5;
+}
+.modal-close {
+	opacity: 1;
+	color: #d4c7c7;
+	margin-top: -10px;
+	font-size: 37px;
+}
+.modal-close:hover {
+	color: #ffffff;
+	opacity:1;
+	transition:0.3s all;
+}
+.stripe1 {
+	width:450px;
+	height:300px;
+}
+.stripe2 {
+	width:550px;
+	height:300px;
+}
+.stripe3 {
+	width: 700px;
+	height:300px;
+}
+.stripe4 {
+	width: 650px;
+	height: 350px;
+}
+.card-height {
+	min-height:100%;
+}
 @media only screen and (max-width: 1280px) {
 	.general-team {
 		min-height: 400px;
@@ -503,6 +640,42 @@ a.slideshare-icon {
 @media (max-width: 600px) {
 	.mar-35-0 {
 		margin: 20px 0;
+	}
+	#slider .owl-pagination {
+		display:none;
+	}
+	#slider2 .owl-wrapper .owl-item {
+		width: 314.65px !important;
+	}
+	#slider2 .owl-pagination {
+		display: none;
+	}
+	.card-mobile-height {
+		min-height: 300px !important;
+	}
+	.modal-content {
+		margin: 25px auto;
+		width: 85%;
+	}
+	.modal-wrapper {
+		padding:15px 25px;
+		max-height: 410px;
+	}
+	.modal-wrapper .padding-50 {
+		padding:0;
+	}
+	.modal-heading {
+		padding:20px;
+	}
+	.list-block .padding-left-50 {
+		padding-left: 25px;
+	}
+	.btn-apply {
+		padding: 5px;
+		margin-bottom: 20px;
+	}
+	.modal-footer {
+		padding: 15px 25px;
 	}
 }
 @media (max-width:320px) {

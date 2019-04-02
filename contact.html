@@ -558,6 +558,10 @@
     (function(){
         emailjs.init("user_QjC9ZSKm2Rl96TpEZy1Ov");
         var myform = $("form#contact_form");
+        $("#submit").click(function() {
+            $('.loading').show();
+            return true;
+          });
         myform.submit(function(event){
           event.preventDefault();
           var params = myform.serializeArray().reduce(function(obj, item) {
@@ -567,10 +571,11 @@
           // Change to your service ID, or keep using the default service
             var service_id = "default_service";
           var template_id = "template_WPb3VH3Z";
-            myform.find("button").text("Sending...");
+            // myform.find("button").text("loading...");
+
             emailjs.send(service_id,template_id,params)
                     .then(function(){
-                        window.location="contact.html";
+                        window.location="thankyou.html";
                         myform.find("button").text("Send");
                     }, function(err) {
                         alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));

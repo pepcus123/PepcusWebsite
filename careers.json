@@ -1,0 +1,409 @@
+{
+  "backgroundHeader": [
+    {
+      "headerTitle": "Let's join us, Let's Grow together"
+    }
+  ],
+  "headerData": [
+    {
+      "title": "Join Us & Springboard Your Career to New Heights.",
+      "description": "We are looking for extraordinary people who are ready to dive into a high growth,fast-paced, super collaborative company. An innovation-driven, a stimulating and fun loving environmentand an incredibly talented team are just a small number of reasons why you will love to work here."
+    }
+  ],
+  "currentOpeningSection": [
+    {
+      "onclickOpenModal" : "java-lead",
+      "jobDivWidthClass": " stripe2",
+      "jobTitle": "JAVA LEAD",
+      "jobShortDescription": "Manage and lead a diverse, expert team of 4 - 5 software engineers…",
+      "jobLocation": "Job Location: Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "java-lead-card"
+    },
+    {
+      "onclickOpenModal" : "java-engineer",
+      "jobDivWidthClass": " stripe1",
+      "jobTitle": "JAVA Engineer",
+      "jobShortDescription": "Hands on experience on Struts/Spring and Hibernate and Restful services…",
+      "jobLocation": "Job Location: Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "java-engineer-card"
+    },
+    {
+      "onclickOpenModal" : "react-engineer",
+      "jobDivWidthClass": " stripe3",
+      "jobTitle": "React Engineer",
+      "jobShortDescription": "Contribute to product development, new feature implementation and bug fixes…",
+      "jobLocation": "Job Location: Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "react-engineer-card"
+    },
+    {
+      "onclickOpenModal" : "devops-engineer",
+      "jobDivWidthClass": " stripe3",
+      "jobTitle": "Devops Engineer",
+      "jobShortDescription": "Build and test automation tools for infrastructure provisioning…",
+      "jobLocation": "Job Location: Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "devops-engineer-card"
+    },
+    {
+      "onclickOpenModal" : "qa-lead",
+      "jobDivWidthClass": " stripe1",
+      "jobTitle": "QA Lead",
+      "jobShortDescription": "Establish and evolve formal QA processes, ensuring that the team is using industry-accepted best practices…",
+      "jobLocation": "Job Location: Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "qa-lead-card"
+    },
+    {
+      "onclickOpenModal" : "qa-engineer",
+      "jobDivWidthClass": " stripe3",
+      "jobTitle": "QA Engineer",
+      "jobShortDescription": "Hands on experience in performing all aspects of testing, including automation, functional, regression and security testing…",
+      "jobLocation": "Job Location: Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "qa-engineer-card"
+    },
+    {
+      "onclickOpenModal" : "php-engineer",
+      "jobDivWidthClass": " stripe2",
+      "jobTitle": "PHP Engineer",
+      "jobShortDescription": "Integration of user-facing elements developed by front-end developers…",
+      "jobLocation": "Job Location: Indore",
+      "jobBtn":"See more",
+      "jobDivBackgroundClass" : "php-engineer-card"
+    }
+  ],
+  "techExpertiseTitle" : [
+    {
+      "techExpertiseHeader": "Our Tech Expertise"
+    }
+  ],
+  "techExpertise" : [
+    {
+      "iconSliderClass": "java-icon",
+      "img": "images/careers/java-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/react-icon-9.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/angular-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/backbone-icon-2.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/nodejs-icon-10.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jquery-icon-4.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/css3-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jsf-icon-5.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/primefaces-icon-5.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "",
+      "img": "images/careers/jsp-icon.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/spring-icon-6.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/struts-icon-3.png",
+      "alt": ""
+    }
+  ],
+  "gallerySliderTitle" : [
+    {
+      "gallerySliderHeader" : "If work isn’t FUN, you are NOT playing on the right team"
+    }
+  ],
+  "gallerySliderWrapper": [
+    {
+      "img":"images/sliders/1.jpg",
+      "alt": "slider 1 jpg"
+    },
+    {
+      "img":"images/sliders/2.jpg",
+      "alt": "slider 2 jpg"
+    },
+    {
+      "img":"images/sliders/3.jpg",
+      "alt": "slider 3 jpg"
+    },
+    {
+      "img":"images/sliders/rivera-1-new.jpg",
+      "alt": "slider rivera 1 jpg"
+    },
+    {
+      "img":"images/sliders/rivera-2-new.jpg",
+      "alt": "slider rivera-2-new jpg"
+    },
+    {
+      "img":"images/sliders/rivera-3-new.jpg",
+      "alt": "slider rivera-3-new jpg"
+    },
+    {
+      "img":"images/sliders/new-year-1.jpg",
+      "alt": "slider new-year-1 jpg"
+    },
+    {
+      "img":"images/sliders/new-year-2.jpg",
+      "alt": "slider new-year-2 jpg"
+    },
+    {
+      "img":"images/sliders/new-year-14.jpg",
+      "alt": "slider new-year-14 jpg"
+    },
+    {
+      "img":"images/sliders/4.jpg",
+      "alt": "slider 4 jpg"
+    },
+    {
+      "img":"images/sliders/5.jpg",
+      "alt": "slider 5 jpg"
+    },
+    {
+      "img":"images/sliders/6.jpg",
+      "alt": "slider 6 jpg"
+    },
+    {
+      "img":"images/sliders/7.jpg",
+      "alt": "slider 7 jpg"
+    },
+    {
+      "img":"images/sliders/8.jpg",
+      "alt": "slider 8 jpg"
+    },
+    {
+      "img":"images/sliders/9.jpg",
+      "alt": "slider 9 jpg"
+    },
+    {
+      "img":"images/sliders/10.jpg",
+      "alt": "slider 10 jpg"
+    },
+    {
+      "img":"images/sliders/11.jpg",
+      "alt": "slider 11 jpg"
+    },
+    {
+      "img":"images/sliders/12.jpg",
+      "alt": "slider 12 jpg"
+    },
+    {
+      "img":"images/sliders/13.jpg",
+      "alt": "slider 13 jpg"
+    },
+    {
+      "img":"images/sliders/14.jpg",
+      "alt": "slider 14 jpg"
+    },
+    {
+      "img":"images/sliders/15.jpg",
+      "alt": "slider 15 jpg"
+    },
+    {
+      "img":"images/sliders/16.jpg",
+      "alt": "slider 16 jpg"
+    },
+    {
+      "img":"images/sliders/17.jpg",
+      "alt": "slider 17 jpg"
+    },
+    {
+      "img":"images/sliders/18.jpg",
+      "alt": "slider 18 jpg"
+    },
+    {
+      "img":"images/sliders/18.jpg",
+      "alt": "slider 18 jpg"
+    },
+    {
+      "img":"images/sliders/19.jpg",
+      "alt": "slider 19 jpg"
+    },
+    {
+      "img":"images/sliders/19.jpg",
+      "alt": "slider 19 jpg"
+    },
+    {
+      "img":"images/sliders/20.jpg",
+      "alt": "slider 20 jpg"
+    },
+    {
+      "img":"images/sliders/21.jpg",
+      "alt": "slider 21 jpg"
+    },
+    {
+      "img":"images/sliders/22.jpg",
+      "alt": "slider 22 jpg"
+    },
+    {
+      "img":"images/sliders/23.jpeg",
+      "alt": "slider 23 jpg"
+    },
+    {
+      "img":"images/sliders/24.jpg",
+      "alt": "slider 24 jpg"
+    },
+    {
+      "img":"images/sliders/25.jpg",
+      "alt": "slider 25 jpg"
+    },
+    {
+      "img":"images/sliders/26.jpg",
+      "alt": "slider 26 jpg"
+    },
+    {
+      "img":"images/sliders/27.jpg",
+      "alt": "slider 27 jpg"
+    },
+    {
+      "img":"images/sliders/28.jpg",
+      "alt": "slider 28 jpg"
+    },
+    {
+      "img":"images/sliders/29.jpg",
+      "alt": "slider 29 jpg"
+    },
+    {
+      "img":"images/sliders/30.jpg",
+      "alt": "slider 30 jpg"
+    }
+  ],
+  "footerWrapper" : [
+    {
+      "footerPrimaryTitle": "Home"
+    },
+    {
+      "footerPrimaryTitle": "About"
+    },
+    {
+      "footerPrimaryTitle": "Team"
+    },
+    {
+      "footerPrimaryTitle": "Contact"
+    }
+  ],
+  "footerSecondary" : [
+    {
+      "footerSecondaryTitle" : "Services",
+      "linkFooterClass" : "link-footer-services"
+    },
+    {
+      "footerSecondaryTitle" : "Custom Web Development",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Mobile Development",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Software Testing & Automation",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Startups",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Outsourcing Partnership",
+      "linkFooterClass" : ""
+    },
+    {
+      "footerSecondaryTitle" : "Support & Maintenance",
+      "linkFooterClass" : ""
+    }
+  ],
+  "pepcusFooterLogo" : [
+    {
+      "logoSrc" : "images/logo/logo-small.png",
+      "logoHref" : "index.html",
+      "logoWidth" : "50"
+    }
+  ],
+  "pepcusFooterPara" : [
+    {
+      "para" : "We help customers to focus on their core business areas and let their IT needs be OUR RESPONSIBILITY."
+    }
+  ],
+  "footerSocialIcons" : [
+    {
+      "footerSocialClass" : "linked-icon",
+      "footerSocialHref" : "https://www.linkedin.com/company/pepcus-software-services-pvt-ltd-/",
+      "footerLabel" : "Linkedin"
+    },
+    {
+      "footerSocialClass" : "facebook-icon",
+      "footerSocialHref" : "https://www.facebook.com/Pepcus-Software-Services-Private-Limited-449184531801853/",
+      "footerLabel" : "Facebook"
+    },
+    {
+      "footerSocialClass" : "youtube-icon",
+      "footerSocialHref" : "https://www.youtube.com/watch?v=U-pf-W33oTs",
+      "footerLabel" : "Youtube"
+    },
+    {
+      "footerSocialClass" : "insta-icon",
+      "footerSocialHref" : "https://www.instagram.com/?hl=en",
+      "footerLabel" : "Instagram"
+    },
+    {
+      "footerSocialClass" : "slideshare-icon",
+      "footerSocialHref" : "https://www.slideshare.net/Pepcus",
+      "footerLabel" : "Twitter"
+    },
+    {
+      "footerSocialClass" : "twitter-icon",
+      "footerSocialHref" : "https://twitter.com/Pepcus_Software",
+      "footerLabel" : "Twitter"
+    }
+  ],
+  "footerDescLink" : [
+    {
+      "descLink" : "info@pepcus.com"
+    },
+    {
+      "descLink" : "careers@pepcus.com"
+    }
+  ],
+  "footerDescText": [
+    {
+      "footerText" : "Copyright ©2018 Pepcus Software Services Pvt. Ltd. All rights reserved. Read our",
+      "footerTextLink" : "Privacy Policy",
+      "footerTextHref": "privacy.html"
+    }
+  ]
+
+
+}

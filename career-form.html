@@ -107,6 +107,8 @@
                                             <input type="file"
                                                    class="filestyle"
                                                    data-buttonBefore="true"
+                                                   id="file_input"
+                                                   name="file_input"
                                                    data-classInput="form-control"
                                                    data-classIcon="fa fa-folder-open"
                                                    accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
@@ -288,8 +290,6 @@
                 });
               $(":file").filestyle({buttonBefore: true,
               iconName:true});
-
-
               var validForm = false;
             var validCaptcha = false;
             $('#contact_form').keyup(function() {
@@ -397,10 +397,33 @@
 
                     });
         });
-
     </script>
-    <script type='text/javascript'>
-    
-</script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("user_QjC9ZSKm2Rl96TpEZy1Ov");
+        var myform = $("form#contact_form");
+        myform.submit(function(event){
+          event.preventDefault();
+          var params = myform.serializeArray().reduce(function(obj, item) {
+            obj[item.name] = item.value;
+            return obj;
+          }, {});
+          // Change to your service ID, or keep using the default service
+          var service_id = "default_service";
+          var template_id = "careers";
+          myform.find("button").text("Sending...");
+          emailjs.send(service_id,template_id,params)
+            .then(function(){
+              window.location="contact.html";
+              myform.find("button").text("Send");
+            }, function(err) {
+              alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
+              myform.find("button").text("Send");
+            });
+          return false;
+        });
+      })();
+    </script>
 </body>
 </html>
