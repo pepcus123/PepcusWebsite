@@ -645,9 +645,9 @@ a.slideshare-icon {
 	#slider .owl-pagination {
 		display:none;
 	}
-	#slider2 .owl-wrapper .owl-item {
-		width: 314.65px !important;
-	}
+	/*#slider2 .owl-wrapper .owl-item {*/
+		/*width: 314.65px !important;*/
+	/*}*/
 	#slider2 .owl-pagination {
 		display: none;
 	}
