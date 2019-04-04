@@ -4,11 +4,7 @@
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.json" beforeDir="false" afterPath="$PROJECT_DIR$/careers.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/rivera-1-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/rivera-1-new.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/rivera-2-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/rivera-2-new.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/rivera-3-new.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/rivera-3-new.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +24,8 @@
       <file leaf-file-name="careers.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11016">
-              <caret line="648" column="13" selection-start-line="648" selection-start-column="13" selection-end-line="648" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -37,15 +33,21 @@
       <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="1195" column="58" selection-start-line="1195" selection-start-column="58" selection-end-line="1195" selection-end-column="58" />
+            <state relative-caret-position="402">
+              <caret line="1535" column="49" selection-start-line="1535" selection-start-column="49" selection-end-line="1535" selection-end-column="49" />
               <folding>
-                <element signature="e#1572#3146#0" />
-                <element signature="e#11100#16473#0" />
-                <element signature="e#16498#21443#0" />
-                <element signature="e#21468#26994#0" />
-                <element signature="e#27019#31883#0" />
-                <element signature="e#31908#36781#0" />
+                <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#1588#3162#0" />
+                <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#10875#16248#0" />
+                <element signature="e#16273#21218#0" />
+                <element signature="e#21243#26769#0" />
+                <element signature="e#26794#31658#0" />
+                <element signature="e#31683#36556#0" />
+                <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -54,8 +56,8 @@
       <file leaf-file-name="careers.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="368">
+              <caret line="957" column="3" selection-start-line="957" selection-start-column="3" selection-end-line="957" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -150,8 +152,8 @@
         <option value="$PROJECT_DIR$/js/jquery.mosaic.js" />
         <option value="$PROJECT_DIR$/js/careers.json" />
         <option value="$PROJECT_DIR$/careers-slider.html" />
-        <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.json" />
+        <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.html" />
       </list>
     </option>
@@ -258,12 +260,12 @@
       <workItem from="1554112655602" duration="20094000" />
       <workItem from="1554271956215" duration="23228000" />
       <workItem from="1554357816352" duration="1746000" />
-      <workItem from="1554370151154" duration="1613000" />
+      <workItem from="1554370151154" duration="3845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247508000" />
+    <option name="totallyTimeSpent" value="249740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -382,7 +384,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8721" />
+        <state relative-caret-position="-8721">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/java-engineer.css">
@@ -565,6 +571,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5253">
           <caret line="309" column="34" selection-start-line="309" selection-start-column="34" selection-end-line="309" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -610,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/careers.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11016">
-          <caret line="648" column="13" selection-start-line="648" selection-start-column="13" selection-end-line="648" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6494">
@@ -630,22 +632,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="368">
+          <caret line="957" column="3" selection-start-line="957" selection-start-column="3" selection-end-line="957" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/careers.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="1195" column="58" selection-start-line="1195" selection-start-column="58" selection-end-line="1195" selection-end-column="58" />
+        <state relative-caret-position="402">
+          <caret line="1535" column="49" selection-start-line="1535" selection-start-column="49" selection-end-line="1535" selection-end-column="49" />
           <folding>
-            <element signature="e#1572#3146#0" />
-            <element signature="e#11100#16473#0" />
-            <element signature="e#16498#21443#0" />
-            <element signature="e#21468#26994#0" />
-            <element signature="e#27019#31883#0" />
-            <element signature="e#31908#36781#0" />
+            <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1588#3162#0" />
+            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#10875#16248#0" />
+            <element signature="e#16273#21218#0" />
+            <element signature="e#21243#26769#0" />
+            <element signature="e#26794#31658#0" />
+            <element signature="e#31683#36556#0" />
+            <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
