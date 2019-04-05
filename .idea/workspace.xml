@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/company-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why-pepcus.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-pepcus.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,25 +30,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="1535" column="49" selection-start-line="1535" selection-start-column="49" selection-end-line="1535" selection-end-column="49" />
-              <folding>
-                <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#1588#3162#0" />
-                <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#10875#16248#0" />
-                <element signature="e#16273#21218#0" />
-                <element signature="e#21243#26769#0" />
-                <element signature="e#26794#31658#0" />
-                <element signature="e#31683#36556#0" />
-                <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company-profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company-profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="why-pepcus.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/why-pepcus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -56,7 +60,7 @@
       <file leaf-file-name="careers.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="16269">
               <caret line="957" column="3" selection-start-line="957" selection-start-column="3" selection-end-line="957" selection-end-column="3" />
             </state>
           </provider>
@@ -79,8 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>general-team</find>
-      <find>a.slideshare-icon</find>
       <find>#slider2 .item img</find>
       <find>.card-image-text .btn-more</find>
       <find>.btn-apply</find>
@@ -109,6 +111,8 @@
       <find>customDataSuccess</find>
       <find>Slider</find>
       <find>slider</find>
+      <find>company-pro</find>
+      <find>why</find>
     </findStrings>
     <replaceStrings>
       <replace>padding-0</replace>
@@ -155,6 +159,8 @@
         <option value="$PROJECT_DIR$/careers.json" />
         <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/company-profile.html" />
+        <option value="$PROJECT_DIR$/why-pepcus.html" />
       </list>
     </option>
   </component>
@@ -260,25 +266,27 @@
       <workItem from="1554112655602" duration="20094000" />
       <workItem from="1554271956215" duration="23228000" />
       <workItem from="1554357816352" duration="1746000" />
-      <workItem from="1554370151154" duration="3845000" />
+      <workItem from="1554370151154" duration="6601000" />
+      <workItem from="1554448576838" duration="1522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249740000" />
+    <option name="totallyTimeSpent" value="254018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.012006861" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.012006861" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,25 +295,24 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.012006861" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -321,20 +328,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5865">
-          <caret line="492" column="26" selection-start-line="492" selection-start-column="26" selection-end-line="492" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -384,11 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8721">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-8721" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/java-engineer.css">
@@ -571,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5253">
           <caret line="309" column="34" selection-start-line="309" selection-start-column="34" selection-end-line="309" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="16269">
           <caret line="957" column="3" selection-start-line="957" selection-start-column="3" selection-end-line="957" selection-end-column="3" />
         </state>
       </provider>
@@ -646,22 +632,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="1535" column="49" selection-start-line="1535" selection-start-column="49" selection-end-line="1535" selection-end-column="49" />
-          <folding>
-            <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#1588#3162#0" />
-            <element signature="n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#10875#16248#0" />
-            <element signature="e#16273#21218#0" />
-            <element signature="e#21243#26769#0" />
-            <element signature="e#26794#31658#0" />
-            <element signature="e#31683#36556#0" />
-            <element signature="n#section#4;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/why-pepcus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
         </state>
       </provider>
     </entry>
