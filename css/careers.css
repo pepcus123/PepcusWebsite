@@ -491,8 +491,8 @@ a.slideshare-icon {
 	cursor: pointer;
 }
 .modal-heading {
-	/*background: #d6103c;*/
-	background: #464642;
+	background: #d6103c;
+	/*background: #464642;*/
 	padding: 25px;
 	color: white;
 	font-size: 16px;
@@ -516,7 +516,7 @@ a.slideshare-icon {
 	line-height: 25px;
 }
 .btn-apply {
-	background: #464642;
+	background: #d6103c;
 	padding: 10px;
 	display: inline-block;
 	float: right;
@@ -524,12 +524,12 @@ a.slideshare-icon {
 }
 .btn-apply:hover {
 	color: #fff;
-	background: #333332;
+	background: #b1072d;
 	transition: 0.4s all;
 }
 .btn-close {
-	border: 1px solid #464642;
-	color: #464642;
+	border: 1px solid #d6103c;
+	color: #d6103c;
 	padding: 8px;
 	display: inline-block;
 	float: right;
@@ -541,7 +541,7 @@ a.slideshare-icon {
 .btn-close:hover {
 	color: #fff;
 	opacity:1;
-	background: #464642;
+	background: #b1072d;
 	transition: 0.3s all;
 }
 .modal-wrapper {
@@ -577,7 +577,7 @@ a.slideshare-icon {
 	height:300px;
 }
 .stripe3 {
-	width: 700px;
+	width: 600px;
 	height:300px;
 }
 .stripe4 {
