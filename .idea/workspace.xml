@@ -59,8 +59,8 @@
       <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="1419" column="29" lean-forward="true" selection-start-line="1419" selection-start-column="29" selection-end-line="1419" selection-end-column="29" />
+            <state relative-caret-position="350">
+              <caret line="1426" column="20" lean-forward="true" selection-start-line="1426" selection-start-column="20" selection-end-line="1426" selection-end-column="20" />
               <folding>
                 <element signature="e#36893#41820#0" />
               </folding>
@@ -71,8 +71,8 @@
       <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="536" column="20" lean-forward="true" selection-start-line="536" selection-start-column="20" selection-end-line="536" selection-end-column="20" />
+            <state relative-caret-position="256">
+              <caret line="666" column="5" lean-forward="true" selection-start-line="666" selection-start-column="5" selection-end-line="666" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -103,11 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.owl-item img</find>
-      <find>slider2</find>
-      <find>.list-block ul, .list-block li</find>
-      <find>myModal</find>
-      <find>java-lead</find>
       <find>grid-item</find>
       <find>picture</find>
       <find>masonry</find>
@@ -133,6 +128,11 @@
       <find>modal-heading</find>
       <find>btn-apply</find>
       <find>btn-close</find>
+      <find>#slider2 .owl-wrapper .owl-item</find>
+      <find>console.log</find>
+      <find>dots</find>
+      <find>owl-pagin</find>
+      <find>#slider2</find>
     </findStrings>
     <replaceStrings>
       <replace>padding-0</replace>
@@ -237,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/REACT LEARNING/react-width-sizing" />
+    <property name="last_opened_file_path" value="E:/REACT LEARNING/react-styled-components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
@@ -289,12 +289,12 @@
       <workItem from="1554370151154" duration="6601000" />
       <workItem from="1554448576838" duration="5843000" />
       <workItem from="1554705781171" duration="6878000" />
-      <workItem from="1554790941402" duration="1508000" />
+      <workItem from="1554790941402" duration="4191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266725000" />
+    <option name="totallyTimeSpent" value="269408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -661,8 +661,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="1419" column="29" lean-forward="true" selection-start-line="1419" selection-start-column="29" selection-end-line="1419" selection-end-column="29" />
+        <state relative-caret-position="350">
+          <caret line="1426" column="20" lean-forward="true" selection-start-line="1426" selection-start-column="20" selection-end-line="1426" selection-end-column="20" />
           <folding>
             <element signature="e#36893#41820#0" />
           </folding>
@@ -671,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/careers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="536" column="20" lean-forward="true" selection-start-line="536" selection-start-column="20" selection-end-line="536" selection-end-column="20" />
+        <state relative-caret-position="256">
+          <caret line="666" column="5" lean-forward="true" selection-start-line="666" selection-start-column="5" selection-end-line="666" selection-end-column="5" />
         </state>
       </provider>
     </entry>

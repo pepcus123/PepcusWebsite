@@ -215,7 +215,7 @@
 	background: #686868 !important;
 }
 #slider2 .owl-wrapper .owl-item {
-	padding-right:20px;
+	padding-right: 20px;
 	/*width: 349.65px !important;*/
 	/*margin-right: 16px !important;*/
 }
@@ -651,20 +651,24 @@ a.slideshare-icon {
 		background-position: 0% 20%;
 		background-size: contain;
 	}
+	#slider .owl-pagination {
+		display:none;
+	}
+	#slider2 .owl-pagination {
+		display: none;
+	}
 }
 @media (max-width: 600px) {
 	.mar-35-0 {
 		margin: 20px 0;
 	}
-	#slider .owl-pagination {
-		display:none;
+	#slider2 .owl-wrapper .owl-item {
+		padding-right: 0;
 	}
 	/*#slider2 .owl-wrapper .owl-item {*/
 		/*width: 314.65px !important;*/
 	/*}*/
-	#slider2 .owl-pagination {
-		display: none;
-	}
+
 	.card-mobile-height {
 		min-height: 300px !important;
 	}

@@ -1128,7 +1128,6 @@
           var modalnew = document.getElementById(clicked_id);
           modalnew.style.display = "block";
           document.body.style.overflow = "hidden";
-          console.log("hii...");
         }
         function closeModal(clicked_id) {
           var modalClose = document.getElementById(clicked_id);
@@ -1221,7 +1220,6 @@
             $.each(value.keySkills, function(key,desc){
               htmlRenderSkillList += "<li>"+desc.keySkillsText+"</li>";
             });
-            console.log(value.modalContentId);
             var htmlRender = "<div id=\""+value.modalContentId+"\" class=\"modal\">" +
               " <div class=\"modal-content\">" +
               "  <div class=\"modal-heading\">" +
@@ -1276,7 +1274,6 @@
             function openModal(clicked_id) {
               var modalnew = document.getElementById(clicked_id);
               modalnew.style.display = "block";
-              console.log("hii...");
             }
             function closeModal(clicked_id) {
               var modalClose = document.getElementById(clicked_id);
@@ -1317,7 +1314,6 @@
               var modalnew = document.getElementById(clicked_id);
               modalnew.style.display = "block";
               document.body.style.overflow = "hidden";
-              console.log("hii...");
             }
             function closeModal(clicked_id) {
               var modalClose = document.getElementById(clicked_id);
@@ -1341,55 +1337,62 @@
             $(htmlRender1).appendTo("#services-title");
           });
         };
-        var renderTechExpertiseSlider = function(techSlider) {
-          $('.slider').owlCarousel({
-            jsonPath : 'careers.json',
-            jsonSuccess : renderTechExpertiseSlider,
+        var renderTechExpertiseSlider;
+        renderTechExpertiseSlider = function (techSlider) {
+          $('#slider').owlCarousel({
+            jsonPath: 'careers.json',
+            jsonSuccess: renderTechExpertiseSlider,
             loop: true,
-            margin:15,
-            dots:true,
-            navText:false,
-            slideSpeed : 5000,
-            scrollPerPage : true,
+            margin: 15,
+            item: 5,
+            dots: true,
+            navText: false,
+            slideSpeed: 100,
+            scrollPerPage: true,
             slideBy: 5,
-            autoPlay:false,
-            autoPlayTimeout:1800,
+            autoPlay: false,
+            autoPlayTimeout: 1800,
             autoWidth: false,
             slideTransition: 'linear',
-            autoPlayHoverPause:true,
-            responsiveClass:true,
-            responsive:{
-              0:{
-                items:3,
-                nav:false,
+            autoPlayHoverPause: true,
+            responsiveClass: true,
+            itemsCustom : [
+              [0, 2],
+              [768, 4]
+            ],
+            responsive: {
+              0: {
+                item: 2,
+                nav: false,
                 dots: false,
                 pagination: false
               },
-              600:{
-                items:3,
+              600: {
+                item: 2,
                 mouseDrag: true,
                 touchDrag: true,
-                nav:false,
+                nav: false,
                 dots: false,
                 pagination: false
               },
-              1000:{
-                items:5,
+              1000: {
+                item: 5,
                 mouseDrag: true,
                 touchDrag: true,
-                nav:false
+                nav: false,
+                dots: false
               }
             }
           });
           var content = "";
-          for(var i in techSlider["techExpertise"]) {
+          for (var i in techSlider["techExpertise"]) {
 
             var img = techSlider["techExpertise"][i].img;
             var alt = techSlider["techExpertise"][i].alt;
             var iconSlider = techSlider["techExpertise"][i].iconSliderClass;
             content += "<div class='item'>" +
-              "<div class='client-section'" +iconSlider +">" +
-              "<a><img src=\"" +img+ "\" alt=\"" +alt+ "\" class='img-responsive'></a>" +
+              "<div class='client-section'" + iconSlider + ">" +
+              "<a><img src=\"" + img + "\" alt=\"" + alt + "\" class='img-responsive'></a>" +
               "</div></div>";
           }
           $("#slider").html(content);
@@ -1414,12 +1417,16 @@
             slideSpeed : 600,
             scrollPerPage : true,
             dots: true,
-            autoPlay:2500,
+            autoPlay:5000,
             slideTransition: 'linear',
             autoPlayTimeout:3000,
             autoWidth: false,
             autoPlayHoverPause:true,
             responsiveClass:true,
+            itemsCustom : [
+              [0,1],
+              [768, 3]
+            ],
             responsive:{
               0:{
                 items:1,
@@ -1440,8 +1447,6 @@
                 mouseDrag: true,
                 touchDrag: true,
                 nav:true
-
-
               }
             }
           });
