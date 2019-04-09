@@ -651,9 +651,9 @@ a.slideshare-icon {
 		background-position: 0% 20%;
 		background-size: contain;
 	}
-	#slider .owl-pagination {
+	/*#slider .owl-pagination {
 		display:none;
-	}
+	}*/
 	#slider2 .owl-pagination {
 		display: none;
 	}
@@ -663,7 +663,7 @@ a.slideshare-icon {
 		margin: 20px 0;
 	}
 	#slider2 .owl-wrapper .owl-item {
-		padding-right: 0;
+		padding:0 10px;
 	}
 	/*#slider2 .owl-wrapper .owl-item {*/
 		/*width: 314.65px !important;*/
