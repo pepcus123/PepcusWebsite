@@ -127,7 +127,7 @@
           "jobDescriptionText" : "Must have developed at least one project based on Restful Web Services"
         }
       ],
-      "keyActivitiesTitle": "Key Activities",
+      "keyActivitiesTitle": "Key Activities:",
       "keyActivities" : [
         {
           "keyActivitiesText" : "Manage and lead a diverse, expert team of 4 - 5 software engineers."
@@ -142,7 +142,7 @@
           "keyActivitiesText" : "Employing of best development practices that ensure high quality delivery and easy maintainability of code"
         }
       ],
-      "KeySkillsTitle" : "Key Skills",
+      "KeySkillsTitle" : "Key Skills:",
       "keySkills" : [
         {
           "keySkillsText" : "Proficiency in Java Programming"
@@ -196,7 +196,7 @@
           "jobDescriptionText" : "Optimizing components for maximum performance across different web-capable devices and browsers"
         }
       ],
-      "keyActivitiesTitle": "Key Activities",
+      "keyActivitiesTitle": "Key Activities:",
       "keyActivities" : [
         {
           "keyActivitiesText" : "Strong proficiency in JavaScript and HTML, including manipulation of the JavaScript Document Object Model."
@@ -301,7 +301,7 @@
           "jobDescriptionText" : "Manage source control including SVN and GIT"
         }
       ],
-      "keyActivitiesTitle": "Key Activities",
+      "keyActivitiesTitle": "Key Activities:",
       "keyActivities" : [
         {
           "keyActivitiesText" : "Knowledge of Java based languages"
@@ -497,7 +497,7 @@
           "jobDescriptionText" : "Integration of data storage solutions"
         }
       ],
-      "keyActivitiesTitle": "Key Activities: ",
+      "keyActivitiesTitle": "Key Activities:",
       "keyActivities" : [
         {
           "keyActivitiesText" : "Strong knowledge of PHP web frameworks"

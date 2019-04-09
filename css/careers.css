@@ -13,6 +13,9 @@
     position: relative;
     width: 100%;
 }
+.grey-color {
+	color: #464642;
+}
 .parallax {
 	background-position: center;
 }
@@ -471,7 +474,7 @@ a.slideshare-icon {
 	background-color: #fefefe;
 	margin: 25px auto;
 	padding: 0;
-	border: 1px solid #888;
+	border: 1px solid #464642;
 	width: 70%;
 }
 /* The Close Button */
@@ -489,7 +492,7 @@ a.slideshare-icon {
 }
 .modal-heading {
 	/*background: #d6103c;*/
-	background: #b50808;
+	background: #464642;
 	padding: 25px;
 	color: white;
 	font-size: 16px;
@@ -501,6 +504,7 @@ a.slideshare-icon {
 .card-block-box span {
 	color: #615f5f;
 	font-weight: 500;
+	padding-left: 5px;
 }
 .wrapper-text-para h3 {
 	display: inline-block;
@@ -512,7 +516,7 @@ a.slideshare-icon {
 	line-height: 25px;
 }
 .btn-apply {
-	background: #c54041;
+	background: #464642;
 	padding: 10px;
 	display: inline-block;
 	float: right;
@@ -520,12 +524,12 @@ a.slideshare-icon {
 }
 .btn-apply:hover {
 	color: #fff;
-	background: #b30405;
+	background: #333332;
 	transition: 0.4s all;
 }
 .btn-close {
-	border:1px solid #c54041;
-	color: #c54041;
+	border: 1px solid #464642;
+	color: #464642;
 	padding: 8px;
 	display: inline-block;
 	float: right;
@@ -535,10 +539,10 @@ a.slideshare-icon {
 	font-weight: normal;
 }
 .btn-close:hover {
-	color: #b30405;
+	color: #fff;
 	opacity:1;
-	border: 1px solid #b30405;
-	transition: 0.4s all;
+	background: #464642;
+	transition: 0.3s all;
 }
 .modal-wrapper {
 	max-height: 450px;
@@ -548,8 +552,9 @@ a.slideshare-icon {
 	background: #fbfbfb;
 }
 .modal-footer {
-	padding: 15px 60px;
+	padding: 15px 40px;
 	text-align: right;
+	background: #f3f3f7;
 	border-top: 1px solid #e5e5e5;
 }
 .modal-close {

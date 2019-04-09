@@ -463,8 +463,8 @@
                                 </div>
                             </div>
                         </div>-->
-                        <div id="php-engineer" class="modal">
-                            <!-- Modal content -->
+                       <!-- <div id="php-engineer" class="modal">
+                            &lt;!&ndash; Modal content &ndash;&gt;
                             <div class="modal-content">
                                 <div class="modal-heading">
                                     <span class="close modal-close" id="close7" onclick="closeModal('php-engineer')">&times;</span>
@@ -520,7 +520,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <!--<div class = "services-section-head">
                         <h3 class = "font-size-40 primary-color mar-bot-35 text-center font-bold">
@@ -643,7 +643,7 @@
                             </div>
                             <section class="client-container text-center">
                                 <div class = "col-lg-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12 tech-expertise-slider">
-                                    <div class = "owl-carousel" id = "slider"></div>
+                                    <div class = "owl-carousel slider" id = "slider"></div>
                                     <!--<div class="item ">
                                             <div class="client-section java-icon">
                                                 <a>
@@ -1127,16 +1127,19 @@
         function openModal(clicked_id) {
           var modalnew = document.getElementById(clicked_id);
           modalnew.style.display = "block";
+          document.body.style.overflow = "hidden";
           console.log("hii...");
         }
         function closeModal(clicked_id) {
           var modalClose = document.getElementById(clicked_id);
           modalClose.style.display = "none";
+          document.body.style.overflow = "auto";
         }
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {
           if (event.target.className === "modal") {
             event.target.style.display = "none";
+            document.body.style.overflow = "auto";
           }
         };
         //render dynamic data......::
@@ -1229,27 +1232,27 @@
               "  <div class = \"card-block-box\">" +
               " <div class = \"wrapper-text-para\">" +
               " <a href = \"career-form.html\" class = \"btn btn-apply white-color text-uppercase font-weight-600\" target = \"_blank\">Apply now</a>" +
-              " <h3 class = \"font-size-16 primary-color font-bold\"> "+value.modalLocationHeading+"<span>"+value.modalLocationText+"</span></h3>" +
+              " <h3 class = \"font-size-16 grey-color font-bold\"> "+value.modalLocationHeading+"<span>"+value.modalLocationText+"</span></h3>" +
               " </div>" +
               " <div>" +
-              " <h3 class = \"font-size-16 primary-color mar-15-0-10 font-bold\">"+value.modalContentExperience+"<span>"+value.modalContentExperienceText+"</span></h3>" +
+              " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.modalContentExperience+"<span>"+value.modalContentExperienceText+"</span></h3>" +
               " </div>" +
               " <div>" +
-              " <h3 class = \"font-size-16 primary-color mar-15-0-10 font-bold\">"+value.jobDescriptionTitle+"</h3>" +
+              " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.jobDescriptionTitle+"</h3>" +
               " <div class = \"list-block\">" +
               " <ul class = \"padding-left-50\">" +htmlRenderJobList+
               " </ul>" +
               " </div>" +
               " </div>" +
               " <div>" +
-              " <h3 class = \"font-size-16 primary-color mar-15-0-10 font-bold\">"+value.keyActivitiesTitle+"</h3>" +
+              " <h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.keyActivitiesTitle+"</h3>" +
               " <div class = \"list-block\">" +
               "  <ul class = \"padding-left-50\">" +htmlRenderKeyList+
               "</ul>" +
               "  </div>" +
               "  </div>" +
               "<div>" +
-              "<h3 class = \"font-size-16 primary-color mar-15-0-10 font-bold\">"+value.KeySkillsTitle+"</h3>" +
+              "<h3 class = \"font-size-16 grey-color mar-15-0-10 font-bold\">"+value.KeySkillsTitle+"</h3>" +
               " <div class = \"list-block\">" +
               " <ul class = \"padding-left-50\">" +htmlRenderSkillList+
               " </ul>" +
@@ -1313,16 +1316,19 @@
             function openModal(clicked_id) {
               var modalnew = document.getElementById(clicked_id);
               modalnew.style.display = "block";
+              document.body.style.overflow = "hidden";
               console.log("hii...");
             }
             function closeModal(clicked_id) {
               var modalClose = document.getElementById(clicked_id);
               modalClose.style.display = "none";
+              document.body.style.overflow = "auto";
             }
             // When the user clicks anywhere outside of the modal, close it
             window.onclick = function(event) {
               if (event.target.className === "modal") {
                 event.target.style.display = "none";
+                document.body.style.overflow = "auto";
               }
             };
           });
@@ -1336,7 +1342,7 @@
           });
         };
         var renderTechExpertiseSlider = function(techSlider) {
-          $('#slider').owlCarousel({
+          $('.slider').owlCarousel({
             jsonPath : 'careers.json',
             jsonSuccess : renderTechExpertiseSlider,
             loop: true,
@@ -1354,7 +1360,7 @@
             responsiveClass:true,
             responsive:{
               0:{
-                items:2,
+                items:3,
                 nav:false,
                 dots: false,
                 pagination: false
