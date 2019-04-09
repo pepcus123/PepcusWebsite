@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="careers.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/careers.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
-              <caret line="501" column="9" lean-forward="true" selection-start-line="501" selection-start-column="9" selection-end-line="501" selection-end-column="9" />
+            <state relative-caret-position="340">
+              <caret line="605" column="53" selection-start-line="605" selection-start-column="53" selection-end-line="605" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="666" column="5" lean-forward="true" selection-start-line="666" selection-start-column="5" selection-end-line="666" selection-end-column="5" />
+            <state relative-caret-position="350">
+              <caret line="578" column="10" lean-forward="true" selection-start-line="578" selection-start-column="10" selection-end-line="578" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -111,7 +110,6 @@
       <find>card</find>
       <find>devops</find>
       <find>react</find>
-      <find>stripe</find>
       <find>stripe1</find>
       <find>renderJOpage</find>
       <find>owl</find>
@@ -133,6 +131,7 @@
       <find>dots</find>
       <find>owl-pagin</find>
       <find>#slider2</find>
+      <find>stripe</find>
     </findStrings>
     <replaceStrings>
       <replace>padding-0</replace>
@@ -178,9 +177,9 @@
         <option value="$PROJECT_DIR$/why-pepcus.html" />
         <option value="$PROJECT_DIR$/css/career-form.css" />
         <option value="$PROJECT_DIR$/career-form.html" />
-        <option value="$PROJECT_DIR$/careers.json" />
         <option value="$PROJECT_DIR$/careers.html" />
         <option value="$PROJECT_DIR$/css/careers.css" />
+        <option value="$PROJECT_DIR$/careers.json" />
       </list>
     </option>
   </component>
@@ -289,12 +288,12 @@
       <workItem from="1554370151154" duration="6601000" />
       <workItem from="1554448576838" duration="5843000" />
       <workItem from="1554705781171" duration="6878000" />
-      <workItem from="1554790941402" duration="4191000" />
+      <workItem from="1554790941402" duration="4563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269408000" />
+    <option name="totallyTimeSpent" value="269780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -652,10 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/careers.json">
+    <entry file="file://$PROJECT_DIR$/css/careers.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="501" column="9" lean-forward="true" selection-start-line="501" selection-start-column="9" selection-end-line="501" selection-end-column="9" />
+        <state relative-caret-position="350">
+          <caret line="578" column="10" lean-forward="true" selection-start-line="578" selection-start-column="10" selection-end-line="578" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -669,10 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/careers.css">
+    <entry file="file://$PROJECT_DIR$/careers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="666" column="5" lean-forward="true" selection-start-line="666" selection-start-column="5" selection-end-line="666" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="605" column="53" selection-start-line="605" selection-start-column="53" selection-end-line="605" selection-end-column="53" />
         </state>
       </provider>
     </entry>
