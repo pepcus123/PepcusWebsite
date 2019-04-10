@@ -32,7 +32,7 @@
   ],
   "backgroundHeader": [
     {
-      "headerTitle": "Let's join us, Let's Grow together"
+      "headerTitle": "Let's Join us, Let's Grow together"
     }
   ],
   "headerData": [
@@ -321,7 +321,7 @@
     },
     {
       "onclickOpenModal" : "devops-engineer",
-      "jobDivWidthClass": " stripe3",
+      "jobDivWidthClass": " stripe2",
       "jobTitle": "Devops Engineer",
       "jobShortDescription": "Build and test automation tools for infrastructure provisioning…",
       "jobLocation": "Job Location: Indore",

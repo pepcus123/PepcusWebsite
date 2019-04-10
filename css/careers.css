@@ -573,19 +573,22 @@ a.slideshare-icon {
 	height:300px;
 }
 .stripe2 {
-	width:550px;
+	width:500px;
 	height:300px;
 }
 .stripe3 {
-	width: 500px;
+	width: 590px;
 	height:300px;
 }
 .stripe4 {
-	width: 650px;
+	width: 500px;
 	height: 350px;
 }
 .card-height {
 	min-height:100%;
+}
+.input-group-addon {
+	padding: 6px 12px !important;
 }
 @media only screen and (max-width: 1280px) {
 	.general-team {
@@ -668,12 +671,14 @@ a.slideshare-icon {
 	/*#slider2 .owl-wrapper .owl-item {*/
 		/*width: 314.65px !important;*/
 	/*}*/
-
+	.mar-15-0-10 {
+		margin:19px 0 10px;
+	}
 	.card-mobile-height {
 		min-height: 300px !important;
 	}
 	.modal-content {
-		margin: 25px auto;
+		margin: 50px auto;
 		width: 85%;
 	}
 	.modal-wrapper {
@@ -691,10 +696,16 @@ a.slideshare-icon {
 	}
 	.btn-apply {
 		padding: 5px;
-		margin-bottom: 20px;
+		margin-bottom: 0;
 	}
 	.modal-footer {
 		padding: 15px 25px;
+	}
+}
+@media (max-width: 360px) {
+	.btn-apply {
+		float: left;
+		margin-bottom: 15px;
 	}
 }
 @media (max-width:320px) {
