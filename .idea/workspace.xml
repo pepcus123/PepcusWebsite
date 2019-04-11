@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/careers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/careers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sliders/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sliders/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/careers.json" beforeDir="false" afterPath="$PROJECT_DIR$/careers.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="careers.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/careers.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="413" column="6" selection-start-line="413" selection-start-column="6" selection-end-line="413" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="403" column="6" selection-start-line="403" selection-start-column="6" selection-end-line="403" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -47,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/careers.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
@@ -163,9 +162,9 @@
         <option value="$PROJECT_DIR$/css/career-form.css" />
         <option value="$PROJECT_DIR$/careers.html" />
         <option value="$PROJECT_DIR$/thankyou-careers.html" />
-        <option value="$PROJECT_DIR$/careers.json" />
         <option value="$PROJECT_DIR$/career-form.html" />
         <option value="$PROJECT_DIR$/css/careers.css" />
+        <option value="$PROJECT_DIR$/careers.json" />
       </list>
     </option>
   </component>
@@ -283,25 +282,25 @@
       <workItem from="1554790941402" duration="10217000" />
       <workItem from="1554878149044" duration="2286000" />
       <workItem from="1554884253191" duration="8355000" />
-      <workItem from="1554972291191" duration="3765000" />
+      <workItem from="1554972291191" duration="4776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289840000" />
+    <option name="totallyTimeSpent" value="290851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.012006861" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.012006861" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -639,20 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/careers.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="413" column="6" selection-start-line="413" selection-start-column="6" selection-end-line="413" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/careers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="1427" column="20" lean-forward="true" selection-start-line="1427" selection-start-column="20" selection-end-line="1427" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/career-form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -664,6 +649,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="1427" column="20" lean-forward="true" selection-start-line="1427" selection-start-column="20" selection-end-line="1427" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/careers.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="403" column="6" selection-start-line="403" selection-start-column="6" selection-end-line="403" selection-end-column="6" />
         </state>
       </provider>
     </entry>
