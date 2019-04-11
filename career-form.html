@@ -70,7 +70,7 @@
                         <div class="col-md-12">
                             <div class = "card-block-box padding-50">
                             <h2 class="contact-label primary-color font-size-32 mar-bot-35 text-center xxs-margin-bot-15">
-                                Be a part of a vibrant team.
+                                Be a part of a vibrant team
                             </h2>
                             <form class="form-horizontal padding-50-25 xxs-padding-20-10" method="post" id="contact_form">
                             <!-- Text input-->
@@ -118,17 +118,18 @@
                                     </div>
                                     <!-- <div class="pull-right mar-top-10 padding-right-15 error"><span>Last name should be of minimum 3 letter</span></div> -->
                                 </div>
-                                <div class="form-group linkedin-url-box">
+                                <div class="form-group linked-url-box">
                                     <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Linkedin Url
-                                        <span class="primary-color font-size-20">*</span>
                                     </label>
                                     <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-linkedin"></i></span>
-                                            <input name="last_name" id="linkedin_url" class="form-control" type="text" required>
+                                            <input name="last_name" id="linked_url" class="form-control" type="text">
                                         </div>
                                     </div>
-                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Url should like https://www.test.t&1234</span></div>
+                                    <div class="pull-right mar-top-10 padding-right-15 error">
+                                        <span>Url should like https://www.test.t&1234</span>
+                                    </div>
                                 </div>
                                 <div class="form-group url-box">
                                     <label class="col-md-4 col-sm-4 col-xxs-12 control-label xxs-margin-bot-10">Facebook Url
@@ -136,11 +137,11 @@
                                     <div class="col-md-8 col-sm-8 col-xxs-12 inputGroupContainer">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-facebook-f"></i></span>
-                                            <input name = "url_link" id="url_link" class ="form-control" type = "text" required>
+                                            <input name = "url_link" id="url_link" class ="form-control" type = "text">
                                         </div>
                                     </div>
                                     <!-- <div class="pull-right mar-top-10 padding-right-15 error"><span>Url entered wrong</span></div> -->
-                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Url entered wrong</span></div>
+                                    <div class="pull-right mar-top-10 padding-right-15 error"><span>Url should like https://www.test.t&1234</span></div>
                                 </div>
                             </div>
                             <div class="col-md-5 col-xxs-12">
@@ -314,6 +315,7 @@
                 var last_name = document.getElementById("last_name");
                 var email = document.getElementById("email");
                 var url_link = document.getElementById("url_link");
+                var linked_url = document.getElementById("linked_url");
                 var phone = document.getElementById("phone");
                 var company = document.getElementById("company");
                 var comment = document.getElementById("comment");
@@ -345,6 +347,15 @@
                         $(".email-box .error").removeClass("redColor");
                     }
                 });
+              $('#linked_url').keyup(function() {
+                console.log("link..");
+                if (!(linked_url.value.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g))) {
+                  console.log("error..");
+                  $(".linked-url-box .error").addClass("redColor");
+                } else {
+                  $(".linked-url-box .error").removeClass("redColor");
+                }
+              });
                 $('#url_link').keyup(function() {
                     console.log("link..");
                     if (!(url_link.value.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g))) {
@@ -354,15 +365,7 @@
                         $(".url-box .error").removeClass("redColor");
                     }
                 });
-                $('#linkedin_url').keyup(function() {
-                    console.log("link..");
-                    if (!(url_link.value.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g))) {
-                        console.log("error..");
-                        $(".linkedin-url-box .error").addClass("redColor");
-                    } else {
-                        $(".linkedin-url-box .error").removeClass("redColor");
-                    }
-                });
+
 
                 if(first_name.value.length >= 3 && last_name.value.length>=3 && /*company.value.length>=2 && comment.value.length>=10 &&*/ phone.value.match(/^\d{10}$/) && email.value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
                     validForm = true;
@@ -412,11 +415,11 @@
           }, {});
           // Change to your service ID, or keep using the default service
           var service_id = "default_service";
-          var template_id = "careers";
+          var template_id = "template_WPb3VH3Z";
           myform.find("button").text("Sending...");
           emailjs.send(service_id,template_id,params)
             .then(function(){
-              window.location="contact.html";
+              window.location="thankyou-careers.html";
               myform.find("button").text("Send");
             }, function(err) {
               alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));

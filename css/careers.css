@@ -472,7 +472,7 @@ a.slideshare-icon {
 /* Modal Content */
 .modal-content {
 	background-color: #fefefe;
-	margin: 25px auto;
+	margin: 4px auto;
 	padding: 0;
 	border: 1px solid #464642;
 	width: 70%;
@@ -521,6 +521,10 @@ a.slideshare-icon {
 	display: inline-block;
 	float: right;
 	margin-top: 0;
+}
+.btn-apply:visited {
+	color: #fff;
+	background: #d6103c;
 }
 .btn-apply:hover {
 	color: #fff;
@@ -589,6 +593,9 @@ a.slideshare-icon {
 }
 .input-group-addon {
 	padding: 6px 12px !important;
+}
+#slider .client-section img {
+	max-height: 94px;
 }
 @media only screen and (max-width: 1280px) {
 	.general-team {
@@ -671,6 +678,9 @@ a.slideshare-icon {
 	/*#slider2 .owl-wrapper .owl-item {*/
 		/*width: 314.65px !important;*/
 	/*}*/
+	.btn-close {
+		padding: 5px;
+	}
 	.mar-15-0-10 {
 		margin:19px 0 10px;
 	}
@@ -706,6 +716,9 @@ a.slideshare-icon {
 	.btn-apply {
 		float: left;
 		margin-bottom: 15px;
+	}
+	.file-wrapper {
+		padding: 45px 0 0;
 	}
 }
 @media (max-width:320px) {

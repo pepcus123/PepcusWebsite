@@ -32,13 +32,13 @@
   ],
   "backgroundHeader": [
     {
-      "headerTitle": "Let's Join us, Let's Grow together"
+      "headerTitle": "Let's Join us, Let's Grow Together"
     }
   ],
   "headerData": [
     {
-      "title": "Join Us & Springboard Your Career to New Heights.",
-      "description": "We are looking for extraordinary people who are ready to dive into a high growth,fast-paced, super collaborative company. An innovation-driven, a stimulating and fun loving environmentand an incredibly talented team are just a small number of reasons why you will love to work here."
+      "title": "Join Us & Springboard Your Career to New Heights",
+      "description": "We are looking for extraordinary people who are ready to dive into a high growth, fast-paced, super collaborative company. An innovation-driven, a stimulating and fun loving environment and an incredibly talented team are just a small number of reasons why you will love to work here."
     }
   ],
   "currentOpeningsTitle": [
@@ -369,17 +369,17 @@
     },
     {
       "iconSliderClass": "",
-      "img": "images/careers/react-icon-9.png",
+      "img": "images/careers/react-icon-neww.png",
+      "alt": ""
+    },
+    {
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/spring-icon-6.png",
       "alt": ""
     },
     {
       "iconSliderClass": "",
       "img": "images/careers/angular-icon.png",
-      "alt": ""
-    },
-    {
-      "iconSliderClass": "backbone-icon",
-      "img": "images/careers/backbone-icon-2.png",
       "alt": ""
     },
     {
@@ -408,13 +408,13 @@
       "alt": ""
     },
     {
-      "iconSliderClass": "",
-      "img": "images/careers/jsp-icon.png",
+      "iconSliderClass": "backbone-icon",
+      "img": "images/careers/backbone-icon-2.png",
       "alt": ""
     },
     {
-      "iconSliderClass": "backbone-icon",
-      "img": "images/careers/spring-icon-6.png",
+      "iconSliderClass": "",
+      "img": "images/careers/jsp-icon.png",
       "alt": ""
     },
     {
@@ -536,14 +536,6 @@
     {
       "img":"images/sliders/18.jpg",
       "alt": "slider 18 jpg"
-    },
-    {
-      "img":"images/sliders/18.jpg",
-      "alt": "slider 18 jpg"
-    },
-    {
-      "img":"images/sliders/19.jpg",
-      "alt": "slider 19 jpg"
     },
     {
       "img":"images/sliders/19.jpg",
