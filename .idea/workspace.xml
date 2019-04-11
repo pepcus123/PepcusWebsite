@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5736f2a3-3b51-4358-9c54-535c04362bde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/careers.json" beforeDir="false" afterPath="$PROJECT_DIR$/careers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/career-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/career-form.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,16 +19,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="career-form.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="career-form.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/career-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="129" column="83" selection-start-line="129" selection-start-column="83" selection-end-line="129" selection-end-column="83" />
+            <state relative-caret-position="333">
+              <caret line="163" column="42" lean-forward="true" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="careers.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="careers.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -40,8 +40,8 @@
       <file leaf-file-name="careers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/careers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="1427" column="20" lean-forward="true" selection-start-line="1427" selection-start-column="20" selection-end-line="1427" selection-end-column="20" />
+            <state relative-caret-position="850">
+              <caret line="791" column="16" selection-start-line="791" selection-start-column="16" selection-end-line="791" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -162,9 +162,9 @@
         <option value="$PROJECT_DIR$/css/career-form.css" />
         <option value="$PROJECT_DIR$/careers.html" />
         <option value="$PROJECT_DIR$/thankyou-careers.html" />
-        <option value="$PROJECT_DIR$/career-form.html" />
         <option value="$PROJECT_DIR$/css/careers.css" />
         <option value="$PROJECT_DIR$/careers.json" />
+        <option value="$PROJECT_DIR$/career-form.html" />
       </list>
     </option>
   </component>
@@ -282,12 +282,12 @@
       <workItem from="1554790941402" duration="10217000" />
       <workItem from="1554878149044" duration="2286000" />
       <workItem from="1554884253191" duration="8355000" />
-      <workItem from="1554972291191" duration="4776000" />
+      <workItem from="1554972291191" duration="5315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290851000" />
+    <option name="totallyTimeSpent" value="291390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -638,10 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/career-form.html">
+    <entry file="file://$PROJECT_DIR$/careers.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="129" column="83" selection-start-line="129" selection-start-column="83" selection-end-line="129" selection-end-column="83" />
+        <state relative-caret-position="323">
+          <caret line="403" column="6" selection-start-line="403" selection-start-column="6" selection-end-line="403" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -654,15 +654,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/careers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="1427" column="20" lean-forward="true" selection-start-line="1427" selection-start-column="20" selection-end-line="1427" selection-end-column="20" />
+        <state relative-caret-position="850">
+          <caret line="791" column="16" selection-start-line="791" selection-start-column="16" selection-end-line="791" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/careers.json">
+    <entry file="file://$PROJECT_DIR$/career-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="403" column="6" selection-start-line="403" selection-start-column="6" selection-end-line="403" selection-end-column="6" />
+        <state relative-caret-position="333">
+          <caret line="163" column="42" lean-forward="true" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
         </state>
       </provider>
     </entry>
