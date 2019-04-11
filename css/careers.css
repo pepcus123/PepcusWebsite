@@ -109,10 +109,6 @@
 .card-hover {
 	height: 280px;
 }
-.card-hover .card-block,.card-hover a{
-	/* display: none; */
-	opacity: 0;
-}
 .card-hover:hover .card-image-text {
 	cursor: pointer;
 	transform: translateY(-45%);
